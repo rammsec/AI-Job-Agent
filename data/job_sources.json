@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Adzuna Australia",
+    "source_type": "adzuna",
+    "enabled": true,
+    "country": "au",
+    "what": "",
+    "where": "Melbourne VIC",
+    "results_per_page": 20
+  }
+]
