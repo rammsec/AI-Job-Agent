@@ -1,11 +1,261 @@
 [
   {
-    "name": "Adzuna Australia",
+    "name": "Adzuna Australia - Business Intelligence",
     "source_type": "adzuna",
     "enabled": true,
+    "target_filter": true,
     "country": "au",
     "what": "",
-    "where": "Melbourne VIC",
-    "results_per_page": 20
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Tableau",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "tableau",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Power BI",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "power bi",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Data Engineer",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "data engineer",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Analytics Engineer",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "analytics engineer",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - AI Engineer",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "AI engineer",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Machine Learning",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "machine learning",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Data Scientist",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "data scientist",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Data Analyst",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "data analyst",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Machine Learning Engineer",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "machine learning engineer",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Generative AI",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "generative AI",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Culture Amp (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "cultureamp"
+  },
+  {
+    "name": "Deputy (Lever)",
+    "source_type": "lever",
+    "enabled": true,
+    "target_filter": true,
+    "site": "deputy",
+    "region": "global",
+    "results_per_page": 100,
+    "max_pages_per_scan": 5
+  },
+  {
+    "name": "Immutable (Lever)",
+    "source_type": "lever",
+    "enabled": true,
+    "target_filter": true,
+    "site": "immutable",
+    "region": "global",
+    "results_per_page": 100,
+    "max_pages_per_scan": 5
+  },
+  {
+    "name": "Wise (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "wise"
+  },
+  {
+    "name": "Block (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "block"
+  },
+  {
+    "name": "Datadog (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "datadog"
+  },
+  {
+    "name": "GitLab (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "gitlab"
+  },
+  {
+    "name": "Stripe (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "stripe"
+  },
+  {
+    "name": "We Work Remotely RSS",
+    "source_type": "rss",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://weworkremotely.com/remote-jobs.rss"
+  },
+  {
+    "name": "We Work Remotely Programming RSS",
+    "source_type": "rss",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+  },
+  {
+    "name": "Arbeitnow Jobs JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://www.arbeitnow.com/api/job-board-api",
+    "items_path": "data"
+  },
+  {
+    "name": "Remotive Business Intelligence JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://remotive.com/api/remote-jobs?search=business%20intelligence",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Remotive Tableau and Power BI JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://remotive.com/api/remote-jobs?search=tableau%20OR%20power%20bi",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Remotive Data Engineer JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://remotive.com/api/remote-jobs?search=data%20engineer",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Jobicy Data Jobs JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://jobicy.com/api/v2/remote-jobs?count=50&tag=Data",
+    "items_path": "jobs"
   }
 ]

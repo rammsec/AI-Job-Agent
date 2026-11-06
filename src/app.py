@@ -1,4 +1,7 @@
-from resume_reader import process_resumes
+try:
+    from src.resume_reader import process_resumes
+except ImportError:
+    from resume_reader import process_resumes
 
 def main():
 

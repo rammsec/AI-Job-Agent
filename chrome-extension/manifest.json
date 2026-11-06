@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Career Agent SEEK Saver",
+  "version": "1.6.0",
+  "description": "Search SEEK Australia and manually save selected tech jobs to the local Career Agent.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": [
+    "https://*.seek.com.au/*",
+    "https://au.seek.com/*",
+    "http://127.0.0.1:8765/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.seek.com.au/*", "https://au.seek.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

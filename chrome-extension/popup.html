@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career Agent SEEK Saver</title>
+  <style>
+    :root { color-scheme: light; font: 14px/1.4 "Segoe UI", sans-serif; color: #1d2924; background: #f4f5ef; }
+    body { width: 360px; margin: 0; padding: 16px; box-sizing: border-box; }
+    .head-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    h1 { margin: 0; font: 20px Georgia, serif; }
+    .conn-pill { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; background: #e8ece4; color: #66736a; }
+    .conn-pill.online { background: #d8f078; color: #124534; }
+    .conn-pill.offline { background: #fff4ef; color: #8f3429; }
+    p { margin: 0 0 11px; color: #66736a; font-size: 12px; }
+    label { display: block; margin: 0 0 5px; font-weight: 700; font-size: 12px; }
+    textarea { width: 100%; min-height: 132px; box-sizing: border-box; padding: 9px; border: 1px solid #cfd8ce; border-radius: 4px; background: #fff; font: 12px/1.5 "Segoe UI", sans-serif; resize: vertical; }
+    .terms-note { margin: 4px 0 10px; color: #66736a; font-size: 10px; }
+    .consent { display: flex; gap: 8px; align-items: flex-start; margin: 10px 0; font-size: 11px; font-weight: 400; }
+    .consent input { margin: 2px 0 0; }
+    button { width: 100%; margin-top: 9px; padding: 9px 10px; border: 0; border-radius: 4px; background: #195c47; color: #fff; font: 700 12px "Segoe UI", sans-serif; cursor: pointer; }
+    button.secondary { border: 1px solid #cfd8ce; background: transparent; color: #1d2924; }
+    button.danger { background: #8f3429; color: #fff; }
+    button[hidden] { display: none; }
+    #status { min-height: 16px; margin-top: 10px; color: #66736a; font-size: 11px; }
+    #details { max-height: 180px; overflow: auto; margin: 8px 0 0; padding: 8px; border-radius: 4px; background: #e8ece4; color: #34433a; font: 10px/1.45 Consolas, monospace; white-space: pre-wrap; }
+    #details[hidden] { display: none; }
+    #extensionVersion { margin-top: 8px; color: #879188; font-size: 10px; text-align: right; }
+  </style>
+</head>
+<body>
+  <div class="head-row">
+    <h1>SEEK job search</h1>
+    <span id="connStatus" class="conn-pill">Checking...</span>
+  </div>
+  <p>Search up to 12 terms in a background tab and save result cards from every available SEEK results page.</p>
+  <label for="terms">One title or keyword phrase per line</label>
+  <textarea id="terms" maxlength="1200" spellcheck="false"></textarea>
+  <div class="terms-note">The background tab closes when finished. It follows SEEK's normal next-page links; it does not use private endpoints or apply for jobs.</div>
+  <label class="consent"><input id="termsConsent" type="checkbox" checked><span>I will use this only in ways allowed by SEEK's terms and will review/apply manually.</span></label>
+  <button id="searchButton" type="button">Search and save all result pages</button>
+  <button id="stopButton" class="danger" type="button" hidden>Stop active search</button>
+  <button id="appButton" class="secondary" type="button">Open Career Agent</button>
+  <div id="status" role="status" aria-live="polite"></div>
+  <pre id="details" hidden></pre>
+  <div id="extensionVersion" aria-label="Extension version"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

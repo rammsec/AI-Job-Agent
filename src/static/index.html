@@ -22,16 +22,17 @@
     }
     * { box-sizing: border-box; }
     body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.45 var(--sans); }
-    button, input { font: inherit; }
+    button, input, select { font: inherit; }
     button { cursor: pointer; }
     .shell { min-height: 100vh; display: grid; grid-template-columns: 238px minmax(0, 1fr); }
-    aside { min-height: 100vh; padding: 25px 18px; background: var(--forest-dark); color: #f5f7ef; display: flex; flex-direction: column; }
+    aside { min-height: 100vh; padding: 25px 18px; background: var(--forest-dark); color: #f5f7ef; display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh; }
     .brand { display: flex; gap: 11px; align-items: center; padding: 0 9px 34px; }
     .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; color: var(--forest-dark); background: var(--lime); font: bold 19px var(--serif); }
     .brand-name { font-weight: 700; letter-spacing: .2px; }
     .brand-sub { color: #b4c8bb; font-size: 11px; }
     .nav-label { color: #99b5a5; padding: 8px 10px; text-transform: uppercase; font-size: 10px; font-weight: 700; letter-spacing: 1.2px; }
-    .nav-item { display: flex; gap: 11px; align-items: center; padding: 10px; color: #e7eee8; border-radius: 6px; font-size: 13px; }
+    .nav-item { display: flex; gap: 11px; align-items: center; padding: 10px; color: #e7eee8; border-radius: 6px; font-size: 13px; cursor: pointer; border: 0; background: transparent; width: 100%; text-align: left; }
+    .nav-item:hover { background: rgba(255, 255, 255, 0.08); }
     .nav-item.active { color: var(--forest-dark); background: var(--lime); font-weight: 700; }
     .nav-icon { width: 18px; text-align: center; font-size: 16px; }
     .aside-foot { margin-top: auto; border-top: 1px solid #416a58; padding: 17px 10px 0; color: #bbcec1; font-size: 12px; }
@@ -45,7 +46,6 @@
     .headline-row { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 24px; }
     h1 { margin: 4px 0 0; font: 39px/1.05 var(--serif); letter-spacing: 0; }
     .eyebrow { color: var(--forest); text-transform: uppercase; letter-spacing: 1.4px; font-weight: 700; font-size: 10px; }
-    .date { color: var(--muted); font-size: 12px; }
     .button { border: 0; border-radius: 5px; padding: 10px 14px; background: var(--forest); color: white; font-weight: 700; font-size: 12px; transition: background .16s, transform .16s; }
     .button:hover { background: #24765b; transform: translateY(-1px); }
     .button:disabled { opacity: .55; cursor: wait; transform: none; }
@@ -53,25 +53,45 @@
     .button.secondary:hover { background: #dce5da; }
     .button.ghost { color: var(--ink); background: transparent; border: 1px solid var(--line); }
     .button.ghost:hover { background: var(--white); }
+    .button.small { padding: 5px 9px; font-size: 11px; }
     .status-strip { display: flex; align-items: center; gap: 9px; min-height: 44px; margin-bottom: 20px; padding: 10px 14px; border-left: 3px solid var(--coral); background: #fff4ef; color: #6e5147; font-size: 12px; }
     .status-strip.good { border-left-color: var(--forest); background: #e8f2e8; color: #355745; }
     .status-strip[hidden] { display: none; }
-    .metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+    .metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 28px; }
     .metric { min-height: 105px; padding: 18px 22px 17px 0; }
     .metric + .metric { border-left: 1px solid var(--line); padding-left: 22px; }
     .metric-label { color: var(--muted); font-size: 11px; }
     .metric-value { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; font: 32px/1 var(--serif); }
     .metric-note { color: var(--muted); font: 11px var(--sans); }
-    .content-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(280px, .85fr); gap: 36px; }
-    .section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+    .content-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, .85fr); gap: 36px; }
+    .section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 0; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+    .job-filter-controls { display: grid; grid-template-columns: repeat(5, minmax(105px, 1fr)); gap: 9px; padding: 12px 0 4px; }
+    .job-filter { min-width: 0; color: var(--muted); font-size: 10px; font-weight: 700; }
+    .job-filter select, .job-filter input { display: block; width: 100%; min-width: 0; margin-top: 4px; padding: 8px; border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink); font: 12px var(--sans); }
     h2 { margin: 0; font: 21px var(--serif); }
     .subtle { color: var(--muted); font-size: 11px; }
-    .job-list { display: grid; }
-    .job { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 17px 0; border-bottom: 1px solid var(--line); animation: reveal .28s ease both; }
-    .job-title { color: var(--ink); font-weight: 700; text-decoration: none; }
+    .job-list { display: grid; min-width: 0; }
+    .job { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; min-width: 0; padding: 17px 0; border-bottom: 1px solid var(--line); animation: reveal .28s ease both; }
+    .job > div:first-child { min-width: 0; }
+    .job-title { color: var(--ink); font-weight: 700; text-decoration: none; overflow-wrap: anywhere; font-size: 15px; }
     .job-title:hover { color: var(--forest); text-decoration: underline; }
     .job-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; color: var(--muted); font-size: 11px; margin-top: 5px; }
-    .score { min-width: 52px; height: 30px; display: grid; place-items: center; border-radius: 4px; background: var(--lime); color: #344621; font-weight: 700; font-size: 12px; }
+    .job-matches { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+    .match-pill { padding: 2px 7px; border-radius: 3px; background: #e4ede2; color: #195c47; font-size: 10px; font-weight: 700; }
+    .job-description { max-width: 760px; margin-top: 7px; color: #5d6b61; font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .job-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
+    .score { min-width: 58px; height: 30px; padding: 0 8px; display: grid; place-items: center; border-radius: 4px; background: var(--lime); color: #344621; font-weight: 700; font-size: 12px; }
+    .score.zero { background: #e9ece6; color: var(--muted); font-weight: 600; }
+    .status-select { padding: 4px 7px; border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink); font-size: 11px; font-weight: 600; }
+    .pagination-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); margin-top: 6px; }
+    .pagination-bar[hidden] { display: none; }
+    .pagination-info { color: var(--muted); font-size: 12px; }
+    .pagination-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+    .page-btn { min-width: 32px; height: 32px; padding: 0 9px; border: 1px solid var(--line); border-radius: 4px; background: var(--white); color: var(--ink); font: 600 12px var(--sans); display: inline-grid; place-items: center; transition: background .15s, border-color .15s; }
+    .page-btn:hover:not(:disabled) { border-color: var(--forest); color: var(--forest); background: #f0f5ef; }
+    .page-btn.active { background: var(--forest); border-color: var(--forest); color: var(--white); }
+    .page-btn:disabled { opacity: .45; cursor: not-allowed; }
+    .page-ellipsis { padding: 0 4px; color: var(--muted); font-size: 12px; }
     .empty { padding: 32px 0; color: var(--muted); font-size: 13px; }
     .panel { border-top: 1px solid var(--line); padding: 18px 0 21px; }
     .panel:first-of-type { margin-top: 0; }
@@ -83,28 +103,31 @@
     .resume-hint { color: var(--muted); font-size: 10px; margin: 4px 0 12px; }
     .file-row { display: flex; gap: 7px; }
     .file-row .button { flex: 1; }
-    .source-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line); }
+    .source-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid var(--line); }
     .source-name { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; }
     .source-mark { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 5px; background: #e7eedf; color: var(--forest); font-weight: 700; font-size: 10px; }
     .source-status { color: var(--muted); font-size: 10px; }
-    .source-status.ready { color: var(--forest); }
+    .source-status.ready { color: var(--forest); font-weight: 700; }
+    .source-list-scroll { max-height: 210px; overflow-y: auto; padding-right: 4px; }
     .test-output { margin-top: 12px; padding: 12px; max-height: 220px; overflow: auto; color: #d9e6dc; background: #1d2924; border-radius: 4px; font: 11px/1.5 Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }
     .test-output[hidden] { display: none; }
     .profile-keywords { display: flex; flex-wrap: wrap; gap: 6px; }
     .keyword { padding: 4px 8px; color: #355745; background: #e4ede2; font-size: 10px; border-radius: 3px; }
-    dialog { width: min(420px, calc(100% - 28px)); border: 0; border-radius: 7px; padding: 23px; box-shadow: 0 18px 60px #152b2033; }
+    dialog { width: min(520px, calc(100% - 28px)); border: 0; border-radius: 7px; padding: 23px; box-shadow: 0 18px 60px #152b2033; }
     dialog::backdrop { background: #14271f88; }
     dialog h2 { margin-bottom: 5px; }
     dialog p { color: var(--muted); font-size: 12px; margin: 0 0 17px; }
     label { display: block; margin: 12px 0 5px; font-size: 11px; font-weight: 700; }
     input[type="password"] { width: 100%; padding: 10px; border: 1px solid var(--line); border-radius: 4px; }
-    input[type="text"] { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 4px; background: #fff; }
+    input[type="text"], select.full-select { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink); }
     .dialog-actions { display: flex; justify-content: end; gap: 8px; margin-top: 19px; }
-    .toast { position: fixed; right: 22px; bottom: 20px; max-width: 370px; padding: 12px 15px; background: var(--ink); color: white; border-radius: 5px; font-size: 12px; box-shadow: 0 8px 28px #0002; }
+    .toast { position: fixed; right: 22px; bottom: 20px; max-width: 370px; padding: 12px 15px; background: var(--ink); color: white; border-radius: 5px; font-size: 12px; box-shadow: 0 8px 28px #0002; z-index: 50; }
     .toast[hidden] { display: none; }
+    .fit-coverage { display: inline-block; padding: 4px 10px; border-radius: 4px; background: var(--lime); color: var(--forest-dark); font-weight: 700; font-size: 13px; margin-bottom: 12px; }
+    .fit-list { margin: 6px 0 14px; padding-left: 18px; font-size: 12px; color: var(--ink); line-height: 1.6; }
     @keyframes reveal { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-    @media (max-width: 900px) { .shell { grid-template-columns: 190px minmax(0, 1fr); } .content-grid { grid-template-columns: 1fr; gap: 24px; } }
-    @media (max-width: 620px) { .shell { display: block; } aside { min-height: auto; height: 58px; padding: 0 13px; flex-direction: row; align-items: center; justify-content: space-between; } .brand { padding: 0; } .brand-mark { width: 30px; height: 30px; } .brand-sub, .nav-label, .nav-item, .aside-foot { display: none; } main { padding: 21px 17px 35px; } .topbar { margin-bottom: 25px; } .headline-row { align-items: start; flex-direction: column; } h1 { font-size: 34px; } .headline-row .button { width: 100%; } .metric { min-height: 88px; padding-right: 8px; } .metric + .metric { padding-left: 11px; } .metric-value { font-size: 27px; } .metric-note { display: none; } }
+    @media (max-width: 900px) { .shell { grid-template-columns: 190px minmax(0, 1fr); } .content-grid { grid-template-columns: 1fr; gap: 24px; } .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } .job-filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 620px) { .shell { display: block; } aside { min-height: auto; height: 58px; padding: 0 13px; flex-direction: row; align-items: center; justify-content: space-between; position: static; } .brand { padding: 0; } .brand-mark { width: 30px; height: 30px; } .brand-sub, .nav-label, .nav-item, .aside-foot { display: none; } main { padding: 21px 17px 35px; } .topbar { margin-bottom: 25px; } .headline-row { align-items: start; flex-direction: column; } h1 { font-size: 34px; } .headline-row .button { width: 100%; } .metric { min-height: 88px; padding-right: 8px; } .metric + .metric { padding-left: 11px; } .metric-value { font-size: 27px; } .metric-note { display: none; } .content-grid { grid-template-columns: minmax(0, 1fr); } .section-head { align-items: stretch; flex-direction: column; } .job-search-controls { width: 100%; min-width: 0; } .job-search-controls input { flex: 1; width: auto !important; min-width: 0; } }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
   </style>
 </head>
@@ -113,13 +136,13 @@
     <aside>
       <div class="brand"><div class="brand-mark">C</div><div><div class="brand-name">Career Agent</div><div class="brand-sub">LOCAL WORKBENCH</div></div></div>
       <div class="nav-label">Workspace</div>
-      <div class="nav-item active"><span class="nav-icon">◫</span>Overview</div>
-      <div class="nav-item"><span class="nav-icon">⌕</span>Job matches</div>
-      <div class="nav-item"><span class="nav-icon">◉</span>Sources</div>
+      <button type="button" class="nav-item active" id="navOverview" onclick="navigateSection('overview')"><span class="nav-icon">◫</span>Overview</button>
+      <button type="button" class="nav-item" id="navMatches" onclick="navigateSection('matches')"><span class="nav-icon">⌕</span>Job matches</button>
+      <button type="button" class="nav-item" id="navSources" onclick="navigateSection('sources')"><span class="nav-icon">◉</span>Sources &amp; Auto-Fetch</button>
       <div class="aside-foot"><span class="local-dot"></span>Private local session</div>
     </aside>
-    <main>
-      <div class="topbar"><div class="crumb">Workspace&nbsp; / &nbsp;Overview</div><div class="top-actions"><span class="session-pill"><span class="local-dot"></span>LOCAL ONLY</span><div class="avatar">CA</div></div></div>
+    <main id="topSection">
+      <div class="topbar"><div class="crumb" id="breadcrumb">Workspace&nbsp; / &nbsp;Overview</div><div class="top-actions"><span class="session-pill"><span class="local-dot"></span>LOCAL ONLY</span><div class="avatar" id="profileAvatar">CA</div></div></div>
       <div class="headline-row">
         <div><div class="eyebrow">Career intelligence</div><h1>Your job search,<br>in progress.</h1></div>
         <button class="button" id="scanButton" onclick="runScan()">↗ &nbsp;Scan configured sources</button>
@@ -127,23 +150,105 @@
       <div class="status-strip" id="notice" hidden></div>
       <section class="metrics" aria-label="Project status">
         <div class="metric"><div class="metric-label">Resumes in workspace</div><div class="metric-value"><span id="resumeCount">0</span><span class="metric-note" id="resumeNote">Awaiting upload</span></div></div>
-        <div class="metric"><div class="metric-label">Profile keywords</div><div class="metric-value"><span id="keywordCount">0</span><span class="metric-note">Extracted from resume</span></div></div>
-        <div class="metric"><div class="metric-label">Saved matches</div><div class="metric-value"><span id="matchCount">0</span><span class="metric-note">Latest scan results</span></div></div>
+        <div class="metric"><div class="metric-label">Profile keywords</div><div class="metric-value"><span id="keywordCount">0</span><span class="metric-note" id="domainNote">Extracted from resume</span></div></div>
+        <div class="metric"><div class="metric-label">Displayed jobs</div><div class="metric-value"><span id="matchCount">0</span><span class="metric-note">Filtered &amp; scored</span></div></div>
+        <div class="metric"><div class="metric-label">Auto-fetch status</div><div class="metric-value" style="font-size:22px;"><span id="schedulerMetric">Off</span><span class="metric-note" id="schedulerNote">Manual mode</span></div></div>
       </section>
       <div class="content-grid">
-        <section>
-          <div class="section-head"><div><h2>Latest job matches</h2><div class="subtle">Ranked by overlap with your profile</div></div><button class="button ghost" onclick="refreshStatus()" title="Refresh status">⟳</button></div>
+        <section id="matchesSection">
+          <div class="section-head">
+            <div><h2>Latest job matches</h2><div class="subtle">Search, score, track application status, and tailor your resume</div></div>
+            <div class="job-search-controls" style="display:flex; gap:8px; align-items:center;">
+              <input id="jobSearchInput" type="text" placeholder="Search saved jobs..." style="width:220px; padding:9px 10px; border:1px solid var(--line); border-radius:4px; background:#fff;" onkeydown="if (event.key === 'Enter') searchSavedJobs()">
+              <button class="button ghost" onclick="searchSavedJobs()" title="Search saved jobs">Search</button>
+              <button class="button ghost" onclick="refreshStatus()" title="Refresh status">⟳</button>
+            </div>
+          </div>
+          <div class="job-filter-controls" aria-label="Filter saved jobs">
+            <label class="job-filter" for="jobSortBy">Sort by
+              <select id="jobSortBy" onchange="searchSavedJobs()">
+                <option value="score">Best match score</option>
+                <option value="date">Newest posted</option>
+                <option value="salary">Highest salary</option>
+              </select>
+            </label>
+            <label class="job-filter" for="jobStatusFilter">Track status
+              <select id="jobStatusFilter" onchange="searchSavedJobs()">
+                <option value="">All statuses</option>
+                <option value="new">New</option>
+                <option value="shortlisted">Shortlisted</option>
+                <option value="applied">Applied</option>
+                <option value="interviewing">Interviewing</option>
+                <option value="rejected">Rejected</option>
+                <option value="archived">Archived</option>
+              </select>
+            </label>
+            <label class="job-filter" for="jobSourceFilter">Source<select id="jobSourceFilter" onchange="searchSavedJobs()"><option value="">All sources</option></select></label>
+            <label class="job-filter" for="jobStateFilter">State<select id="jobStateFilter" onchange="searchSavedJobs()"><option value="">All states</option></select></label>
+            <label class="job-filter" for="jobTypeFilter">Job type<select id="jobTypeFilter" onchange="searchSavedJobs()"><option value="">All job types</option></select></label>
+            <label class="job-filter" for="jobDateFrom">Posted from<input id="jobDateFrom" type="date" onchange="searchSavedJobs()"></label>
+            <label class="job-filter" for="jobDateTo">Posted to<input id="jobDateTo" type="date" onchange="searchSavedJobs()"></label>
+            <label class="job-filter" for="jobLoadedFrom">Loaded from<input id="jobLoadedFrom" type="date" onchange="searchSavedJobs()"></label>
+            <label class="job-filter" for="jobLoadedTo">Loaded to<input id="jobLoadedTo" type="date" onchange="searchSavedJobs()"></label>
+            <label class="job-filter" for="jobPageSize">Per page
+              <select id="jobPageSize" onchange="searchSavedJobs()">
+                <option value="10">10 per page</option>
+                <option value="20" selected>20 per page</option>
+                <option value="50">50 per page</option>
+                <option value="100">100 per page</option>
+              </select>
+            </label>
+            <button class="button ghost" type="button" onclick="clearJobFilters()" style="align-self:end">Clear filters</button>
+          </div>
+          <div class="pagination-bar" id="topPaginationBar" style="padding:8px 0; margin-top:4px; border-top:0; border-bottom:1px solid var(--line);" hidden>
+            <div class="pagination-info" id="topPaginationInfo"></div>
+            <div class="pagination-controls" id="topPaginationControls"></div>
+          </div>
           <div class="job-list" id="jobList"><div class="empty">Run a source scan to see matching roles here.</div></div>
+          <div class="pagination-bar" id="bottomPaginationBar" hidden>
+            <div class="pagination-info" id="bottomPaginationInfo"></div>
+            <div class="pagination-controls" id="bottomPaginationControls"></div>
+          </div>
         </section>
-        <section>
-          <div class="section-head"><div><h2>Setup & sources</h2><div class="subtle">Your local pipeline at a glance</div></div></div>
+        <section id="sourcesSection">
+          <div class="section-head"><div><h2>Setup, auto-fetch &amp; sources</h2><div class="subtle">Your local pipeline at a glance</div></div></div>
           <div class="panel">
             <div class="panel-title">Candidate resume <span class="state" id="resumeState">NOT READY</span></div>
+            <label for="profileSelect" style="margin-top:0">Active candidate profile</label>
+            <select id="profileSelect" class="full-select" onchange="switchProfile(this.value)" style="margin-bottom:10px">
+              <option value="">No extracted profile</option>
+            </select>
             <div class="resume-drop"><div class="resume-name" id="resumeName">No resume selected</div><div class="resume-hint">PDF, DOCX or TXT · up to 10 MB</div>
               <div class="file-row"><input id="resumeFile" type="file" accept=".pdf,.docx,.txt" hidden><button class="button secondary" onclick="document.getElementById('resumeFile').click()">Choose file</button><button class="button" id="ingestButton" onclick="ingestResume()">Process</button></div>
             </div>
             <div class="subtle" style="margin-top:10px" id="profileSummary">Upload a resume and process it to build your profile.</div>
             <div class="profile-keywords" id="keywords" style="margin-top:9px"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-title">Auto-fetch scheduler <span class="state" id="schedulerStateBadge">DISABLED</span></div>
+            <div class="subtle" id="schedulerSummaryText">Automatically scan all enabled job sources in the background.</div>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-top:10px;">
+              <div>
+                <label for="schedulerEnabled" style="margin-top:0">Mode</label>
+                <select id="schedulerEnabled" class="full-select">
+                  <option value="false">Manual only</option>
+                  <option value="true">Auto-fetch enabled</option>
+                </select>
+              </div>
+              <div>
+                <label for="schedulerInterval" style="margin-top:0">Interval</label>
+                <select id="schedulerInterval" class="full-select">
+                  <option value="60">Every 1 hour</option>
+                  <option value="240" selected>Every 4 hours</option>
+                  <option value="720">Every 12 hours</option>
+                  <option value="1440">Every 24 hours</option>
+                </select>
+              </div>
+            </div>
+            <div class="file-row" style="margin-top:10px">
+              <button class="button secondary" id="saveSchedulerButton" onclick="saveScheduler(false)">Save schedule</button>
+              <button class="button" id="runSchedulerNowButton" onclick="saveScheduler(true)">Save &amp; fetch now</button>
+            </div>
           </div>
           <div class="panel">
             <div class="panel-title">Adzuna Australia <button class="button ghost" onclick="credentialDialog.showModal()" style="padding:5px 8px">API credentials</button></div>
@@ -154,6 +259,10 @@
             <input id="searchWhere" type="text" maxlength="120" placeholder="Melbourne VIC">
             <button class="button secondary" id="saveSearchSettings" onclick="saveSearchSettings()" style="margin-top:9px">Save search settings</button>
             <div class="subtle" style="margin-top:9px" id="searchPreview">Query will use profile keywords.</div>
+          </div>
+          <div class="panel">
+            <div class="panel-title">Configured feeds (<span id="enabledSourceCount">0</span> active)</div>
+            <div class="source-list-scroll" id="sourcesList"></div>
           </div>
           <div class="panel"><div class="panel-title"><span>Pipeline checks</span><button class="button secondary" id="testButton" onclick="runTests()" style="padding:6px 9px">Run project tests</button></div>
             <div class="source-row"><div class="source-name"><span class="source-mark">1</span>Resume extraction</div><span class="source-status" id="pipelineResume">Waiting</span></div>
@@ -166,46 +275,348 @@
       </div>
     </main>
   </div>
-  <dialog id="credentialDialog"><form method="dialog" id="credentialForm"><h2>Connect Adzuna</h2><p>Credentials stay in this local server process and are not written to disk.</p><label for="appId">Application ID</label><input id="appId" type="password" autocomplete="off" required><label for="appKey">Application key</label><input id="appKey" type="password" autocomplete="off" required><div class="dialog-actions"><button class="button ghost" value="cancel">Cancel</button><button class="button" id="saveCredentials" value="default">Connect source</button></div></form></dialog>
+  <dialog id="credentialDialog"><form method="dialog" id="credentialForm"><h2>Connect Adzuna</h2><p>Credentials are stored locally in an ignored file. They are not encrypted; keep this folder private.</p><label for="appId">Application ID</label><input id="appId" type="password" autocomplete="off" required><label for="appKey">Application key</label><input id="appKey" type="password" autocomplete="off" required><div class="dialog-actions"><button class="button ghost" value="cancel">Cancel</button><button class="button" id="saveCredentials" value="default">Connect source</button></div></form></dialog>
+  <dialog id="fitDialog">
+    <h2 id="fitTitle">Resume Fit &amp; Tailoring</h2>
+    <p id="fitCompany"></p>
+    <div class="fit-coverage" id="fitCoverage">0% Keyword Match</div>
+    <label>Matched profile skills</label>
+    <div class="profile-keywords" id="fitMatched" style="margin-bottom:12px"></div>
+    <label>Skills mentioned in job posting to highlight or add</label>
+    <div class="profile-keywords" id="fitMissing" style="margin-bottom:12px"></div>
+    <label>Tailoring recommendations</label>
+    <ul class="fit-list" id="fitSuggestions"></ul>
+    <div class="dialog-actions">
+      <button class="button" type="button" onclick="$('fitDialog').close()">Close</button>
+    </div>
+  </dialog>
   <div class="toast" id="toast" hidden></div>
   <script>
     const $ = (id) => document.getElementById(id);
-    let latestMatches = [];
+    let currentJobsCache = [];
+    let currentPage = 1;
+
     function notify(message) { const toast = $('toast'); toast.textContent = message; toast.hidden = false; clearTimeout(notify.timer); notify.timer = setTimeout(() => toast.hidden = true, 3600); }
     function announce(message, good = false) { const notice = $('notice'); notice.textContent = message; notice.classList.toggle('good', good); notice.hidden = false; }
     async function request(path, payload) {
       const response = await fetch(path, { method: payload ? 'POST' : 'GET', headers: payload ? {'Content-Type':'application/json'} : {}, body: payload ? JSON.stringify(payload) : undefined });
       const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Request failed.'); return result;
     }
-    function renderMatches(matches) {
-      latestMatches = matches || [];
-      $('matchCount').textContent = latestMatches.length;
-      $('jobList').innerHTML = latestMatches.length ? latestMatches.slice(0, 10).map((job, index) => `<article class="job" style="animation-delay:${index * 35}ms"><div><a class="job-title" href="${escapeHtml(job.url || '#')}" target="_blank" rel="noopener">${escapeHtml(job.title || 'Untitled role')}</a><div class="job-meta"><span>${escapeHtml(job.source || 'Job source')}</span><span>${escapeHtml((job.matches || []).join(' · ') || 'No keyword overlap')}</span></div></div><div class="score">${Number(job.score) || 0} pts</div></article>`).join('') : '<div class="empty">No saved matches yet. Run a scan to populate this list.</div>';
+
+    function navigateSection(section) {
+      $('navOverview').classList.toggle('active', section === 'overview');
+      $('navMatches').classList.toggle('active', section === 'matches');
+      $('navSources').classList.toggle('active', section === 'sources');
+      const labels = { overview: 'Overview', matches: 'Job matches', sources: 'Sources & Auto-Fetch' };
+      $('breadcrumb').innerHTML = `Workspace&nbsp; / &nbsp;${labels[section] || 'Overview'}`;
+      const target = section === 'matches' ? $('matchesSection') : section === 'sources' ? $('sourcesSection') : $('topSection');
+      if (target && target.scrollIntoView) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function buildPageButtonsHtml(page, totalPages) {
+      if (totalPages <= 1) return '';
+      const pages = new Set([1, totalPages, page - 1, page, page + 1].filter(p => p >= 1 && p <= totalPages));
+      const sorted = [...pages].sort((a, b) => a - b);
+      let buttons = `<button type="button" class="page-btn" onclick="goToPage(1)" ${page <= 1 ? 'disabled' : ''} title="First page">«</button>`;
+      buttons += `<button type="button" class="page-btn" onclick="goToPage(${page - 1})" ${page <= 1 ? 'disabled' : ''} title="Previous page">‹ Prev</button>`;
+      let prev = 0;
+      for (const p of sorted) {
+        if (prev && p - prev > 1) {
+          buttons += `<span class="page-ellipsis">…</span>`;
+        }
+        buttons += `<button type="button" class="page-btn ${p === page ? 'active' : ''}" onclick="goToPage(${p})">${p}</button>`;
+        prev = p;
+      }
+      buttons += `<button type="button" class="page-btn" onclick="goToPage(${page + 1})" ${page >= totalPages ? 'disabled' : ''} title="Next page">Next ›</button>`;
+      buttons += `<button type="button" class="page-btn" onclick="goToPage(${totalPages})" ${page >= totalPages ? 'disabled' : ''} title="Last page">»</button>`;
+      return buttons;
+    }
+
+    function renderPagination(total, page, pageSize, totalPages) {
+      const topBar = $('topPaginationBar');
+      const bottomBar = $('bottomPaginationBar');
+      if (!total || total <= 0) {
+        topBar.hidden = true;
+        bottomBar.hidden = true;
+        return;
+      }
+      const startItem = (page - 1) * pageSize + 1;
+      const endItem = Math.min(total, page * pageSize);
+      const infoText = `Showing ${startItem.toLocaleString()}–${endItem.toLocaleString()} of ${total.toLocaleString()} jobs (Page ${page} of ${totalPages})`;
+      const controlsHtml = buildPageButtonsHtml(page, totalPages);
+
+      $('topPaginationInfo').textContent = infoText;
+      $('bottomPaginationInfo').textContent = infoText;
+      $('topPaginationControls').innerHTML = controlsHtml;
+      $('bottomPaginationControls').innerHTML = controlsHtml;
+      topBar.hidden = false;
+      bottomBar.hidden = totalPages <= 1;
+    }
+
+    async function goToPage(page) {
+      currentPage = Math.max(1, Number(page) || 1);
+      const query = ($('jobSearchInput') || {}).value || '';
+      await loadSavedJobs(query.trim(), currentPage);
+      const section = $('matchesSection');
+      if (section && section.scrollIntoView) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function renderJobCards(jobs, emptyText = 'No saved jobs match that search yet.', totalCount = null) {
+      currentJobsCache = jobs || [];
+      $('matchCount').textContent = totalCount != null ? totalCount : currentJobsCache.length;
+      if (!currentJobsCache.length) {
+        $('jobList').innerHTML = `<div class="empty">${escapeHtml(emptyText)}</div>`;
+        renderPagination(0, 1, 20, 1);
+        return;
+      }
+      $('jobList').innerHTML = currentJobsCache.map((job, index) => {
+        const score = Number(job.score) || 0;
+        const matches = Array.isArray(job.matches) ? job.matches : [];
+        const metadata = [
+          job.source,
+          job.company,
+          job.location || 'Location: N/A',
+          job.state ? `State: ${job.state}` : '',
+          job.job_type || '',
+          formatPostedAt(job.posted_at),
+          job.first_seen_at ? `Loaded ${formatLoadedAt(job.first_seen_at)}` : ''
+        ].filter(Boolean);
+        const salary = job.salary_min || job.salary_max
+          ? `Salary: $${[job.salary_min, job.salary_max].filter(value => value != null).map(value => Number(value).toLocaleString()).join('–')}`
+          : '';
+        const statusVal = (job.application_status || 'new').toLowerCase();
+        const statusOptions = ['new', 'shortlisted', 'applied', 'interviewing', 'rejected', 'archived']
+          .map(opt => `<option value="${opt}" ${opt === statusVal ? 'selected' : ''}>${opt.charAt(0).toUpperCase() + opt.slice(1)}</option>`)
+          .join('');
+        return `<article class="job" style="animation-delay:${Math.min(index * 25, 400)}ms">
+          <div>
+            <a class="job-title" href="${escapeHtml(job.url || '#')}" target="_blank" rel="noopener">${escapeHtml(job.title || 'Untitled role')}</a>
+            <div class="job-meta">${metadata.map(value => `<span>${escapeHtml(value)}</span>`).join('')}</div>
+            ${matches.length ? `<div class="job-matches">${matches.map(skill => `<span class="match-pill">${escapeHtml(skill)}</span>`).join('')}</div>` : ''}
+            ${job.description ? `<div class="job-description">${escapeHtml(job.description)}</div>` : ''}
+            ${salary ? `<div class="job-meta"><strong>${escapeHtml(salary)}</strong></div>` : ''}
+          </div>
+          <div class="job-actions">
+            <div class="score ${score === 0 ? 'zero' : ''}" title="15 points per matched title skill, 5 per additional description skill; seniority may adjust the score">${score} pts</div>
+            <select class="status-select" aria-label="Application status" onchange="changeJobStatus(${index}, this.value)">${statusOptions}</select>
+            <button type="button" class="button ghost small" onclick="openFitModal(${index})">Fit &amp; Tailor</button>
+          </div>
+        </article>`;
+      }).join('');
+    }
+
+    function renderMatches(matches, hasScanned = false, hasStoredJobs = true) {
+      const emptyMessage = hasScanned
+        ? (hasStoredJobs ? 'No saved jobs currently match your resume keywords.' : 'No jobs are stored for this search yet. A successful source scan will save them here.')
+        : 'Run a source scan to see matching roles here.';
+      renderJobCards(matches || [], emptyMessage);
+    }
+
+    async function changeJobStatus(index, status) {
+      const job = currentJobsCache[index];
+      if (!job || !job.url) return;
+      try {
+        const result = await request('/api/jobs/status', { url: job.url, status });
+        job.application_status = status;
+        notify(result.message);
+      } catch (error) {
+        announce(error.message);
+      }
+    }
+
+    async function openFitModal(index) {
+      const job = currentJobsCache[index];
+      if (!job) return;
+      try {
+        const result = await request('/api/jobs/analyze', job);
+        const analysis = result.analysis;
+        $('fitTitle').textContent = analysis.title || 'Job Fit Analysis';
+        $('fitCompany').textContent = analysis.company ? `${analysis.company} · ${job.location || ''}` : (job.location || '');
+        $('fitCoverage').textContent = `${analysis.coverage_pct}% Profile Skill Coverage`;
+        $('fitMatched').innerHTML = (analysis.matched_skills || []).length
+          ? analysis.matched_skills.map(s => `<span class="keyword">${escapeHtml(s)}</span>`).join('')
+          : '<span class="subtle">No direct keyword overlap detected yet.</span>';
+        $('fitMissing').innerHTML = (analysis.missing_skills || []).length
+          ? analysis.missing_skills.map(s => `<span class="keyword" style="background:#fff4ef;color:#8f3429">${escapeHtml(s)}</span>`).join('')
+          : '<span class="subtle">None — your profile covers all detected skills in this listing!</span>';
+        $('fitSuggestions').innerHTML = (analysis.suggestions || []).map(item => `<li>${escapeHtml(item)}</li>`).join('');
+        $('fitDialog').showModal();
+      } catch (error) {
+        announce(error.message);
+      }
+    }
+
+    async function searchSavedJobs(resetPage = true) {
+      if (resetPage) currentPage = 1;
+      const query = ($('jobSearchInput') || {}).value || '';
+      await loadSavedJobs(query.trim(), currentPage);
+    }
+
+    function updateFilterOptions(id, values, allLabel, unavailableLabel) {
+      const select = $(id);
+      const selected = select.value;
+      const hasValues = values.length > 0;
+      select.innerHTML = hasValues
+        ? `<option value="">${escapeHtml(allLabel)}</option>${values.map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join('')}`
+        : `<option value="">${escapeHtml(unavailableLabel || 'No data available')}</option>`;
+      select.disabled = !hasValues;
+      select.value = hasValues && values.includes(selected) ? selected : '';
+    }
+
+    function clearJobFilters() {
+      $('jobSearchInput').value = '';
+      $('jobSortBy').value = 'score';
+      $('jobStatusFilter').value = '';
+      $('jobSourceFilter').value = '';
+      $('jobStateFilter').value = '';
+      $('jobTypeFilter').value = '';
+      $('jobDateFrom').value = '';
+      $('jobDateTo').value = '';
+      $('jobLoadedFrom').value = '';
+      $('jobLoadedTo').value = '';
+      $('jobPageSize').value = '20';
+      searchSavedJobs(true);
+    }
+
+    async function loadSavedJobs(query = '', page = currentPage) {
+      try {
+        const pageSize = ($('jobPageSize') && $('jobPageSize').value) || '20';
+        const params = new URLSearchParams({
+          page: String(page || 1),
+          page_size: String(pageSize)
+        });
+        if (query) params.set('query', query);
+        if ($('jobSortBy') && $('jobSortBy').value) params.set('sort_by', $('jobSortBy').value);
+        if ($('jobStatusFilter') && $('jobStatusFilter').value) params.set('status', $('jobStatusFilter').value);
+        if ($('jobSourceFilter').value) params.set('source', $('jobSourceFilter').value);
+        if ($('jobStateFilter').value) params.set('state', $('jobStateFilter').value);
+        if ($('jobTypeFilter').value) params.set('job_type', $('jobTypeFilter').value);
+        if ($('jobDateFrom').value) params.set('date_from', $('jobDateFrom').value);
+        if ($('jobDateTo').value) params.set('date_to', $('jobDateTo').value);
+        if ($('jobLoadedFrom').value) params.set('loaded_from', $('jobLoadedFrom').value);
+        if ($('jobLoadedTo').value) params.set('loaded_to', $('jobLoadedTo').value);
+        const data = await request(`/api/jobs?${params.toString()}`);
+        updateFilterOptions('jobSourceFilter', data.sources || [], 'All sources', 'No source data available');
+        updateFilterOptions('jobStateFilter', data.states || [], 'All states', 'No state data available');
+        updateFilterOptions('jobTypeFilter', data.job_types || [], 'All job types', 'No job type data available');
+        currentPage = data.page || 1;
+        renderJobCards(data.jobs || [], 'No saved jobs match that search yet.', data.total || 0);
+        renderPagination(data.total || 0, data.page || 1, data.page_size || Number(pageSize), data.total_pages || 1);
+      } catch (error) {
+        announce(error.message);
+      }
+    }
+
+    function formatPostedAt(value) {
+      if (!value) return '';
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat('en-AU', { day: 'numeric', month: 'short', year: 'numeric' }).format(date);
+    }
+    function formatLoadedAt(value) {
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat('en-AU', { day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit' }).format(date);
     }
     function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+
+    async function switchProfile(candidateName) {
+      if (!candidateName) return;
+      try {
+        const result = await request('/api/profile/select', { candidate_name: candidateName });
+        notify(result.message);
+        await refreshStatus();
+      } catch (error) {
+        announce(error.message);
+      }
+    }
+
+    async function toggleSource(name, enabled) {
+      try {
+        const result = await request('/api/sources/toggle', { name, enabled });
+        notify(result.message);
+        await refreshStatus();
+      } catch (error) {
+        announce(error.message);
+      }
+    }
+
+    async function saveScheduler(runNow = false) {
+      const button = runNow ? $('runSchedulerNowButton') : $('saveSchedulerButton');
+      button.disabled = true;
+      try {
+        const enabled = $('schedulerEnabled').value === 'true';
+        const intervalMinutes = Number($('schedulerInterval').value) || 240;
+        const result = await request('/api/scheduler', { enabled, interval_minutes: intervalMinutes, run_now: runNow });
+        announce(result.message, true);
+        await refreshStatus();
+      } catch (error) {
+        announce(error.message);
+      } finally {
+        button.disabled = false;
+      }
+    }
+
     async function refreshStatus() {
       try {
         const data = await request('/api/status');
         $('resumeCount').textContent = data.resume_count;
         $('resumeName').textContent = data.latest_resume || 'No resume selected';
-        $('resumeNote').textContent = data.latest_resume ? data.latest_resume : 'Awaiting upload';
-        $('keywordCount').textContent = (data.profile.keywords || []).length;
+        $('resumeNote').textContent = data.active_profile || data.latest_resume || 'Awaiting upload';
+        const keywords = (data.profile && data.profile.keywords) || [];
+        $('keywordCount').textContent = keywords.length;
+        const domainLabel = data.profile && data.profile.domain === 'accounting_finance' ? 'Accounting & Finance' : 'Data, BI & AI';
+        $('domainNote').textContent = data.profile_ready ? domainLabel : 'Extracted from resume';
         $('resumeState').textContent = data.profile_ready ? 'PROFILE READY' : 'NOT READY';
         $('resumeState').classList.toggle('ready', data.profile_ready);
         $('pipelineResume').textContent = data.resume_count ? 'Available' : 'Waiting';
         $('pipelineResume').classList.toggle('ready', !!data.resume_count);
         $('pipelineProfile').textContent = data.profile_ready ? 'Ready' : 'Waiting';
         $('pipelineProfile').classList.toggle('ready', data.profile_ready);
-        $('profileSummary').textContent = data.profile_ready ? `${data.profile.candidate_name} · ${data.profile.years_experience || 0} years experience` : 'Upload a resume and process it to build your profile.';
-        $('keywords').innerHTML = (data.profile.keywords || []).slice(0, 16).map(word => `<span class="keyword">${escapeHtml(word)}</span>`).join('');
+        $('profileSummary').textContent = data.profile_ready ? `${data.profile.candidate_name} · ${data.profile.years_experience || 0} years experience (${domainLabel})` : 'Upload a resume and process it to build your profile.';
+        $('keywords').innerHTML = keywords.slice(0, 24).map(word => `<span class="keyword">${escapeHtml(word)}</span>`).join('');
+        if (data.profile && data.profile.candidate_name) {
+          $('profileAvatar').textContent = data.profile.candidate_name.slice(0, 2).toUpperCase();
+        }
+
+        const profiles = data.profiles || [];
+        if (profiles.length) {
+          $('profileSelect').innerHTML = profiles.map(p => {
+            const tag = p.domain === 'accounting_finance' ? 'Accounting/Finance' : 'Data/BI/AI';
+            const sel = p.candidate_name === data.active_profile ? 'selected' : '';
+            return `<option value="${escapeHtml(p.candidate_name)}" ${sel}>${escapeHtml(p.candidate_name)} (${tag} · ${p.keyword_count} skills)</option>`;
+          }).join('');
+        }
+
+        const sched = data.scheduler || {};
+        $('schedulerEnabled').value = sched.enabled ? 'true' : 'false';
+        if ([60, 240, 720, 1440].includes(Number(sched.interval_minutes))) {
+          $('schedulerInterval').value = String(sched.interval_minutes);
+        }
+        $('schedulerStateBadge').textContent = sched.enabled ? 'ACTIVE' : 'DISABLED';
+        $('schedulerStateBadge').classList.toggle('ready', !!sched.enabled);
+        $('schedulerMetric').textContent = sched.enabled ? `Every ${Math.round((sched.interval_minutes || 240) / 60)}h` : 'Off';
+        $('schedulerNote').textContent = sched.last_run_at ? `Last: ${formatLoadedAt(sched.last_run_at)}` : (sched.enabled ? 'Scheduled' : 'Manual mode');
+        $('schedulerSummaryText').textContent = sched.last_message || 'Automatically scan all enabled job sources in the background.';
+
         $('credentialState').textContent = data.credentials_ready ? 'Connected for session' : 'Credentials needed';
         $('credentialState').classList.toggle('ready', data.credentials_ready);
         $('searchWhat').value = data.search_settings.what || '';
         $('searchWhere').value = data.search_settings.where || '';
         $('searchPreview').textContent = `Search: ${data.search_settings.what || 'candidate profile keywords'} · ${data.search_settings.where || 'all locations'}`;
-        renderMatches(data.recent_matches || []);
+
+        const sources = data.sources || [];
+        $('enabledSourceCount').textContent = sources.filter(s => s.enabled).length;
+        $('sourcesList').innerHTML = sources.map(s => `
+          <div class="source-row">
+            <div class="source-name"><span class="source-mark">${escapeHtml((s.source_type || 'S').slice(0, 1).toUpperCase())}</span>${escapeHtml(s.name)}</div>
+            <input type="checkbox" ${s.enabled ? 'checked' : ''} onchange="toggleSource(${ JSON.stringify(s.name).replace(/"/g, '&quot;') }, this.checked)" title="Toggle source">
+          </div>
+        `).join('');
+
+        const currentQuery = ($('jobSearchInput') || {}).value || '';
+        await loadSavedJobs(currentQuery.trim());
       } catch (error) { announce(error.message); }
     }
+
     $('resumeFile').addEventListener('change', () => { const file = $('resumeFile').files[0]; $('resumeName').textContent = file ? file.name : 'No resume selected'; });
     async function uploadResume(file) {
       const dataUrl = await new Promise((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(reader.result.split(',')[1]); reader.onerror = reject; reader.readAsDataURL(file); });
@@ -231,7 +642,7 @@
     }
     async function runScan() {
       const button = $('scanButton'); button.disabled = true; button.textContent = 'Scanning configured sources…'; announce('Contacting configured job sources. This can take a moment.');
-      try { const result = await request('/api/scan', {}); renderMatches(result.matches); announce(result.message, true); await refreshStatus(); }
+      try { const result = await request('/api/scan', {}); renderMatches(result.matches, true); announce(result.message, true); await refreshStatus(); }
       catch (error) { announce(error.message); }
       finally { button.disabled = false; button.innerHTML = '↗ &nbsp;Scan configured sources'; }
     }
@@ -247,6 +658,10 @@
       finally { button.disabled = false; button.textContent = 'Run project tests'; }
     }
     refreshStatus();
+    setInterval(() => {
+      const currentQuery = ($('jobSearchInput') || {}).value || '';
+      loadSavedJobs(currentQuery.trim());
+    }, 15000);
   </script>
 </body>
 </html>
