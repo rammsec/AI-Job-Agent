@@ -39,6 +39,32 @@
     "max_pages_per_scan": 10
   },
   {
+    "name": "Adzuna Australia - Domo",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "domo",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
+    "name": "Adzuna Australia - Reporting",
+    "source_type": "adzuna",
+    "enabled": true,
+    "target_filter": true,
+    "country": "au",
+    "what": "reporting analyst",
+    "where": "Australia",
+    "results_per_page": 20,
+    "initial_days": 14,
+    "overlap_days": 1,
+    "max_pages_per_scan": 10
+  },
+  {
     "name": "Adzuna Australia - Data Engineer",
     "source_type": "adzuna",
     "enabled": true,

@@ -26,7 +26,7 @@ _DATA_ENG_PATTERN = re.compile(
     re.IGNORECASE,
 )
 _BI_ANALYTICS_PATTERN = re.compile(
-    r"\b(?:power\s*bi|powerbi|tableau|business\s+intelligence|looker|qlik|bi\s+analyst|bi\s+developer|data\s+analyst|reporting|dashboard)\b",
+    r"\b(?:power\s*bi|powerbi|tableau|domo|business\s+intelligence|looker|qlik|bi\s+analyst|bi\s+developer|data\s+analyst|reporting|dashboard)\b",
     re.IGNORECASE,
 )
 
