@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T14:31:41.405200+00:00",
-  "generated_at_aedt": "Fri 20 Nov 2026, 01:31 AM AEDT",
+  "generated_at": "2026-11-19T14:34:47.746053+00:00",
+  "generated_at_aedt": "Fri 20 Nov 2026, 01:34 AM AEDT",
   "profile_name": "Default Data & AI Profile",
   "profile_keywords": [
     "python",
@@ -39,7 +39,7 @@
     "docker",
     "git"
   ],
-  "adzuna_enabled": true,
+  "adzuna_enabled": false,
   "total_jobs": 15,
   "source_counts": {
     "OpenAI (Ashby)": 4,
@@ -52,17 +52,7 @@
     "Remotive Business Intelligence JSON": 1
   },
   "source_warnings": [
-    "Adzuna Australia - Business Intelligence: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"display\":\"Authorisation failed\",\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Tableau: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Power BI: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"display\":\"Authorisation failed\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\"}",
-    "Adzuna Australia - Data Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"display\":\"Authorisation failed\",\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Analytics Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"doc\":\"https://api.adzuna.com/v1/doc\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"exception\":\"AUTH_FAIL\"}",
-    "Adzuna Australia - AI Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"doc\":\"https://api.adzuna.com/v1/doc\"}",
-    "Adzuna Australia - Machine Learning: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"doc\":\"https://api.adzuna.com/v1/doc\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\"}",
-    "Adzuna Australia - Data Scientist: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\"}",
-    "Adzuna Australia - Data Analyst: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Machine Learning Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"display\":\"Authorisation failed\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Generative AI: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"doc\":\"https://api.adzuna.com/v1/doc\"}"
+    "11 Adzuna source(s) skipped (add ADZUNA_APP_ID and ADZUNA_APP_KEY repository secrets to enable them)."
   ],
   "jobs": [
     {
