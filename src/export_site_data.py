@@ -7,11 +7,11 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from src.job_report import run_daily_scan
-from src.job_scanner import fetch_html
+from src.job_scanner import fetch_html, score_jobs_for_profile
 from src.profile_builder import analyze_job_fit
 from src.resume_reader import process_resumes
 from src.run_job_scan import PROJECT_ROOT, SOURCE_CONFIG, _load_cli_credentials, load_effective_profile
-from src.store import DEFAULT_DB_PATH, _job_state
+from src.store import DEFAULT_DB_PATH, _job_state, get_stored_jobs
 
 
 SITE_DATA_PATH = PROJECT_ROOT / "docs" / "data" / "jobs.json"
@@ -124,13 +124,32 @@ def export_jobs_payload(
         source_error_callback=lambda err: source_warnings.append(f"{err.get('source')}: {err.get('error')}"),
     )
 
+    if db_path is not None and Path(db_path).exists():
+        all_stored = get_stored_jobs(db_path)
+        if all_stored:
+            matches = list(matches) + score_jobs_for_profile(profile, all_stored)
+
+    now_utc = datetime.now(timezone.utc)
+    now_iso = now_utc.isoformat()
+    now_sydney = now_utc.astimezone(SYDNEY_TZ)
+
+    previous_by_id: dict[str, dict] = {}
+    if output_path.exists():
+        try:
+            prev_payload = json.loads(output_path.read_text(encoding="utf-8"))
+            for prev_job in prev_payload.get("jobs", []):
+                if isinstance(prev_job, dict) and prev_job.get("id"):
+                    previous_by_id[str(prev_job["id"])] = prev_job
+        except (OSError, json.JSONDecodeError):
+            pass
+
     deduped = deduplicate_matches(matches)
-    source_counts: dict[str, int] = {}
-    exported_jobs = []
+    merged_by_id: dict[str, dict] = {}
 
     for job in deduped:
+        job_id = _make_job_id(job)
+        prev = previous_by_id.get(job_id, {})
         source_name = str(job.get("source") or "Unknown")
-        source_counts[source_name] = source_counts.get(source_name, 0) + 1
         fit = analyze_job_fit(profile, job)
         raw_location = str(job.get("location") or "")
         location = _format_location_display(raw_location)
@@ -138,8 +157,8 @@ def export_jobs_payload(
         is_remote = bool(re.search(r"\b(?:remote|anywhere|hybrid)\b", f"{raw_location} {location} {job.get('title', '')}", re.IGNORECASE))
         description = str(job.get("description") or "")
 
-        exported_jobs.append({
-            "id": _make_job_id(job),
+        merged_by_id[job_id] = {
+            "id": job_id,
             "title": str(job.get("title") or "Untitled Job"),
             "company": str(job.get("company") or ""),
             "location": location or "Australia",
@@ -149,6 +168,8 @@ def export_jobs_payload(
             "source": source_name,
             "url": str(job.get("url") or ""),
             "posted_at": job.get("posted_at"),
+            "first_seen_at": prev.get("first_seen_at") or now_iso,
+            "last_seen_at": now_iso,
             "score": int(job.get("score", 0)),
             "matches": list(job.get("matches") or []),
             "title_matches": list(job.get("title_matches") or []),
@@ -161,12 +182,27 @@ def export_jobs_payload(
             "contract_type": str(job.get("contract_type") or ""),
             "summary": _truncate_clean(description, 280),
             "description": _truncate_clean(description, 1200),
-        })
+        }
 
-    now_utc = datetime.now(timezone.utc)
-    now_sydney = now_utc.astimezone(SYDNEY_TZ)
+    for job_id, prev_job in previous_by_id.items():
+        if job_id not in merged_by_id:
+            prev_copy = dict(prev_job)
+            prev_copy.setdefault("first_seen_at", prev_copy.get("posted_at") or now_iso)
+            merged_by_id[job_id] = prev_copy
+
+    exported_jobs = sorted(
+        merged_by_id.values(),
+        key=lambda item: (int(item.get("score", 0)), str(item.get("posted_at") or item.get("last_seen_at") or "")),
+        reverse=True,
+    )
+
+    source_counts: dict[str, int] = {}
+    for item in exported_jobs:
+        src = str(item.get("source") or "Unknown")
+        source_counts[src] = source_counts.get(src, 0) + 1
+
     payload = {
-        "generated_at": now_utc.isoformat(),
+        "generated_at": now_iso,
         "generated_at_aedt": now_sydney.strftime("%a %d %b %Y, %I:%M %p %Z"),
         "profile_name": profile.get("candidate_name", "Data & AI Profile"),
         "profile_keywords": list(profile.get("keywords") or []),

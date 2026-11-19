@@ -164,6 +164,15 @@
               <button class="button ghost" onclick="refreshStatus()" title="Refresh status">⟳</button>
             </div>
           </div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:center; padding:10px 0 2px; border-bottom:1px solid var(--line);" aria-label="Quick SEEK searches">
+            <span style="font-size:10px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.6px;">SEEK 1-Tap:</span>
+            <button type="button" class="button small" onclick="openAllSeekTabs()">Open All SEEK ↗</button>
+            <a class="button ghost small" style="text-decoration:none;" href="https://www.seek.com.au/power-bi-jobs" target="_blank" rel="noopener">Power BI ↗</a>
+            <a class="button ghost small" style="text-decoration:none;" href="https://www.seek.com.au/tableau-jobs" target="_blank" rel="noopener">Tableau ↗</a>
+            <a class="button ghost small" style="text-decoration:none;" href="https://www.seek.com.au/domo-jobs" target="_blank" rel="noopener">Domo ↗</a>
+            <a class="button ghost small" style="text-decoration:none;" href="https://www.seek.com.au/reporting-analyst-jobs" target="_blank" rel="noopener">Reporting ↗</a>
+            <a class="button ghost small" style="text-decoration:none;" href="https://www.seek.com.au/business-intelligence-jobs" target="_blank" rel="noopener">BI ↗</a>
+          </div>
           <div class="job-filter-controls" aria-label="Filter saved jobs">
             <label class="job-filter" for="jobSortBy">Sort by
               <select id="jobSortBy" onchange="searchSavedJobs()">
@@ -662,6 +671,17 @@
       const currentQuery = ($('jobSearchInput') || {}).value || '';
       loadSavedJobs(currentQuery.trim());
     }, 15000);
+    function openAllSeekTabs() {
+      const urls = [
+        "https://www.seek.com.au/power-bi-jobs",
+        "https://www.seek.com.au/tableau-jobs",
+        "https://www.seek.com.au/domo-jobs",
+        "https://www.seek.com.au/reporting-analyst-jobs",
+        "https://www.seek.com.au/business-intelligence-jobs"
+      ];
+      urls.forEach((url) => window.open(url, "_blank", "noopener"));
+      announce("Opened SEEK searches for Power BI, Tableau, Domo, Reporting, and BI. Use the Chrome extension to save cards to your local database.", true);
+    }
   </script>
 </body>
 </html>

@@ -1,14 +1,15 @@
 const DEFAULT_TERMS = [
-  "business intelligence",
-  "tableau",
   "power bi",
+  "tableau",
+  "domo",
+  "reporting",
+  "business intelligence",
+  "data analyst",
   "data engineer",
   "analytics engineer",
   "AI engineer",
   "machine learning",
   "data scientist",
-  "data analyst",
-  "machine learning engineer",
   "generative AI"
 ].join("\n");
 const termsInput = document.getElementById("terms");
