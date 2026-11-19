@@ -376,5 +376,319 @@
     "enabled": true,
     "target_filter": true,
     "board_name": "langchain"
+  },
+  {
+    "name": "Himalayas Australia - Power BI",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=power%20bi",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Himalayas Australia - Tableau",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=tableau",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Himalayas Australia - Business Intelligence",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=business%20intelligence",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Himalayas Australia - Reporting",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=reporting",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Himalayas Australia - Data",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=data",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Himalayas Australia - AI",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://himalayas.app/jobs/api/search?country=AU&exclude_worldwide=true&q=ai",
+    "items_path": "jobs"
+  },
+  {
+    "name": "4dayweek Australia - Data",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://4dayweek.io/api/v2/jobs?country=Australia&category=data",
+    "items_path": "data"
+  },
+  {
+    "name": "Jobicy Australia Remote JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://jobicy.com/api/v2/remote-jobs?count=50&geo=australia",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Mantel Group RSS",
+    "source_type": "rss",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://careers.mantelgroup.com.au/jobs.rss"
+  },
+  {
+    "name": "Quantium (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "quantium"
+  },
+  {
+    "name": "AirTrunk (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "airtrunk"
+  },
+  {
+    "name": "HelloFresh (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "hellofresh"
+  },
+  {
+    "name": "THE ICONIC (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "theiconic"
+  },
+  {
+    "name": "VGW Australia (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "vgw-australia"
+  },
+  {
+    "name": "Fivetran (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "fivetran"
+  },
+  {
+    "name": "Sigma Computing (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "sigmacomputing"
+  },
+  {
+    "name": "Xero (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "xero"
+  },
+  {
+    "name": "Relevance AI (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "relevanceai"
+  },
+  {
+    "name": "Checkbox AI (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "Checkbox-AI"
+  },
+  {
+    "name": "Dataro (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "dataro"
+  },
+  {
+    "name": "Tracksuit (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "Tracksuit"
+  },
+  {
+    "name": "Up Bank (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "up"
+  },
+  {
+    "name": "Zip (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "zip"
+  },
+  {
+    "name": "APM Group (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "APMGroup",
+    "country": "au"
+  },
+  {
+    "name": "NCS Australia (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "NCSAustralia",
+    "country": "au"
+  },
+  {
+    "name": "Endeavour Group (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "EndeavourGroupCareers",
+    "country": "au"
+  },
+  {
+    "name": "Nearmap (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "Nearmap",
+    "country": "au"
+  },
+  {
+    "name": "Experian (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "Experian",
+    "country": "au"
+  },
+  {
+    "name": "Turner & Townsend (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "TurnerTownsend",
+    "country": "au"
+  },
+  {
+    "name": "Merivale (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "Merivale",
+    "country": "au"
+  },
+  {
+    "name": "ServiceNow (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "ServiceNow",
+    "country": "au"
+  },
+  {
+    "name": "BlueScope (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "BlueScope",
+    "country": "au"
+  },
+  {
+    "name": "KordaMentha (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "KordaMentha",
+    "country": "au"
+  },
+  {
+    "name": "carsales (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "carsales",
+    "country": "au"
+  },
+  {
+    "name": "Ampol (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "Ampol",
+    "country": "au"
+  },
+  {
+    "name": "Infosys Australia (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "infosys-singaporeand-australia"
+  },
+  {
+    "name": "TMGM (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "tmgm"
+  },
+  {
+    "name": "Quality People (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "quality-people"
+  },
+  {
+    "name": "Simple Machines (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "simple-machines-3"
+  },
+  {
+    "name": "Practiv (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "practiv"
+  },
+  {
+    "name": "Redox (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "redox"
+  },
+  {
+    "name": "peopleworth (Workable)",
+    "source_type": "workable",
+    "enabled": true,
+    "target_filter": true,
+    "account": "peopleworth"
   }
 ]

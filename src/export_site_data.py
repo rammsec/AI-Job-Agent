@@ -78,6 +78,19 @@ def deduplicate_matches(matches: list[dict]) -> list[dict]:
     )
 
 
+def _format_location_display(location: str) -> str:
+    cleaned = " ".join(str(location or "").split()).strip()
+    if not cleaned:
+        return "Australia"
+    parts = [p.strip() for p in cleaned.split(",") if p.strip()]
+    if len(parts) > 4:
+        has_au = any("australia" in p.lower() for p in parts)
+        if has_au:
+            return f"Australia + {len(parts) - 1} countries (Remote)"
+        return f"{parts[0]}, {parts[1]} + {len(parts) - 2} more"
+    return cleaned
+
+
 def export_jobs_payload(
     profile: dict,
     sources: list[dict],
@@ -119,9 +132,10 @@ def export_jobs_payload(
         source_name = str(job.get("source") or "Unknown")
         source_counts[source_name] = source_counts.get(source_name, 0) + 1
         fit = analyze_job_fit(profile, job)
-        location = str(job.get("location") or "")
-        state = _job_state(location)
-        is_remote = bool(re.search(r"\b(?:remote|anywhere|hybrid)\b", f"{location} {job.get('title', '')}", re.IGNORECASE))
+        raw_location = str(job.get("location") or "")
+        location = _format_location_display(raw_location)
+        state = _job_state(raw_location)
+        is_remote = bool(re.search(r"\b(?:remote|anywhere|hybrid)\b", f"{raw_location} {location} {job.get('title', '')}", re.IGNORECASE))
         description = str(job.get("description") or "")
 
         exported_jobs.append({

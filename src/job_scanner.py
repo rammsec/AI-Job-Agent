@@ -44,8 +44,9 @@ def fetch_html(url: str, timeout: int = 20) -> str:
         if detail:
             message += f" Details: {detail}"
         raise RuntimeError(message) from error
-    except URLError as error:
-        raise RuntimeError(f"Unable to reach the remote job source: {error.reason}") from error
+    except (URLError, TimeoutError) as error:
+        reason = getattr(error, "reason", None) or str(error) or "Request timed out"
+        raise RuntimeError(f"Unable to reach the remote job source: {reason}") from error
 
 
 def clean_text(value: str) -> str:
@@ -146,29 +147,52 @@ def _normalize_json_feed_job(item: dict) -> dict:
     )
     if isinstance(location, dict):
         location = location.get("display_name") or location.get("name") or ""
+    if not location and isinstance(item.get("locationRestrictions"), list):
+        location = ", ".join(str(loc).strip() for loc in item["locationRestrictions"] if loc)
+    if not location and isinstance(item.get("locations"), list):
+        loc_parts = []
+        for loc in item["locations"]:
+            if isinstance(loc, dict):
+                part = ", ".join(str(loc.get(k) or "").strip() for k in ("city", "country") if loc.get(k))
+                if part:
+                    loc_parts.append(part)
+            elif loc:
+                loc_parts.append(str(loc).strip())
+        location = "; ".join(loc_parts)
 
-    category = item.get("category") or item.get("jobIndustry") or item.get("tags") or ""
+    category = item.get("category") or item.get("jobIndustry") or item.get("categories") or item.get("tags") or ""
     if isinstance(category, list):
         category = ", ".join(str(value) for value in category)
 
     description = (
         item.get("description")
         or item.get("summary")
+        or item.get("excerpt")
         or item.get("jobDescription")
         or item.get("jobExcerpt")
         or ""
     )
+    raw_posted = item.get("created_at") or item.get("publication_date") or item.get("pubDate") or item.get("posted_at") or item.get("pub_date") or item.get("date")
+    if isinstance(raw_posted, (int, float)) or (isinstance(raw_posted, str) and raw_posted.strip().isdigit()):
+        try:
+            posted_at = datetime.fromtimestamp(float(raw_posted), timezone.utc).isoformat()
+        except (TypeError, ValueError, OverflowError, OSError):
+            posted_at = None
+    else:
+        posted_at = _feed_date(str(raw_posted or ""))
+
     return {
-        "external_id": str(item.get("id") or item.get("slug") or item.get("jobSlug") or item.get("url") or "").strip(),
-        "title": str(item.get("title") or item.get("jobTitle") or "").strip(),
+        "external_id": str(item.get("id") or item.get("guid") or item.get("slug") or item.get("jobSlug") or item.get("url") or "").strip(),
+        "title": str(item.get("title") or item.get("jobTitle") or item.get("position") or "").strip(),
         "description": _clean_html(str(description)),
-        "url": str(item.get("redirect_url") or item.get("link") or item.get("url") or "").strip(),
+        "url": str(item.get("redirect_url") or item.get("applicationLink") or item.get("apply_url") or item.get("link") or item.get("url") or "").strip(),
         "company": str(company).strip(),
         "location": str(location).strip(),
-        "posted_at": _feed_date(str(item.get("created_at") or item.get("publication_date") or item.get("pubDate") or item.get("posted_at") or "")),
+        "posted_at": posted_at,
         "category": str(category).strip(),
-        "salary_min": item.get("salary_min") or item.get("salaryMin"),
-        "salary_max": item.get("salary_max") or item.get("salaryMax"),
+        "salary_min": item.get("salary_min") or item.get("salaryMin") or item.get("minSalary"),
+        "salary_max": item.get("salary_max") or item.get("salaryMax") or item.get("maxSalary"),
+        "contract_time": str(item.get("employmentType") or item.get("contract_type") or item.get("job_type") or "").strip(),
         "raw_json": item,
     }
 
@@ -234,7 +258,10 @@ def parse_feed_entries(
                 )
         if source_type.lower() == "adzuna":
             return [_normalize_adzuna_job(item) for item in items]
-        return [_normalize_json_feed_job(item) for item in items]
+        return [
+            job for job in (_normalize_json_feed_job(item) for item in items)
+            if job["title"] or job["url"]
+        ]
 
     return []
 
@@ -444,6 +471,52 @@ def fetch_smartrecruiters_jobs(source: dict, fetcher=fetch_html) -> list[dict]:
         if total_found is not None and (page + 1) * limit >= int(total_found):
             break
     return jobs
+
+
+def _normalize_workable_job(item: dict, source_name: str) -> dict:
+    loc_parts = [
+        str(item.get("city") or "").strip(),
+        str(item.get("state") or "").strip(),
+        str(item.get("country") or "").strip(),
+    ]
+    location_text = ", ".join(part for part in loc_parts if part)
+    if not location_text and isinstance(item.get("locations"), list):
+        formatted = []
+        for loc in item["locations"]:
+            if isinstance(loc, dict):
+                part = ", ".join(str(loc.get(k) or "").strip() for k in ("city", "region", "country") if loc.get(k))
+                if part:
+                    formatted.append(part)
+        location_text = "; ".join(formatted)
+    if item.get("telecommuting") and "remote" not in location_text.lower():
+        location_text = f"{location_text} (Remote)".strip() if location_text else "Remote"
+
+    department = str(item.get("department") or "").strip()
+    title = str(item.get("title") or "").strip()
+    return {
+        "external_id": str(item.get("shortcode") or item.get("url") or title).strip(),
+        "title": title,
+        "description": " ".join(part for part in (title, department, location_text) if part),
+        "url": str(item.get("url") or "").strip(),
+        "company": source_name.split(" (")[0].strip(),
+        "location": location_text,
+        "posted_at": str(item.get("published_on") or item.get("created_at") or "").strip() or None,
+        "category": department,
+        "contract_time": str(item.get("employment_type") or "").strip(),
+        "raw_json": item,
+    }
+
+
+def fetch_workable_jobs(source: dict, fetcher=fetch_html) -> list[dict]:
+    account = str(source.get("account") or source.get("site") or "").strip()
+    if not account:
+        raise ValueError(f"Workable source '{source.get('name', 'unknown')}' requires an account.")
+    endpoint = str(
+        source.get("endpoint") or "https://apply.workable.com/api/v1/widget/accounts/{account}"
+    ).format(account=account)
+    payload = json.loads(fetcher(endpoint))
+    source_name = str(source.get("name") or account)
+    return [_normalize_workable_job(item, source_name) for item in payload.get("jobs", [])]
 
 
 def _normalize_adzuna_job(item: dict) -> dict:
@@ -717,6 +790,11 @@ def scan_jobs_for_profile(
                 jobs = fetch_smartrecruiters_jobs(source, fetcher=fetcher)
                 for job in jobs:
                     job["source"] = source.get("name", "SmartRecruiters")
+                    job["search_key"] = search_key
+            elif source_type == "workable":
+                jobs = fetch_workable_jobs(source, fetcher=fetcher)
+                for job in jobs:
+                    job["source"] = source.get("name", "Workable")
                     job["search_key"] = search_key
             else:
                 feed_url = source.get("feed_url") or source.get("search_url") or ""

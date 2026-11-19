@@ -114,3 +114,53 @@ def test_deduplicate_and_classify_tracks():
     ])
     assert len(deduped) == 1
     assert deduped[0]["score"] == 45
+
+
+def test_workable_and_himalayas_json_sources_normalize_and_filter():
+    from src.job_scanner import parse_feed_entries
+
+    workable_payload = json.dumps({
+        "jobs": [
+            {
+                "title": "Power BI Developer",
+                "shortcode": "W123",
+                "url": "https://apply.workable.com/demo/j/W123/",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "country": "Australia",
+                "department": "Analytics",
+                "employment_type": "Full-time",
+            }
+        ]
+    })
+    himalayas_payload = json.dumps({
+        "jobs": [
+            {
+                "guid": "https://himalayas.app/companies/demo/jobs/tableau-analyst",
+                "title": "Tableau Reporting Analyst",
+                "companyName": "Demo AU",
+                "excerpt": "Build Tableau and Power BI reporting.",
+                "locationRestrictions": ["Australia"],
+                "pubDate": 1763500000,
+                "minSalary": 110000,
+                "maxSalary": 130000,
+                "applicationLink": "https://himalayas.app/companies/demo/jobs/tableau-analyst",
+            }
+        ]
+    })
+
+    h_jobs = parse_feed_entries(himalayas_payload, "json", source={"items_path": "jobs"})
+    assert len(h_jobs) == 1
+    assert h_jobs[0]["location"] == "Australia"
+    assert h_jobs[0]["company"] == "Demo AU"
+    assert h_jobs[0]["salary_min"] == 110000
+
+    matches = scan_jobs_for_profile(
+        {"keywords": ["power", "bi", "tableau", "reporting"], "phrases": ["power bi"]},
+        [{"name": "Demo Workable (Workable)", "source_type": "workable", "account": "demo", "target_filter": True}],
+        fetcher=lambda url: workable_payload,
+    )
+    assert len(matches) == 1
+    assert matches[0]["title"] == "Power BI Developer"
+    assert matches[0]["location"] == "Brisbane, Queensland, Australia"
+
