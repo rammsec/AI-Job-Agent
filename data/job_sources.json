@@ -257,5 +257,98 @@
     "target_filter": true,
     "feed_url": "https://jobicy.com/api/v2/remote-jobs?count=50&tag=Data",
     "items_path": "jobs"
+  },
+  {
+    "name": "Remotive AI & Machine Learning JSON",
+    "source_type": "json",
+    "enabled": true,
+    "target_filter": true,
+    "feed_url": "https://remotive.com/api/remote-jobs?category=data",
+    "items_path": "jobs"
+  },
+  {
+    "name": "Anthropic (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "anthropic"
+  },
+  {
+    "name": "Databricks (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "databricks"
+  },
+  {
+    "name": "Eucalyptus (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "eucalyptus"
+  },
+  {
+    "name": "MongoDB (Greenhouse)",
+    "source_type": "greenhouse",
+    "enabled": true,
+    "target_filter": true,
+    "board_token": "mongodb"
+  },
+  {
+    "name": "Canva (SmartRecruiters)",
+    "source_type": "smartrecruiters",
+    "enabled": true,
+    "target_filter": true,
+    "company": "Canva",
+    "country": "au"
+  },
+  {
+    "name": "Airwallex (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "airwallex"
+  },
+  {
+    "name": "Dovetail (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "dovetail"
+  },
+  {
+    "name": "Snowflake (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "snowflake"
+  },
+  {
+    "name": "OpenAI (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "openai"
+  },
+  {
+    "name": "Supabase (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "supabase"
+  },
+  {
+    "name": "ElevenLabs (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "elevenlabs"
+  },
+  {
+    "name": "LangChain (Ashby)",
+    "source_type": "ashby",
+    "enabled": true,
+    "target_filter": true,
+    "board_name": "langchain"
   }
 ]

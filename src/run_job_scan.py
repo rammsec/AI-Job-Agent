@@ -13,6 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RESUME_TEXT_FOLDER = PROJECT_ROOT / "data" / "output" / "text"
 SOURCE_CONFIG = PROJECT_ROOT / "data" / "job_sources.json"
 ACTIVE_PROFILE_PATH = PROJECT_ROOT / "data" / "active_profile.json"
+DEFAULT_PROFILE_PATH = PROJECT_ROOT / "data" / "default_profile.json"
 CREDENTIALS_PATH = PROJECT_ROOT / "data" / ".adzuna_credentials.json"
 KEY_CREDENTIALS_PATH = PROJECT_ROOT / "key" / "adzunakey.txt"
 
@@ -129,10 +130,40 @@ def _load_cli_credentials() -> None:
             continue
 
 
+def load_effective_profile(
+    text_folder: Path = RESUME_TEXT_FOLDER,
+    config_path: Path = ACTIVE_PROFILE_PATH,
+    default_profile_path: Path = DEFAULT_PROFILE_PATH,
+) -> dict:
+    try:
+        return load_latest_candidate_profile(text_folder=text_folder, config_path=config_path)
+    except FileNotFoundError:
+        pass
+
+    env_profile = os.getenv("CANDIDATE_PROFILE_JSON", "").strip()
+    if env_profile:
+        try:
+            loaded = json.loads(env_profile)
+            if isinstance(loaded, dict) and loaded.get("keywords"):
+                loaded.setdefault("candidate_name", "Configured Profile")
+                return loaded
+        except json.JSONDecodeError:
+            pass
+
+    if default_profile_path.exists():
+        loaded = json.loads(default_profile_path.read_text(encoding="utf-8"))
+        if isinstance(loaded, dict) and loaded.get("keywords"):
+            return loaded
+
+    raise FileNotFoundError(
+        f"No extracted resume text found in {text_folder} and no default profile at {default_profile_path}."
+    )
+
+
 def main() -> None:
     _load_cli_credentials()
     process_resumes()
-    profile = load_latest_candidate_profile()
+    profile = load_effective_profile()
     sources = json.loads(SOURCE_CONFIG.read_text(encoding="utf-8"))
     source_errors = []
     matches = run_daily_scan(

@@ -14,7 +14,7 @@ from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 
 from src.job_filters import is_target_australia_job
-from src.profile_builder import tokenize_text
+from src.profile_builder import extract_phrases, tokenize_text
 
 
 def fetch_html(url: str, timeout: int = 20) -> str:
@@ -330,6 +330,122 @@ def fetch_lever_jobs(source: dict, fetcher=fetch_html) -> list[dict]:
     return jobs
 
 
+def _normalize_ashby_job(item: dict, source_name: str) -> dict:
+    locations = [str(item.get("location") or "").strip()]
+    for secondary in item.get("secondaryLocations") or []:
+        if isinstance(secondary, dict):
+            loc_name = str(secondary.get("location") or "").strip()
+        else:
+            loc_name = str(secondary or "").strip()
+        if loc_name and loc_name not in locations:
+            locations.append(loc_name)
+    location_text = ", ".join(loc for loc in locations if loc)
+    if item.get("isRemote") and "remote" not in location_text.lower():
+        location_text = f"{location_text} (Remote)".strip() if location_text else "Remote"
+
+    compensation = item.get("compensation") or {}
+    salary_min = None
+    salary_max = None
+    for component in compensation.get("compensationTierSummaryComponents") or []:
+        if isinstance(component, dict):
+            salary_min = salary_min or component.get("minValue")
+            salary_max = salary_max or component.get("maxValue")
+
+    department = str(item.get("department") or "").strip()
+    team = str(item.get("team") or "").strip()
+    category = ", ".join(part for part in (department, team) if part)
+    description = str(item.get("descriptionPlain") or "").strip()
+    if not description and item.get("descriptionHtml"):
+        description = _clean_html(item.get("descriptionHtml", ""))
+
+    return {
+        "external_id": str(item.get("id") or item.get("jobUrl") or "").strip(),
+        "title": str(item.get("title") or "").strip(),
+        "description": description,
+        "url": str(item.get("jobUrl") or item.get("applyUrl") or "").strip(),
+        "company": source_name.split(" (")[0].strip(),
+        "location": location_text,
+        "posted_at": str(item.get("publishedAt") or "").strip() or None,
+        "category": category,
+        "salary_min": salary_min,
+        "salary_max": salary_max,
+        "contract_time": str(item.get("employmentType") or "").strip(),
+        "raw_json": item,
+    }
+
+
+def fetch_ashby_jobs(source: dict, fetcher=fetch_html) -> list[dict]:
+    board_name = str(source.get("board_name") or source.get("site") or "").strip()
+    if not board_name:
+        raise ValueError(f"Ashby source '{source.get('name', 'unknown')}' requires a board_name.")
+    endpoint = str(
+        source.get("endpoint") or "https://api.ashbyhq.com/posting-api/job-board/{board_name}"
+    ).format(board_name=board_name)
+    separator = "&" if "?" in endpoint else "?"
+    payload = json.loads(fetcher(f"{endpoint}{separator}includeCompensation=true"))
+    source_name = str(source.get("name") or board_name)
+    return [_normalize_ashby_job(item, source_name) for item in payload.get("jobs", [])]
+
+
+def _normalize_smartrecruiters_job(item: dict, company_slug: str, source_name: str) -> dict:
+    loc = item.get("location") or {}
+    loc_parts = [
+        str(loc.get("city") or "").strip(),
+        str(loc.get("region") or "").strip(),
+        str(loc.get("country") or "").upper().strip(),
+    ]
+    location_text = ", ".join(part for part in loc_parts if part)
+    if loc.get("remote") and "remote" not in location_text.lower():
+        location_text = f"{location_text} (Remote)".strip() if location_text else "Remote"
+
+    job_id = str(item.get("id") or "").strip()
+    department = (item.get("department") or {}).get("label") or ""
+    function_label = (item.get("function") or {}).get("label") or ""
+    category = ", ".join(part for part in (str(department).strip(), str(function_label).strip()) if part)
+    employment = (item.get("typeOfEmployment") or {}).get("label") or ""
+    company_name = (item.get("company") or {}).get("name") or source_name.split(" (")[0].strip()
+
+    return {
+        "external_id": job_id,
+        "title": str(item.get("name") or "").strip(),
+        "description": category or str(item.get("name") or "").strip(),
+        "url": f"https://jobs.smartrecruiters.com/{company_slug}/{job_id}" if job_id else "",
+        "company": str(company_name).strip(),
+        "location": location_text,
+        "posted_at": str(item.get("releasedDate") or "").strip() or None,
+        "category": category,
+        "contract_time": str(employment).strip(),
+        "raw_json": item,
+    }
+
+
+def fetch_smartrecruiters_jobs(source: dict, fetcher=fetch_html) -> list[dict]:
+    company = str(source.get("company") or source.get("site") or "").strip()
+    if not company:
+        raise ValueError(f"SmartRecruiters source '{source.get('name', 'unknown')}' requires a company.")
+    country = str(source.get("country") or "au").strip().lower()
+    limit = max(1, min(100, int(source.get("results_per_page", 100))))
+    max_pages = max(1, int(source.get("max_pages_per_scan", 5)))
+    endpoint = str(
+        source.get("endpoint") or f"https://api.smartrecruiters.com/v1/companies/{company}/postings"
+    ).format(company=company)
+    source_name = str(source.get("name") or company)
+    jobs = []
+    for page in range(max_pages):
+        params = {"limit": limit, "offset": page * limit}
+        if country:
+            params["country"] = country
+        payload = json.loads(fetcher(f"{endpoint}?{urlencode(params)}"))
+        page_items = payload.get("content", [])
+        jobs.extend(_normalize_smartrecruiters_job(item, company, source_name) for item in page_items)
+        total_found = payload.get("totalFound")
+        if not page_items or len(page_items) < limit:
+            break
+        if total_found is not None and (page + 1) * limit >= int(total_found):
+            break
+    return jobs
+
+
 def _normalize_adzuna_job(item: dict) -> dict:
     company = item.get("company") or {}
     location = item.get("location") or {}
@@ -485,6 +601,15 @@ def compute_job_score(profile: dict, job: dict) -> dict:
         }
     description_only_matches = set(description_matches).difference(title_matches)
     score = len(title_matches) * 15 + len(description_only_matches) * 5
+
+    candidate_phrases = set(profile.get("phrases", [])) if profile else set()
+    if candidate_phrases:
+        title_phrases = set(extract_phrases(job.get("title", "")))
+        desc_phrases = set(extract_phrases(description_text))
+        matched_title_phrases = candidate_phrases.intersection(title_phrases)
+        matched_desc_phrases = candidate_phrases.intersection(desc_phrases).difference(matched_title_phrases)
+        score += len(matched_title_phrases) * 12 + len(matched_desc_phrases) * 6
+
     title_lower = job.get("title", "").lower()
     years_experience = profile.get("years_experience", 0) if profile else 0
     seniority_adjustment = 0
@@ -582,6 +707,16 @@ def scan_jobs_for_profile(
                 jobs = fetch_lever_jobs(source, fetcher=fetcher)
                 for job in jobs:
                     job["source"] = source.get("name", "Lever")
+                    job["search_key"] = search_key
+            elif source_type == "ashby":
+                jobs = fetch_ashby_jobs(source, fetcher=fetcher)
+                for job in jobs:
+                    job["source"] = source.get("name", "Ashby")
+                    job["search_key"] = search_key
+            elif source_type == "smartrecruiters":
+                jobs = fetch_smartrecruiters_jobs(source, fetcher=fetcher)
+                for job in jobs:
+                    job["source"] = source.get("name", "SmartRecruiters")
                     job["search_key"] = search_key
             else:
                 feed_url = source.get("feed_url") or source.get("search_url") or ""

@@ -26,6 +26,9 @@ def test_target_filter_accepts_australian_ai_and_machine_learning_roles():
         {"title": "Computer Vision Scientist", "location": "Adelaide SA"},
         {"title": "Machine Learning Engineer", "location": "Remote - Australia"},
         {"title": "Analytics Engineer", "location": "Canberra ACT"},
+        {"title": "Power BI Analyst", "location": "Europe, USA, Canada, Australia, Singapore"},
+        {"title": "Senior Manager, ML Engineering", "location": "AU - HQ - NSW"},
+        {"title": "Applied AI Engineer", "location": "Sydney, AU"},
     ]
 
     assert all(is_target_australia_job(job) for job in jobs)

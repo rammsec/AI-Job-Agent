@@ -27,7 +27,7 @@ _TARGET_ROLE = re.compile(
     r"large\s+language\s+models?|llms?|natural\s+language\s+processing|nlp|"
     r"computer\s+vision|data\s+(?:analyst|scient(?:ist|ience))|mlops)\b|"
     r"\b(?:ai|ml)\s*(?:[/&-]\s*(?:ai|ml)\s*)?"
-    r"(?:engineer|developer|researcher|scientist|specialist|consultant|architect|lead|manager|analyst|product\s+manager)\b|"
+    r"(?:engineer(?:ing)?|developer|researcher|scientist|specialist|consultant|architect|lead|manager|analyst|product\s+manager)\b|"
     r"\b(?:engineer|developer|researcher|scientist|specialist|consultant|architect|lead|manager|analyst)\s+(?:ai|ml)\b|"
     r"\bbi\s+(?:analyst|developer|engineer|specialist|consultant|architect|lead|manager)\b|"
     r"\b(?:analyst|developer|engineer|specialist|consultant|architect|lead|manager)\s+bi\b",
@@ -66,9 +66,15 @@ def is_target_australia_job(job: dict, domain: str | None = None) -> bool:
     return bool(_ROLE_CONTEXT.search(title_and_category) and _TARGET_ROLE.search(description))
 
 
+_EXPLICIT_AUSTRALIA_COUNTRY = re.compile(r"\b(?:australia|australian)\b", re.IGNORECASE)
+_AU_COUNTRY_CODE = re.compile(r"\bAU\b")
+
+
 def is_australia_job(job: dict) -> bool:
     """Return whether the posting has a recognized Australian location."""
     location = str(job.get("location") or "")
+    if _EXPLICIT_AUSTRALIA_COUNTRY.search(location):
+        return True
     if _OUTSIDE_AUSTRALIA.search(location):
         return False
-    return bool(_AUSTRALIA_LOCATION.search(location))
+    return bool(_AUSTRALIA_LOCATION.search(location) or _AU_COUNTRY_CODE.search(location))
