@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T15:14:27.764672+00:00",
-  "generated_at_aedt": "Fri 20 Nov 2026, 02:14 AM AEDT",
+  "generated_at": "2026-11-20T15:56:35.266439+00:00",
+  "generated_at_aedt": "Sat 21 Nov 2026, 02:56 AM AEDT",
   "profile_name": "Default Data & AI Profile",
   "profile_keywords": [
     "python",
@@ -41,14 +41,14 @@
     "docker",
     "git"
   ],
-  "adzuna_enabled": true,
-  "total_jobs": 112,
+  "adzuna_enabled": false,
+  "total_jobs": 117,
   "source_counts": {
     "Quantium (Greenhouse)": 15,
+    "Xero (Ashby)": 12,
     "Himalayas Australia - Power BI": 11,
-    "Xero (Ashby)": 9,
     "Infosys Australia (Workable)": 8,
-    "Himalayas Australia - AI": 6,
+    "Himalayas Australia - AI": 7,
     "Himalayas Australia - Data": 6,
     "NCS Australia (SmartRecruiters)": 6,
     "4dayweek Australia - Data": 4,
@@ -57,9 +57,9 @@
     "Himalayas Australia - Business Intelligence": 4,
     "OpenAI (Ashby)": 4,
     "Snowflake (Ashby)": 4,
+    "Anthropic (Greenhouse)": 3,
     "TMGM (Workable)": 3,
     "AirTrunk (Greenhouse)": 2,
-    "Anthropic (Greenhouse)": 2,
     "Himalayas Australia - Reporting": 2,
     "Quality People (Workable)": 2,
     "Simple Machines (Workable)": 2,
@@ -79,19 +79,7 @@
     "Tracksuit (Ashby)": 1
   },
   "source_warnings": [
-    "Adzuna Australia - Business Intelligence: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - Tableau: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"display\":\"Authorisation failed\",\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\"}",
-    "Adzuna Australia - Power BI: Adzuna API rejected the request with HTTP 502. Check your saved credentials and source filters. Details: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content=\"True\">\n        <meta name=\"MobileOptimized\" content=\"320\">\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-    "Adzuna Australia - Domo: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"display\":\"Authorisation failed\",\"doc\":\"https://api.adzuna.com/v1/doc\"}",
-    "Adzuna Australia - Reporting: Adzuna API rejected the request with HTTP 502. Check your saved credentials and source filters. Details: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content=\"True\">\n        <meta name=\"MobileOptimized\" content=\"320\">\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-    "Adzuna Australia - Data Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"display\":\"Authorisation failed\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"exception\":\"AUTH_FAIL\"}",
-    "Adzuna Australia - Analytics Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"doc\":\"https://api.adzuna.com/v1/doc\",\"display\":\"Authorisation failed\",\"exception\":\"AUTH_FAIL\",\"__CLASS__\":\"Adzuna::API::Response::Exception\"}",
-    "Adzuna Australia - AI Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"display\":\"Authorisation failed\"}",
-    "Adzuna Australia - Machine Learning: Adzuna API rejected the request with HTTP 502. Check your saved credentials and source filters. Details: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content=\"True\">\n        <meta name=\"MobileOptimized\" content=\"320\">\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-    "Adzuna Australia - Data Scientist: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"exception\":\"AUTH_FAIL\",\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"doc\":\"https://api.adzuna.com/v1/doc\"}",
-    "Adzuna Australia - Data Analyst: Adzuna API rejected the request with HTTP 502. Check your saved credentials and source filters. Details: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content=\"True\">\n        <meta name=\"MobileOptimized\" content=\"320\">\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-    "Adzuna Australia - Machine Learning Engineer: Adzuna API rejected the request with HTTP 401. Check your saved credentials and source filters. Details: {\"display\":\"Authorisation failed\",\"__CLASS__\":\"Adzuna::API::Response::Exception\",\"exception\":\"AUTH_FAIL\",\"doc\":\"https://api.adzuna.com/v1/doc\"}",
-    "Adzuna Australia - Generative AI: Adzuna API rejected the request with HTTP 502. Check your saved credentials and source filters. Details: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content=\"True\">\n        <meta name=\"MobileOptimized\" content=\"320\">\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+    "13 Adzuna source(s) skipped (add ADZUNA_APP_ID and ADZUNA_APP_KEY repository secrets to enable them)."
   ],
   "jobs": [
     {
@@ -106,7 +94,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005542201",
       "posted_at": "2026-08-14T02:23:36-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 140,
       "matches": [
         "ai",
@@ -155,7 +143,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005991201",
       "posted_at": "2026-08-26T03:42:34-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 129,
       "matches": [
         "ai",
@@ -203,9 +191,9 @@
       "track": "Data Engineering",
       "source": "Himalayas Australia - Power BI",
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/senior-azure-data-platform-engineer-architect?utm_source=api",
-      "posted_at": "2026-11-08T22:19:21+00:00",
+      "posted_at": "2026-11-19T16:51:40+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 115,
       "matches": [
         "analytics",
@@ -254,7 +242,7 @@
       "url": "https://himalayas.app/companies/world-vision/jobs/enterprise-data-ai-integration-architect?utm_source=api",
       "posted_at": "2026-11-16T17:08:03+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 111,
       "matches": [
         "ai",
@@ -300,9 +288,9 @@
       "track": "Data & Tech",
       "source": "Himalayas Australia - Power BI",
       "url": "https://himalayas.app/companies/the-hr-ally/jobs/technical-business-analyst-data?utm_source=api",
-      "posted_at": "2026-11-04T14:14:07+00:00",
+      "posted_at": "2026-11-19T16:58:18+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 103,
       "matches": [
         "analytics",
@@ -353,7 +341,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/80269fb2-9d00-493a-ab3a-e56722ba3cba",
       "posted_at": "2026-10-27T22:26:26.062+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 99,
       "matches": [
         "ai",
@@ -396,7 +384,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005586201",
       "posted_at": "2026-09-18T02:15:09-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 98,
       "matches": [
         "ai",
@@ -442,7 +430,7 @@
       "url": "https://jobs.ashbyhq.com/xero/4f9a785e-0cd4-4e96-ba9e-d0cccc2e29e5",
       "posted_at": "2026-11-03T01:17:14.999+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -491,7 +479,7 @@
       "url": "https://jobs.ashbyhq.com/xero/ce864d81-9870-412d-85da-c71538790961",
       "posted_at": "2026-11-03T01:14:00.229+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -540,7 +528,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/be98e986-1fef-4ea9-8921-442137354ed8",
       "posted_at": "2026-10-23T07:50:00.175+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -585,7 +573,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005587201",
       "posted_at": "2026-09-18T02:10:57-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -629,7 +617,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-data-analyst-artificial-intelligence-6230023159?utm_source=api",
       "posted_at": "2026-11-03T16:57:07+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -676,7 +664,7 @@
       "url": "https://jobs.ashbyhq.com/xero/61a20e41-cd05-4637-951d-34737c8e17eb",
       "posted_at": "2026-11-03T01:33:29.997+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -720,7 +708,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-financial-data-engineer?utm_source=api",
       "posted_at": "2026-11-18T17:14:43+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 84,
       "matches": [
         "ai",
@@ -765,7 +753,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005506201",
       "posted_at": "2026-08-26T22:49:15-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 84,
       "matches": [
         "ai",
@@ -805,7 +793,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
       "posted_at": "2026-09-29T20:36:30.301+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 81,
       "matches": [
         "ai",
@@ -840,6 +828,144 @@
       "description": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done. Snowflake redefined the data landscape over a decade ago by building the AI Data Cloud—delivering industry-leading performance and price at scale across data engineering, analytics, and AI/ML workloads. Every day, new customers begin their journey to Snowflake, but migrating existing data and applications from legacy platforms remains a complex, high-effort challenge. Customers must adapt their entire ecosystem—data, database code, ETL pipelines, and consuming applications—to fully…"
     },
     {
+      "id": "5df27a8aacfe",
+      "title": "Data & Analytics Enablement Lead, G&A",
+      "company": "Xero",
+      "location": "NZ: Auckland: Xero 4 (96 St Georges Bay Rd, Level 2 & 3), AU: Melbourne: (260 Burwood Rd), AU: Sydney (45 Clarence St) (Remote)",
+      "state": "VIC",
+      "is_remote": true,
+      "track": "Data & Tech",
+      "source": "Xero (Ashby)",
+      "url": "https://jobs.ashbyhq.com/xero/6c8a857d-0e7a-4d6e-a6de-3bff8193adab",
+      "posted_at": "2026-11-20T08:46:36.082+00:00",
+      "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 80,
+      "matches": [
+        "ai",
+        "analytics",
+        "bi",
+        "dashboard",
+        "dashboards",
+        "data",
+        "dbt",
+        "learning",
+        "reporting",
+        "sql",
+        "tableau"
+      ],
+      "title_matches": [
+        "analytics",
+        "data"
+      ],
+      "coverage_pct": 73,
+      "missing_skills": [
+        "finance",
+        "governance",
+        "rest",
+        "xero"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, bi, dashboard, dashboards, data in the top summary of your resume for 'Data & Analytics Enablement Lead, G&A'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "FullTime",
+      "contract_type": "",
+      "summary": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find…",
+      "description": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find, understand and act on data for themselves. You will set the enablement roadmap, define the guardrails that make self service safe, and design the ways of working that let a G&A team answer its own question rather than joining a queue. This covers everything from approved data sources and certified dashboards through to agreed metric definitions and the practical patterns people follow day to day. Your impact shows up in adoption and confidence. You will partner with senior leaders across Finance and HR to embed data into planning cycles, performance conversations and decision forums, and you will influence the central Data, BI and Governance teams so that G&A needs shape what gets built. Alongside that sits a real capability agenda: lifting data and AI literacy across the function and making responsible data use something people understand and practise, not a policy they skim. You will Go Further by building…"
+    },
+    {
+      "id": "a7f15b8947fa",
+      "title": "Data & Analytics Enablement Lead, G&A",
+      "company": "Xero",
+      "location": "AU: Sydney (45 Clarence St), AU: Melbourne: (260 Burwood Rd), NZ: Auckland: Xero 4 (96 St Georges Bay Rd, Level 2 & 3) (Remote)",
+      "state": "VIC",
+      "is_remote": true,
+      "track": "Data & Tech",
+      "source": "Xero (Ashby)",
+      "url": "https://jobs.ashbyhq.com/xero/a7d02205-19ea-40ba-80e0-1c9a448998c3",
+      "posted_at": "2026-11-20T08:46:26.354+00:00",
+      "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 80,
+      "matches": [
+        "ai",
+        "analytics",
+        "bi",
+        "dashboard",
+        "dashboards",
+        "data",
+        "dbt",
+        "learning",
+        "reporting",
+        "sql",
+        "tableau"
+      ],
+      "title_matches": [
+        "analytics",
+        "data"
+      ],
+      "coverage_pct": 73,
+      "missing_skills": [
+        "finance",
+        "governance",
+        "rest",
+        "xero"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, bi, dashboard, dashboards, data in the top summary of your resume for 'Data & Analytics Enablement Lead, G&A'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "FullTime",
+      "contract_type": "",
+      "summary": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find…",
+      "description": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find, understand and act on data for themselves. You will set the enablement roadmap, define the guardrails that make self service safe, and design the ways of working that let a G&A team answer its own question rather than joining a queue. This covers everything from approved data sources and certified dashboards through to agreed metric definitions and the practical patterns people follow day to day. Your impact shows up in adoption and confidence. You will partner with senior leaders across Finance and HR to embed data into planning cycles, performance conversations and decision forums, and you will influence the central Data, BI and Governance teams so that G&A needs shape what gets built. Alongside that sits a real capability agenda: lifting data and AI literacy across the function and making responsible data use something people understand and practise, not a policy they skim. You will Go Further by building…"
+    },
+    {
+      "id": "d278bbd9637e",
+      "title": "Data & Analytics Enablement Lead, G&A",
+      "company": "Xero",
+      "location": "AU: Melbourne: (260 Burwood Rd), NZ: Auckland: Xero 4 (96 St Georges Bay Rd, Level 2 & 3), AU: Sydney (45 Clarence St) (Remote)",
+      "state": "VIC",
+      "is_remote": true,
+      "track": "Data & Tech",
+      "source": "Xero (Ashby)",
+      "url": "https://jobs.ashbyhq.com/xero/dbfc4c14-2b57-4542-b4bf-e9d54e2bb9fd",
+      "posted_at": "2026-11-20T08:46:10.034+00:00",
+      "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 80,
+      "matches": [
+        "ai",
+        "analytics",
+        "bi",
+        "dashboard",
+        "dashboards",
+        "data",
+        "dbt",
+        "learning",
+        "reporting",
+        "sql",
+        "tableau"
+      ],
+      "title_matches": [
+        "analytics",
+        "data"
+      ],
+      "coverage_pct": 73,
+      "missing_skills": [
+        "finance",
+        "governance",
+        "rest",
+        "xero"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, bi, dashboard, dashboards, data in the top summary of your resume for 'Data & Analytics Enablement Lead, G&A'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "FullTime",
+      "contract_type": "",
+      "summary": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find…",
+      "description": "The role and its impact Xero's G&A Data & Analytics team makes trusted data usable for the teams that keep Xero running, including Finance, HR, Legal, and Workplace. As a Data & Analytics Enablement Lead (Self-Service Enablement Lead), you will own how those teams find, understand and act on data for themselves. You will set the enablement roadmap, define the guardrails that make self service safe, and design the ways of working that let a G&A team answer its own question rather than joining a queue. This covers everything from approved data sources and certified dashboards through to agreed metric definitions and the practical patterns people follow day to day. Your impact shows up in adoption and confidence. You will partner with senior leaders across Finance and HR to embed data into planning cycles, performance conversations and decision forums, and you will influence the central Data, BI and Governance teams so that G&A needs shape what gets built. Alongside that sits a real capability agenda: lifting data and AI literacy across the function and making responsible data use something people understand and practise, not a policy they skim. You will Go Further by building…"
+    },
+    {
       "id": "197ac01c3688",
       "title": "Data Engineer (AU)",
       "company": "Dataro",
@@ -851,7 +977,7 @@
       "url": "https://jobs.ashbyhq.com/dataro/d6748d0d-a446-4946-b336-f08cd440ef83",
       "posted_at": "2026-11-18T17:19:59.475+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 79,
       "matches": [
         "ai",
@@ -896,7 +1022,7 @@
       "url": "https://himalayas.app/companies/thehivecareers/jobs/head-of-data-analytics-insurance-investments-1414472727?utm_source=api",
       "posted_at": "2026-11-01T12:41:02+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 78,
       "matches": [
         "ai",
@@ -940,7 +1066,7 @@
       "url": "https://himalayas.app/companies/siegen-hr-solutions-inc/jobs/virtual-employment-remote-data-analyst-2376601151?utm_source=api",
       "posted_at": "2026-11-01T12:27:46+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 74,
       "matches": [
         "bi",
@@ -981,7 +1107,7 @@
       "url": "https://careers.hellofresh.com/global/en/job/8280296?gh_jid=8280296",
       "posted_at": "2026-10-14T19:21:31-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 74,
       "matches": [
         "data",
@@ -1020,7 +1146,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/power-bi-analyst-1214904843?utm_source=api",
       "posted_at": "2026-11-01T12:20:42+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 73,
       "matches": [
         "analytics",
@@ -1060,7 +1186,7 @@
       "url": "https://jobs.ashbyhq.com/Checkbox-AI/d07392b4-6c09-4ac3-bb1f-0d9a23e08e3d",
       "posted_at": "2026-09-10T06:31:35.877+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 73,
       "matches": [
         "ai",
@@ -1105,7 +1231,7 @@
       "url": "https://jobs.ashbyhq.com/Tracksuit/e06ce16e-d095-4e32-a368-b624f7ea50f0",
       "posted_at": "2026-10-19T05:00:39.567+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 69,
       "matches": [
         "ai",
@@ -1143,7 +1269,7 @@
       "url": "https://jobs.ashbyhq.com/xero/5a81fcc0-a3a5-410e-8f96-22afd2c09116",
       "posted_at": "2026-11-10T22:41:15.408+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 68,
       "matches": [
         "ai",
@@ -1175,6 +1301,47 @@
       "description": "THE ROLE AND ITS IMPACT As a Data Engineer in our G&A Data & Analytics team, you will build the data products, pipelines and semantic layers that power decision making across Finance, People Experience and Legal. You will design and maintain a governed semantic layer in Snowflake, translating business concepts into metrics, dimensions and definitions that make data easy to trust and simple to use, while also helping shape the AI and agentic capabilities that give people conversational access to that data. The numbers you help produce matter well beyond the team, feeding financial performance insights, workforce reporting and figures that are shared with our Executive Leadership Team, our Board and, ultimately, the market. It is a role with real visibility and real stakes, where the quality and reliability of your work directly shapes how confidently Xero can report on its own performance. THE TEAM AND HOW THEY CONNECT The G&A Data & Analytics team exists to empower Xeros across Finance, People Experience (PX) and other G&A functions with trusted data, analytics and AI‑driven insights that improve performance outcomes. We design, build and maintain data products and analytical…"
     },
     {
+      "id": "76686af40627",
+      "title": "Senior Back-end Developer",
+      "company": "lemon.io",
+      "location": "Australia + 34 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/lemon-io/jobs/senior-back-end-develope?utm_source=api",
+      "posted_at": "2026-11-19T18:05:34+00:00",
+      "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 64,
+      "matches": [
+        "ai",
+        "data",
+        "learning",
+        "llm",
+        "machine",
+        "mlops",
+        "python"
+      ],
+      "title_matches": [],
+      "coverage_pct": 50,
+      "missing_skills": [
+        "cd",
+        "ci",
+        "node",
+        "php",
+        "react",
+        "terraform"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, learning, llm, machine, mlops in the top summary of your resume for 'Senior Back-end Developer'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Currently, we have a few open positions…",
+      "description": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Currently, we have a few open positions from our client. AI Native Cloud, an end-to-end platform for the full generative AI lifecycle, combining the fastest LLM inference engine with state-of-the-art GPU cloud infrastructure. The Cloud team builds the GPU Clusters flagship IaaS product that provides high-performance, AI-ready GPU clusters through a self-serve cloud console, along with the virtualized infrastructure layer powering inference, RL, and fine-tuning products. Who we’re looking for Senior back-end developers with: 5+ years of professional software development experience 3+ years of commercial experience with Golang 3+ years of commercial experience with distributed systems Demonstrated ownership of large-scale projects, driven end-to-end to completion, and experience writing high-performance, well-tested, production-quality code Strong systems knowledge across compute, networking, and storage, including concurrency, memory management…"
+    },
+    {
       "id": "360cb461137b",
       "title": "Senior i3 investigator - APAC",
       "company": "DTEX Systems",
@@ -1186,7 +1353,7 @@
       "url": "https://himalayas.app/companies/dtex-systems/jobs/senior-i3-investigator-apac?utm_source=api",
       "posted_at": "2026-10-28T19:08:39+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 62,
       "matches": [
         "ai",
@@ -1229,7 +1396,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-de2ac2d0",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1271,7 +1438,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-6a6a22a1",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1313,7 +1480,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/tableau-powerbi-administration?utm_source=api",
       "posted_at": "2026-10-11T22:53:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 61,
       "matches": [
         "azure",
@@ -1353,7 +1520,7 @@
       "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4753857005",
       "posted_at": "2026-11-13T04:19:55-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 60,
       "matches": [
         "ai",
@@ -1394,7 +1561,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4009540201",
       "posted_at": "2026-11-16T19:23:48-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1431,7 +1598,7 @@
       "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
       "posted_at": "2026-10-27T12:56:13",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1472,7 +1639,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002",
       "posted_at": "2026-09-29T02:31:41-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1502,6 +1669,47 @@
       "description": "CSQ427R440 The Databricks Customer Enablement team is on a mission to upskill data and AI professionals in customer organizations so they can use Databricks effectively and accelerate customer success. As a Customer Enablement Architect, you will design and lead customer enablement and talent-transformation programs across Australia and New Zealand. You will partner with Sales, Field Engineering, Forward Deployed Engineering, Training Delivery, and Operations to understand customer needs, recommend the right learning solutions, and ensure successful execution. You will balance strategic customer engagement with program and commercial execution across training bookings, revenue, learners, credentials, and adoption. You will bring enough technical depth to understand Databricks curriculum and certifications, make credible recommendations, and engage confidently with technical stakeholders—without being expected to deliver deep hands-on technical training. The impact you will have Work with regional Go-to-Market teams to create enablement strategies aligned to customer segment, business priorities, technical maturity, and talent-transformation goals. Translate customer outcomes into…"
     },
     {
+      "id": "7b105c319fa7",
+      "title": "Power Platform Intern",
+      "company": "PowerData Group Consulting",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - Power BI",
+      "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/power-platform-intern?utm_source=api",
+      "posted_at": "2026-11-19T17:38:50+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 57,
+      "matches": [
+        "ai",
+        "analytics",
+        "bi",
+        "dashboards",
+        "data",
+        "learning",
+        "power",
+        "reporting",
+        "sql"
+      ],
+      "title_matches": [
+        "power"
+      ],
+      "coverage_pct": 82,
+      "missing_skills": [
+        "analysis",
+        "excel"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, bi, dashboards, data, learning in the top summary of your resume for 'Power Platform Intern'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Intern",
+      "contract_type": "",
+      "summary": "This is a remote position. Location: Melbourne (Hybrid/Remote) Duration: 12 Weeks (Unpaid Internship) About Powerdata Group Powerdata Group (PDG) is an Australian-owned digital transformation and technology consulting company specialising in Microsoft technologies, data…",
+      "description": "This is a remote position. Location: Melbourne (Hybrid/Remote) Duration: 12 Weeks (Unpaid Internship) About Powerdata Group Powerdata Group (PDG) is an Australian-owned digital transformation and technology consulting company specialising in Microsoft technologies, data analytics, AI, cybersecurity, cloud solutions, workforce solutions, and government consulting. We help organisations leverage technology to improve business outcomes and drive innovation. [powerdatag...epoint.com] Internship Overview We are seeking a motivated and enthusiastic Power Platform Intern to join our team for a 12-week internship program. This opportunity is ideal for a university student or recent graduate looking to gain hands-on experience developing business solutions using Microsoft's Power Platform suite. The successful candidate will work alongside experienced consultants to design, build, and support low-code/no-code solutions using Power Apps, Power Automate, Power BI, Copilot Studio, and Dataverse. Key Responsibilities Assist in developing Power Apps solutions to streamline business processes. Create and maintain Power Automate workflows and automations. Support the development of Power BI…"
+    },
+    {
       "id": "1611be008a6d",
       "title": "Lead Measurement Scientist",
       "company": "Jellyfish",
@@ -1513,7 +1721,7 @@
       "url": "https://4dayweek.io/job/lead-measurement-scientist-at-jellyfish-4603569e",
       "posted_at": "2026-11-07T01:10:05+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 57,
       "matches": [
         "analytics",
@@ -1544,47 +1752,6 @@
       "description": "At Jellyfish, we believe in the power of diverse perspectives and inclusive collaboration. We welcome individuals who excel in collaborative, varied teams and value the unique contributions that each person brings to the table. Jellyfish is a global digital marketing agency; a unique fusion of tech enthusiasts, creative minds, and media and data experts all united to empower our clients along their digital journey. Our commitment to embracing diverse perspectives fuels our innovation and strategies that challenge the status quo, reinvent media activation, and craft influential stories for our global clients and their customers. Join us in shaping a future where business growth and personal fulfilment go hand in hand. **Job Description** Reporting to the Senior Martech Director within Jellyfish in Australia. Insights and marketing science operate as a single discipline containing two crafts. The Insights Analyst is responsible for performance interpretation and recommendations. You will be responsible for establishing causation. Both work closely with the Data Scientist. The role covers both components of Marketing science; designing and running the measurement, and building and…"
     },
     {
-      "id": "7b105c319fa7",
-      "title": "Power Platform Intern",
-      "company": "PowerData Group Consulting",
-      "location": "Australia",
-      "state": "AU",
-      "is_remote": false,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - Power BI",
-      "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/power-platform-intern?utm_source=api",
-      "posted_at": "2026-11-01T12:29:32+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 57,
-      "matches": [
-        "ai",
-        "analytics",
-        "bi",
-        "dashboards",
-        "data",
-        "learning",
-        "power",
-        "reporting",
-        "sql"
-      ],
-      "title_matches": [
-        "power"
-      ],
-      "coverage_pct": 82,
-      "missing_skills": [
-        "analysis",
-        "excel"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, analytics, bi, dashboards, data, learning in the top summary of your resume for 'Power Platform Intern'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Intern",
-      "contract_type": "",
-      "summary": "This is a remote position. Location: Melbourne (Hybrid/Remote) Duration: 12 Weeks (Unpaid Internship) About Powerdata Group Powerdata Group (PDG) is an Australian-owned digital transformation and technology consulting company specialising in Microsoft technologies, data…",
-      "description": "This is a remote position. Location: Melbourne (Hybrid/Remote) Duration: 12 Weeks (Unpaid Internship) About Powerdata Group Powerdata Group (PDG) is an Australian-owned digital transformation and technology consulting company specialising in Microsoft technologies, data analytics, AI, cybersecurity, cloud solutions, workforce solutions, and government consulting. We help organisations leverage technology to improve business outcomes and drive innovation. [powerdatag...epoint.com] Internship Overview We are seeking a motivated and enthusiastic Power Platform Intern to join our team for a 12-week internship program. This opportunity is ideal for a university student or recent graduate looking to gain hands-on experience developing business solutions using Microsoft's Power Platform suite. The successful candidate will work alongside experienced consultants to design, build, and support low-code/no-code solutions using Power Apps, Power Automate, Power BI, Copilot Studio, and Dataverse. Key Responsibilities Assist in developing Power Apps solutions to streamline business processes. Create and maintain Power Automate workflows and automations. Support the development of Power BI…"
-    },
-    {
       "id": "b512cc6033a4",
       "title": "Data/Business Analyst - Power BI",
       "company": "Quality People",
@@ -1596,7 +1763,7 @@
       "url": "https://apply.workable.com/j/967CC10C23",
       "posted_at": "2026-10-30",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 57,
       "matches": [
         "bi",
@@ -1630,7 +1797,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8305331",
       "posted_at": "2026-10-21T04:38:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 56,
       "matches": [
         "ai",
@@ -1674,7 +1841,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4003817201",
       "posted_at": "2026-08-05T22:20:00-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 56,
       "matches": [
         "ai",
@@ -1713,7 +1880,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/9da775b9-2bdf-4ef2-a59a-ffc49381459d",
       "posted_at": "2026-09-30T20:12:19.773+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 55,
       "matches": [
         "ai",
@@ -1746,6 +1913,49 @@
       "description": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done. Observe by Snowflake is an AI-powered observability platform built on the Snowflake AI Data Cloud and engineered for scale. We ingest and store logs, metrics, traces, and events on an open, scalable data lakehouse, using open formats like Apache Iceberg, at dramatically lower cost. A dynamic Context Graph and chat-based AI SRE provide rich context and automated workflows so teams can move from detection to root cause of production issue and resolution 10x faster. Leading engineering…"
     },
     {
+      "id": "1f80c8af1855",
+      "title": "Digital Transformation & AI Intern",
+      "company": "PowerData Group Consulting",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - Power BI",
+      "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/digital-transformation-ai-intern?utm_source=api",
+      "posted_at": "2026-11-19T16:59:37+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 52,
+      "matches": [
+        "ai",
+        "analytics",
+        "azure",
+        "bi",
+        "dashboards",
+        "data",
+        "power",
+        "reporting"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 62,
+      "missing_skills": [
+        "analysis",
+        "compliance",
+        "crm",
+        "excel",
+        "governance"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, azure, bi, dashboards, data in the top summary of your resume for 'Digital Transformation & AI Intern'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Intern",
+      "contract_type": "",
+      "summary": "This is a remote position. Location Australia (Hybrid/Remote) Unpaid 12 weeks internship Position Title Digital Transformation & AI Intern About PowerData Group PowerData Group is an Australian technology consulting firm delivering solutions in: Artificial Intelligence and…",
+      "description": "This is a remote position. Location Australia (Hybrid/Remote) Unpaid 12 weeks internship Position Title Digital Transformation & AI Intern About PowerData Group PowerData Group is an Australian technology consulting firm delivering solutions in: Artificial Intelligence and Automation Data & Analytics Cybersecurity Digital Transformation Government and Defence Services Project and Program Delivery The organisation helps government and enterprise clients modernise operations, improve decision-making, strengthen cybersecurity, and harness emerging technologies. Role Overview The Digital Transformation & AI Intern will work directly with senior consultants and leadership to support internal projects focused on business growth, AI adoption, cybersecurity awareness, website enhancement, sales automation, and digital innovation. This role provides hands-on exposure to real client environments, emerging AI technologies, cloud platforms, CRM systems, business analytics, and digital transformation initiatives. Key Responsibilities AI & Automation Build and test AI-powered business workflows. Support Microsoft Copilot implementation projects. Assist in creating AI Agents and automated…"
+    },
+    {
       "id": "02fc48e9ec60",
       "title": "Senior Machine Learning Engineer",
       "company": "Nearmap",
@@ -1757,7 +1967,7 @@
       "url": "https://jobs.smartrecruiters.com/Nearmap/744000159969659",
       "posted_at": "2026-11-05T21:04:16.226Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -1790,7 +2000,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472677008",
       "posted_at": "2026-11-04T06:36:20-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -1827,7 +2037,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450798008",
       "posted_at": "2026-11-02T04:33:31-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -1854,49 +2064,6 @@
       "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role As an Applied AI team member at Anthropic Australia, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping large enterprises across Australia and the Asia-Pacific region understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their technology stack. You'll combine your deep technical expertise with customer-facing skills to architect innovative LLM solutions that address complex business challenges while maintaining our high standards for safety and reliability. Working closely with our Sales, Product, and Engineering teams, you'll guide customers from initial technical discovery through successful deployment. You'll leverage your expertise to help customers understand Claude's capabilities, develop evals, and design scalable architectures…"
     },
     {
-      "id": "1f80c8af1855",
-      "title": "Digital Transformation & AI Intern",
-      "company": "PowerData Group Consulting",
-      "location": "Australia",
-      "state": "AU",
-      "is_remote": false,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - Power BI",
-      "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/digital-transformation-ai-intern?utm_source=api",
-      "posted_at": "2026-11-01T11:07:15+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 52,
-      "matches": [
-        "ai",
-        "analytics",
-        "azure",
-        "bi",
-        "dashboards",
-        "data",
-        "power",
-        "reporting"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 62,
-      "missing_skills": [
-        "analysis",
-        "compliance",
-        "crm",
-        "excel",
-        "governance"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, analytics, azure, bi, dashboards, data in the top summary of your resume for 'Digital Transformation & AI Intern'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Intern",
-      "contract_type": "",
-      "summary": "This is a remote position. Location Australia (Hybrid/Remote) Unpaid 12 weeks internship Position Title Digital Transformation & AI Intern About PowerData Group PowerData Group is an Australian technology consulting firm delivering solutions in: Artificial Intelligence and…",
-      "description": "This is a remote position. Location Australia (Hybrid/Remote) Unpaid 12 weeks internship Position Title Digital Transformation & AI Intern About PowerData Group PowerData Group is an Australian technology consulting firm delivering solutions in: Artificial Intelligence and Automation Data & Analytics Cybersecurity Digital Transformation Government and Defence Services Project and Program Delivery The organisation helps government and enterprise clients modernise operations, improve decision-making, strengthen cybersecurity, and harness emerging technologies. Role Overview The Digital Transformation & AI Intern will work directly with senior consultants and leadership to support internal projects focused on business growth, AI adoption, cybersecurity awareness, website enhancement, sales automation, and digital innovation. This role provides hands-on exposure to real client environments, emerging AI technologies, cloud platforms, CRM systems, business analytics, and digital transformation initiatives. Key Responsibilities AI & Automation Build and test AI-powered business workflows. Support Microsoft Copilot implementation projects. Assist in creating AI Agents and automated…"
-    },
-    {
       "id": "0d52b8a6ce02",
       "title": "Senior FP&A and Reporting Analyst",
       "company": "Quantium",
@@ -1908,7 +2075,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006250201",
       "posted_at": "2026-09-03T20:53:34-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 51,
       "matches": [
         "ai",
@@ -1950,7 +2117,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineers?utm_source=api",
       "posted_at": "2026-11-04T09:35:37+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 50,
       "matches": [
         "analytics",
@@ -1987,7 +2154,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineer?utm_source=api",
       "posted_at": "2026-10-21T05:43:54+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 48,
       "matches": [
         "analytics",
@@ -2027,7 +2194,7 @@
       "url": "https://himalayas.app/companies/five-sigma/jobs/business-data-analyst-aus?utm_source=api",
       "posted_at": "2026-10-27T14:29:20+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 47,
       "matches": [
         "ai",
@@ -2064,7 +2231,7 @@
       "url": "https://himalayas.app/companies/telus-international-ai-inc/jobs/ai-speech-audio-specialist-asr-tts-voice-ai-audio-data-3330854756?utm_source=api",
       "posted_at": "2026-10-26T07:44:14+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 46,
       "matches": [
         "ai",
@@ -2098,9 +2265,9 @@
       "track": "Data & Tech",
       "source": "Himalayas Australia - Data",
       "url": "https://himalayas.app/companies/futuregroup-com/jobs/data-governance-lead?utm_source=api",
-      "posted_at": "2026-11-16T02:40:47+00:00",
+      "posted_at": "2026-11-19T16:41:45+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 45,
       "matches": [
         "data",
@@ -2141,7 +2308,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/8006410003",
       "posted_at": "2026-09-28T19:03:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2182,7 +2349,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/7796557003",
       "posted_at": "2026-07-06T23:59:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2223,7 +2390,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001524977",
       "posted_at": "2026-10-27T04:30:15.614Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2255,7 +2422,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273490",
       "posted_at": "2026-07-30T23:25:47.308Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2287,7 +2454,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273466",
       "posted_at": "2026-07-30T23:25:14.683Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2319,7 +2486,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273443",
       "posted_at": "2026-07-30T23:24:44.269Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2351,7 +2518,7 @@
       "url": "https://apply.workable.com/j/A1BB25212D",
       "posted_at": "2026-01-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2383,7 +2550,7 @@
       "url": "https://apply.workable.com/j/646948EF11",
       "posted_at": "2023-01-16",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2415,7 +2582,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008629201",
       "posted_at": "2026-10-28T00:12:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 41,
       "matches": [
         "ai",
@@ -2452,7 +2619,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-management-specialist?utm_source=api",
       "posted_at": "2026-10-16T01:20:21+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 41,
       "matches": [
         "bi",
@@ -2491,7 +2658,7 @@
       "url": "https://jobs.ashbyhq.com/xero/0c345d63-dcc1-4fa0-b521-a0fb6fff29ca",
       "posted_at": "2026-11-04T21:08:35.448+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 40,
       "matches": [
         "ai",
@@ -2532,7 +2699,7 @@
       "url": "https://jobs.ashbyhq.com/openai/83730f3e-3a96-476e-afb0-15f1f045ab03",
       "posted_at": "2026-10-22T02:57:37.622+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 40,
       "matches": [
         "ai",
@@ -2572,7 +2739,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/tableau-developer-data-explorer-2972654603?utm_source=api",
       "posted_at": "2026-10-18T11:46:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 40,
       "matches": [
         "dashboard",
@@ -2607,9 +2774,9 @@
       "track": "BI & Analytics",
       "source": "Himalayas Australia - Reporting",
       "url": "https://himalayas.app/companies/get-my-course/jobs/qa-reports-data-analyst-compliance?utm_source=api",
-      "posted_at": "2026-11-01T12:01:30+00:00",
+      "posted_at": "2026-11-19T17:14:30+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 37,
       "matches": [
         "analytics",
@@ -2645,7 +2812,7 @@
       "url": "https://jobs.ashbyhq.com/xero/138b9018-6c2a-47cc-93f0-53545fa604a9",
       "posted_at": "2026-10-06T12:51:03.383+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 37,
       "matches": [
         "aws",
@@ -2678,9 +2845,9 @@
       "track": "AI & ML",
       "source": "Himalayas Australia - Business Intelligence",
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/zoho-agentic-ai-internship-program?utm_source=api",
-      "posted_at": "2026-11-01T12:50:14+00:00",
+      "posted_at": "2026-11-19T17:59:23+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2720,7 +2887,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007692201",
       "posted_at": "2026-10-28T00:20:01-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2755,7 +2922,7 @@
       "url": "https://4dayweek.io/job/regional-research-economist-economic-research-at-anthropic-ca739254",
       "posted_at": "2026-10-22T19:07:16+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2829,7 +2996,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006772201",
       "posted_at": "2026-09-15T20:07:22-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2852,41 +3019,6 @@
       "description": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help businesses unlock value from data and analytics. Quantium partners with the world's largest corporations to forge a better, more intelligent world. Our Consumer practice is one of Quantium’s largest verticals, delivering insights and analytical solutions to FMCG suppliers and consumer goods companies. It’s a team of sharp, commercially driven people who thrive on translating complex data into decisions that move businesses forward. Right now, an exciting AI transformation agenda sits at its heart: helping clients and our own teams fundamentally change the way they work. As our Delivery Lead, you’ll own the delivery of a portfolio of fast-moving AI engagements and initiatives, across both client work and our own teams. You’ll work hands-on alongside consultants, engineers and business leaders, and be accountable for outcomes, not just activity. You’ll also help keep Consumer ANZ aligned on its priorities…"
     },
     {
-      "id": "b50d636ca007",
-      "title": "Senior Engineer - AI Enablement",
-      "company": "Xero",
-      "location": "AU: Melbourne: (260 Burwood Rd), AU: Sydney (45 Clarence St) (Remote)",
-      "state": "VIC",
-      "is_remote": true,
-      "track": "AI & ML",
-      "source": "Xero (Ashby)",
-      "url": "https://jobs.ashbyhq.com/xero/8fed11a8-5109-4787-8a2a-a75d860703e2",
-      "posted_at": "2026-11-17T04:35:46.938+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 35,
-      "matches": [
-        "ai",
-        "aws",
-        "learning",
-        "llm"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 80,
-      "missing_skills": [
-        "xero"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, aws, learning, llm in the top summary of your resume for 'Senior Engineer - AI Enablement'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "FullTime",
-      "contract_type": "",
-      "summary": "The Role & Impact You’ll join a small, high impact team that’s defining how Xero’s engineers work with AI. Rather than shipping something once and moving on, you’ll own it end to end, from early experimentation through production, including the runbooks, monitoring, and…",
-      "description": "The Role & Impact You’ll join a small, high impact team that’s defining how Xero’s engineers work with AI. Rather than shipping something once and moving on, you’ll own it end to end, from early experimentation through production, including the runbooks, monitoring, and rollback strategies that keep things reliable once real engineers depend on it. This role has genuine influence. You’ll help shape the technical direction of an internal skills marketplace and AI distribution platform used across Xero’s engineering organisation, work directly with vendors like AWS, Microsoft and GitHub on technology not yet public, collaborate with professional services on early-access solutions, and help guide and challenge a team that’s still early in its AI journey. You’ll measure your impact not just in code shipped, but in how much faster and better engineers across Xero can work. The Team & How They Connect The AI Enablement team sits within Engineering Experience and focuses on helping product engineering teams work faster and better with AI through platforms, tooling and practical guidance. It’s a close knit team spread across Melbourne, Sydney and the Sunshine Coast, with a product…"
-    },
-    {
       "id": "aa222f8b94bd",
       "title": "BI Analyst",
       "company": "Fountain Forward",
@@ -2896,9 +3028,9 @@
       "track": "BI & Analytics",
       "source": "Himalayas Australia - Reporting",
       "url": "https://himalayas.app/companies/fountain-forward/jobs/bi-analyst?utm_source=api",
-      "posted_at": "2026-11-01T11:35:30+00:00",
+      "posted_at": "2026-11-19T17:01:17+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 35,
       "matches": [
         "analytics",
@@ -2928,6 +3060,41 @@
       "description": "This is a remote position. REMOTE / WORK FROM HOME POSITION Before applying, please note: The entire application process must be completed in English. Fluent written and spoken English is required and will be evaluated. Applicants must be independent freelancers, not represented by another agency, and currently based in Latin America or Asia. JOB DESCRIPTION​ The BI Analyst is responsible for executing the daily analytics processes that ensure accurate, timely, and actionable data for Fountain Forward and its clients. This role combines data entry, reporting, and analysis execution. Specialists maintain dashboards, process data from multiple sources, and deliver standardized reports. Accuracy and efficiency are critical, as this role provides the foundation for all insights used by Seniors, the Director, and client-facing teams. Responsibilities & Duties Data Entry & Processing Prepare, compile, and verify data from CRM, GA4, inventory feeds, offline events, and competitor pools. Enter and update data in Fountain Tracker, ADF Templates, BM templates, and client trackers. Ensure accuracy by following SOP techniques and flagging discrepancies. Reporting & Analytics Execution…"
     },
     {
+      "id": "b50d636ca007",
+      "title": "Senior Engineer - AI Enablement",
+      "company": "Xero",
+      "location": "AU: Melbourne: (260 Burwood Rd), AU: Sydney (45 Clarence St) (Remote)",
+      "state": "VIC",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Xero (Ashby)",
+      "url": "https://jobs.ashbyhq.com/xero/8fed11a8-5109-4787-8a2a-a75d860703e2",
+      "posted_at": "2026-11-17T04:35:46.938+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 35,
+      "matches": [
+        "ai",
+        "aws",
+        "learning",
+        "llm"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 80,
+      "missing_skills": [
+        "xero"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, aws, learning, llm in the top summary of your resume for 'Senior Engineer - AI Enablement'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "FullTime",
+      "contract_type": "",
+      "summary": "The Role & Impact You’ll join a small, high impact team that’s defining how Xero’s engineers work with AI. Rather than shipping something once and moving on, you’ll own it end to end, from early experimentation through production, including the runbooks, monitoring, and…",
+      "description": "The Role & Impact You’ll join a small, high impact team that’s defining how Xero’s engineers work with AI. Rather than shipping something once and moving on, you’ll own it end to end, from early experimentation through production, including the runbooks, monitoring, and rollback strategies that keep things reliable once real engineers depend on it. This role has genuine influence. You’ll help shape the technical direction of an internal skills marketplace and AI distribution platform used across Xero’s engineering organisation, work directly with vendors like AWS, Microsoft and GitHub on technology not yet public, collaborate with professional services on early-access solutions, and help guide and challenge a team that’s still early in its AI journey. You’ll measure your impact not just in code shipped, but in how much faster and better engineers across Xero can work. The Team & How They Connect The AI Enablement team sits within Engineering Experience and focuses on helping product engineering teams work faster and better with AI through platforms, tooling and practical guidance. It’s a close knit team spread across Melbourne, Sydney and the Sunshine Coast, with a product…"
+    },
+    {
       "id": "716c5362af79",
       "title": "Senior AI Platform Engineer",
       "company": "Relevance AI",
@@ -2939,7 +3106,7 @@
       "url": "https://jobs.ashbyhq.com/relevanceai/cfc7da1e-7e0a-488a-a39c-26536baeefba",
       "posted_at": "2026-10-09T04:28:57.656+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 35,
       "matches": [
         "ai",
@@ -2979,7 +3146,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162428309",
       "posted_at": "2026-11-19T02:32:20.332Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3009,7 +3176,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162426819",
       "posted_at": "2026-11-19T01:49:08.495Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3039,7 +3206,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162412019",
       "posted_at": "2026-11-19T00:50:03.143Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3069,7 +3236,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000161427359",
       "posted_at": "2026-11-13T05:25:40.054Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3099,7 +3266,7 @@
       "url": "https://apply.workable.com/j/A926443460",
       "posted_at": "2026-10-26",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3129,7 +3296,7 @@
       "url": "https://apply.workable.com/j/D861F2D2FD",
       "posted_at": "2026-03-03",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3159,7 +3326,7 @@
       "url": "https://apply.workable.com/j/289A2B9546",
       "posted_at": "2023-04-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3189,7 +3356,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007361201",
       "posted_at": "2026-10-05T18:57:14-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 31,
       "matches": [
         "analytics",
@@ -3251,6 +3418,184 @@
       "description": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help businesses unlock value from data and analytics. Quantium partners with the world's largest corporations to forge a better, more intelligent world. Quantium's Retail team partners with some of Australia's most iconic retailers, delivering high-impact analytics and AI transformation projects that are reshaping how the industry uses data. Through our long-standing partnership with Woolworths, we have built a world-class retail analytics capability, commercialised through a broad suite of B2B analytical products designed for retailers and their trade partners. This is a rare opportunity to own new revenue growth for that capability across the Australian retail sector, taking our market presence to the next level. How will you make an impact? New revenue ownership: Own and deliver against the Australian retail new revenue target, with full accountability across the sales cycle from prospecting through to…"
     },
     {
+      "id": "45edebad073b",
+      "title": "Applied AI Architect, Beneficial Deployment",
+      "company": "Anthropic",
+      "location": "Sydney, Australia",
+      "state": "NSW",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Anthropic (Greenhouse)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008",
+      "posted_at": "2026-11-19T21:35:45-05:00",
+      "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "data",
+        "learning",
+        "llm"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 57,
+      "missing_skills": [
+        "accounts",
+        "api",
+        "governance"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, learning, llm in the top summary of your resume for 'Applied AI Architect, Beneficial Deployment'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "",
+      "contract_type": "",
+      "summary": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and…",
+      "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About Beneficial Deployments Beneficial Deployments ensures AI reaches and benefits the communities that need it most. We partner with nonprofits, foundations, and mission-driven organizations to deploy Claude in education, global health, economic mobility, and life sciences — focusing on raising the floor for those who need it most. About the Role We're looking for an Applied AI Architect to join Beneficial Deployments, focused on helping nonprofits and research institutes in APAC get real value from Claude. You'll be the technical lead for a portfolio of partners, working alongside our Account Executives from first conversation through deployment, and you'll support a wider set of accounts through learning sessions. With nonprofits, you'll find where Claude makes a real difference to their mission and their operations. With research institutes…"
+    },
+    {
+      "id": "50af332b1152",
+      "title": "Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic)",
+      "company": "Maxibook OÜ",
+      "location": "Australia + 54 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/maxibook-ou/jobs/scientific-language-ai-adaptation-contributor-korean-japanese-arabic?utm_source=api",
+      "posted_at": "2026-11-19T18:18:26+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "data",
+        "learning",
+        "llm"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 80,
+      "missing_skills": [
+        "compliance"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, learning, llm in the top summary of your resume for 'Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic)'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Volunteer",
+      "contract_type": "",
+      "summary": "Remote | Micro-equity or volunteer basis | Early-stage AI/Education Startup Maxibook is an early-stage AI startup rethinking how scientific knowledge is delivered, organized, and personalized . We are building an Adaptive Knowledge System powered by dynamic knowledge maps and…",
+      "description": "Remote | Micro-equity or volunteer basis | Early-stage AI/Education Startup Maxibook is an early-stage AI startup rethinking how scientific knowledge is delivered, organized, and personalized . We are building an Adaptive Knowledge System powered by dynamic knowledge maps and LLM-driven adaptive content , with an MVP expected by Q1 2026 . Our initial focus is on universities, research institutions, and publicly funded initiatives , with future expansion into the corporate HR sector (onboarding, continuous training, skill-gap reduction). We are entering the fundraising phase and looking for passionate contributors who want to help us build the foundations of a global platform . Tasks Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic) We are looking for contributors who can help us adapt English scientific content to languages with fundamentally different writing systems, grammar, and conceptual structures , working in close collaboration with AI tools. This is not a translation role . At Maxibook, content is generated and adapted through AI. Our challenge is understanding how meaning, structure, tone, and scientific precision change when moving from…"
+    },
+    {
+      "id": "5277faca5d0a",
+      "title": "AI Platform Engineer (Global)",
+      "company": "Accelerant",
+      "location": "Australia + 254 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api",
+      "posted_at": "2026-11-19T17:59:23+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "data",
+        "llm",
+        "rag"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 57,
+      "missing_skills": [
+        "api",
+        "compliance",
+        "pipelines"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, llm, rag in the top summary of your resume for 'AI Platform Engineer (Global)'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of…",
+      "description": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of rebuilding the way risk is exchanged – so that it works better, for everyone. The Accelerant risk exchange does business across more than 20 different countries and 250 specialty products, and we are proud that our insurers have been awarded an AM Best A- (Excellent) rating. For more information, please visit . Role Summary The AI Platform Engineer is a senior, hands-on technical leader responsible for building production AI agents, reusable AI components, and cross-organizational AI implementations. This role works across squads, AI Guilds, and AI driven development initiatives to translate AI strategy into practical, scalable solutions. Core Responsibilities Build production AI agents and services Develop reusable AI components and workflows Prototype and productionize AI use cases Support development teams on AI implementations Collaborate with Compliance and ARX PS teams Co-own AI workflow environments (e.g…"
+    },
+    {
+      "id": "32e1a0669324",
+      "title": "Shape the Future of AI — Korean Talent Hub | 한국인 AI 데이터 라벨러모집",
+      "company": "Welo Global",
+      "location": "Australia + 17 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/welo-global/jobs/shape-the-future-of-ai-korean-talent-hub-ai?utm_source=api",
+      "posted_at": "2026-11-19T17:54:18+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "data",
+        "llms",
+        "power"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 100,
+      "missing_skills": [],
+      "fit_tip": "Highlight your direct experience with ai, data, llms, power in the top summary of your resume for 'Shape the Future of AI — Korean Talent Hub | 한국인 AI 데이터 라벨러모집'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Contractor",
+      "contract_type": "",
+      "summary": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries. At Welo Data, Limitless…",
+      "description": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries. At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms. Are you detail-oriented and curious about tech? Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI. By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluation, and prompt creation—always on your terms. Note: This is not an active job opening. By applying, you’ll join our global contributor network. When a project aligns with your skills and availability, we’ll reach out with all the details, including scope, timeline, and compensation. What You’ll Need Native or near-native fluency in Korean Based in: South Korea, United States, Canada, China, Australia…"
+    },
+    {
+      "id": "84e0407f60c0",
+      "title": "AI Deployment Manager",
+      "company": "Cresta",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/cresta/jobs/ai-deployment-manager-760068864?utm_source=api",
+      "posted_at": "2026-11-19T17:03:51+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "analytics",
+        "data",
+        "power"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 67,
+      "missing_skills": [
+        "financial",
+        "gtm"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, data, power in the top summary of your resume for 'AI Deployment Manager'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta ’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive…",
+      "description": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta ’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta ’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu, founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta . About the Role: At Cresta , shipping AI is only half the story. Deploying it successfully is where the real impact happens. As an AI Deployment Manager in APAC, you’ll own the moment where…"
+    },
+    {
       "id": "7dcf325ed404",
       "title": "Senior Software Engineer - Internal AI Accelerator Squad",
       "company": "Xero",
@@ -3262,7 +3607,7 @@
       "url": "https://jobs.ashbyhq.com/xero/3954a3b2-6f34-4b29-984c-77f5d5ca813e",
       "posted_at": "2026-11-18T22:14:09.243+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3293,74 +3638,6 @@
       "description": "The role / impact Every team at Xero has work that is slow, manual and error prone and the people doing it are often the ones best placed to make better decisions if they had time. We're building agentic AI workflows/agents that take that toil away, so our people can focus on the work that matters. The internal AI accelerator squad partners directly with Xero's enterprise and G&A functions, including HR, Legal, Finance, Sales teams. As a Senior Engineer, you will work in a forward deployed way, sitting down with senior business leaders to understand their challenges, then designing, building and delivering agents and workflows that the business can run itself. You will own that work end to end, from the first conversation to a live system with real users. The technical challenges: The Squad is early in it's life and the problems are as much about judgement as engineering. Five problems define the work: - Agents the business trusts: Build agentic workflows that handle real work, with human review, guardrails and clear escalation, so business teams are comfortable relying on them. - Discovery to delivery: Take an ambiguous business pain point, shape it into a problem worth solving…"
     },
     {
-      "id": "50af332b1152",
-      "title": "Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic)",
-      "company": "Maxibook OÜ",
-      "location": "Australia + 54 countries (Remote)",
-      "state": "Remote",
-      "is_remote": true,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - AI",
-      "url": "https://himalayas.app/companies/maxibook-ou/jobs/scientific-language-ai-adaptation-contributor-korean-japanese-arabic?utm_source=api",
-      "posted_at": "2026-11-01T13:13:36+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 30,
-      "matches": [
-        "ai",
-        "data",
-        "learning",
-        "llm"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 80,
-      "missing_skills": [
-        "compliance"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, data, learning, llm in the top summary of your resume for 'Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic)'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Volunteer",
-      "contract_type": "",
-      "summary": "Remote | Micro-equity or volunteer basis | Early-stage AI/Education Startup Maxibook is an early-stage AI startup rethinking how scientific knowledge is delivered, organized, and personalized . We are building an Adaptive Knowledge System powered by dynamic knowledge maps and…",
-      "description": "Remote | Micro-equity or volunteer basis | Early-stage AI/Education Startup Maxibook is an early-stage AI startup rethinking how scientific knowledge is delivered, organized, and personalized . We are building an Adaptive Knowledge System powered by dynamic knowledge maps and LLM-driven adaptive content , with an MVP expected by Q1 2026 . Our initial focus is on universities, research institutions, and publicly funded initiatives , with future expansion into the corporate HR sector (onboarding, continuous training, skill-gap reduction). We are entering the fundraising phase and looking for passionate contributors who want to help us build the foundations of a global platform . Tasks Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic) We are looking for contributors who can help us adapt English scientific content to languages with fundamentally different writing systems, grammar, and conceptual structures , working in close collaboration with AI tools. This is not a translation role . At Maxibook, content is generated and adapted through AI. Our challenge is understanding how meaning, structure, tone, and scientific precision change when moving from…"
-    },
-    {
-      "id": "32e1a0669324",
-      "title": "Shape the Future of AI — Korean Talent Hub | 한국인 AI 데이터 라벨러모집",
-      "company": "Welo Global",
-      "location": "Australia + 17 countries (Remote)",
-      "state": "Remote",
-      "is_remote": true,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - AI",
-      "url": "https://himalayas.app/companies/welo-global/jobs/shape-the-future-of-ai-korean-talent-hub-ai?utm_source=api",
-      "posted_at": "2026-11-01T12:42:19+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 30,
-      "matches": [
-        "ai",
-        "data",
-        "llms",
-        "power"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 100,
-      "missing_skills": [],
-      "fit_tip": "Highlight your direct experience with ai, data, llms, power in the top summary of your resume for 'Shape the Future of AI — Korean Talent Hub | 한국인 AI 데이터 라벨러모집'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Contractor",
-      "contract_type": "",
-      "summary": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries. At Welo Data, Limitless…",
-      "description": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries. At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms. Are you detail-oriented and curious about tech? Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI. By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluation, and prompt creation—always on your terms. Note: This is not an active job opening. By applying, you’ll join our global contributor network. When a project aligns with your skills and availability, we’ll reach out with all the details, including scope, timeline, and compensation. What You’ll Need Native or near-native fluency in Korean Based in: South Korea, United States, Canada, China, Australia…"
-    },
-    {
       "id": "4c994dec97ad",
       "title": "Data Center Infrastructure Specialist",
       "company": "NVIDIA",
@@ -3372,7 +3649,7 @@
       "url": "https://himalayas.app/companies/nvidia/jobs/data-center-infrastructure-specialist?utm_source=api",
       "posted_at": "2026-10-30T16:48:11+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 30,
       "matches": [
         "analytics",
@@ -3396,79 +3673,6 @@
       "description": "NVIDIA is looking for a Data Center Deployment Specialist to join its Professional Services team. Academic and commercial groups around the world are using NVIDIA products to revolutionize deep learning and data analytics, and to power data centers. Join the team building many of the largest and fastest data centers in the world! NVIDIA is looking for someone with the ability to work on a dynamic customer-focused team that requires excellent interpersonal skills. As a Data Center Infrastructure Specialist, you will be interacting with customers, partners, and internal teams, to analyse, define and implement large scale Datacenter projects. The scope of these efforts includes a combination of Datacenter Infrastructure design and cluster deployment planning. What you will be doing: Design and implement flawless data center infrastructure solutions to meet the needs of our customers. Collaborate with cross-functional teams to ensure the successful deployment of data center infrastructure. Datacenter Planning: Floor Plan, Rack Elevation, Simulation Cable deployment planning including - ensuring requirements are accurate such as number and type of connections, port assignments, and…"
     },
     {
-      "id": "5277faca5d0a",
-      "title": "AI Platform Engineer (Global)",
-      "company": "Accelerant",
-      "location": "Australia + 254 countries (Remote)",
-      "state": "Remote",
-      "is_remote": true,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - AI",
-      "url": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api",
-      "posted_at": "2026-10-29T09:18:36+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 30,
-      "matches": [
-        "ai",
-        "data",
-        "llm",
-        "rag"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 57,
-      "missing_skills": [
-        "api",
-        "compliance",
-        "pipelines"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, data, llm, rag in the top summary of your resume for 'AI Platform Engineer (Global)'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Full Time",
-      "contract_type": "",
-      "summary": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of…",
-      "description": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of rebuilding the way risk is exchanged – so that it works better, for everyone. The Accelerant risk exchange does business across more than 20 different countries and 250 specialty products, and we are proud that our insurers have been awarded an AM Best A- (Excellent) rating. For more information, please visit . Role Summary The AI Platform Engineer is a senior, hands-on technical leader responsible for building production AI agents, reusable AI components, and cross-organizational AI implementations. This role works across squads, AI Guilds, and AI driven development initiatives to translate AI strategy into practical, scalable solutions. Core Responsibilities Build production AI agents and services Develop reusable AI components and workflows Prototype and productionize AI use cases Support development teams on AI implementations Collaborate with Compliance and ARX PS teams Co-own AI workflow environments (e.g…"
-    },
-    {
-      "id": "84e0407f60c0",
-      "title": "AI Deployment Manager",
-      "company": "Cresta",
-      "location": "Australia",
-      "state": "AU",
-      "is_remote": false,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - AI",
-      "url": "https://himalayas.app/companies/cresta/jobs/ai-deployment-manager-760068864?utm_source=api",
-      "posted_at": "2026-10-24T19:07:14+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 30,
-      "matches": [
-        "ai",
-        "analytics",
-        "data",
-        "power"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 67,
-      "missing_skills": [
-        "financial",
-        "gtm"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, analytics, data, power in the top summary of your resume for 'AI Deployment Manager'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Full Time",
-      "contract_type": "",
-      "summary": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta ’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive…",
-      "description": "Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta ’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta ’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu, founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta . About the Role: At Cresta , shipping AI is only half the story. Deploying it successfully is where the real impact happens. As an AI Deployment Manager in APAC, you’ll own the moment where…"
-    },
-    {
       "id": "cd788ce52455",
       "title": "Applied AI Architect",
       "company": "OpenAI",
@@ -3480,7 +3684,7 @@
       "url": "https://jobs.ashbyhq.com/openai/b47aae11-78e1-4321-947a-94a2fa3e83b4",
       "posted_at": "2026-10-01T09:09:58.008+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3519,7 +3723,7 @@
       "url": "https://apply.workable.com/j/BB4F8459B7",
       "posted_at": "2025-05-06",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3551,7 +3755,7 @@
       "url": "https://jobs.smartrecruiters.com/BlueScope/744000162215229",
       "posted_at": "2026-11-18T02:56:14.312Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3581,7 +3785,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481672",
       "posted_at": "2026-10-13T01:23:09.837Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3611,7 +3815,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481617",
       "posted_at": "2026-10-13T01:15:15.764Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3641,7 +3845,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481588",
       "posted_at": "2026-10-13T01:13:47.865Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3671,7 +3875,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481227",
       "posted_at": "2026-10-13T00:48:53.179Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3701,7 +3905,7 @@
       "url": "https://apply.workable.com/j/2DCD78EB52",
       "posted_at": "2026-09-08",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3731,7 +3935,7 @@
       "url": "https://apply.workable.com/j/37B3073F41",
       "posted_at": "2026-08-19",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3752,41 +3956,6 @@
       "description": "Data Engineer FSI- Banking and Financial Melbourne, Victoria, Australia"
     },
     {
-      "id": "fa860868c544",
-      "title": "Data Business Analyst",
-      "company": "RemoteOnline",
-      "location": "Australia",
-      "state": "AU",
-      "is_remote": false,
-      "track": "Data & Tech",
-      "source": "Himalayas Australia - Business Intelligence",
-      "url": "https://himalayas.app/companies/remoteonline/jobs/data-business-analyst?utm_source=api",
-      "posted_at": "2026-10-29T16:51:31+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "score": 26,
-      "matches": [
-        "analytics",
-        "data"
-      ],
-      "title_matches": [
-        "data"
-      ],
-      "coverage_pct": 40,
-      "missing_skills": [
-        "modelling",
-        "pipelines",
-        "warehousing"
-      ],
-      "fit_tip": "Highlight your direct experience with analytics, data in the top summary of your resume for 'Data Business Analyst'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Full Time",
-      "contract_type": "",
-      "summary": "As a data-focused Business Analyst, you will help shape and deliver the bank's next generation Big Data/Data Analytics platforms. With a strong engineering background, you will be comfortable working alongside an agile team of engineers, data scientists, analysts, business, and…",
-      "description": "As a data-focused Business Analyst, you will help shape and deliver the bank's next generation Big Data/Data Analytics platforms. With a strong engineering background, you will be comfortable working alongside an agile team of engineers, data scientists, analysts, business, and technology stakeholders with a key focus on outlining the data road map that will support and service project stakeholders. What you will bring to the team: A strong technical background Data Engineering experience (warehousing, modelling and pipelines) Strong communication and stakeholder engagement skills Ability to work hands-on alongside a team of data professionals, vendors, and business stakeholders Proven experience gathering / eliciting / validating / documenting business requirements to design and deliver outcomes. As well as the use of new and emerging technologies, embarking on large-scale transformative projects, the bank pride themselves on their work environment - which includes a healthy work/life balance (with over 80% of employees able to work from home), an 'engineering first' culture which favours technologists and their ways of working as well as on site cafes with complementary food…"
-    },
-    {
       "id": "76b8e5b37be8",
       "title": "ERP System Administrator (Acumatica)",
       "company": "Alimentiv",
@@ -3796,9 +3965,9 @@
       "track": "Data & Tech",
       "source": "Himalayas Australia - Power BI",
       "url": "https://himalayas.app/companies/alimentiv/jobs/erp-system-administrator-acumatica-9472081518?utm_source=api",
-      "posted_at": "2026-10-27T19:31:13+00:00",
+      "posted_at": "2026-11-19T18:16:04+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 26,
       "matches": [
         "bi",
@@ -3825,6 +3994,41 @@
       "description": "The ERP System Administrator is an individual contributor role within Alimentiv ’s Corporate Digital Enablement function, serving as the primary functional and technical owner of the Acumatica ERP platform that powers our Finance, Procurement, Logistics and Project accounting operations. This is a hands-on administration role — the successful candidate will configure, operate, and continuously improve Acumatica. Another significant focus of the role is supporting the buildout of Acumatica’s procurement functionality — supporting Corporate and Clinical operations as Alimentiv ’s procurement function matures. The role also owns the operational health of the SAP Concur–Acumatica integration via Celigo middleware and will play a central operational role in the planned annual Acumatica upgrades. Positions available : 1, cross-posted in multiple countries. Please only apply to one posting. About the Role Acumatica Administration & Finance Operations (~40%) • Serve as the primary Acumatica administrator across the Alimentiv instance: configuration, user access, security, workflows, and module settings. • Design and implement Finance solutions using native Acumatica functionality —…"
     },
     {
+      "id": "fa860868c544",
+      "title": "Data Business Analyst",
+      "company": "RemoteOnline",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "Data & Tech",
+      "source": "Himalayas Australia - Business Intelligence",
+      "url": "https://himalayas.app/companies/remoteonline/jobs/data-business-analyst?utm_source=api",
+      "posted_at": "2026-10-29T16:51:31+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
+      "score": 26,
+      "matches": [
+        "analytics",
+        "data"
+      ],
+      "title_matches": [
+        "data"
+      ],
+      "coverage_pct": 40,
+      "missing_skills": [
+        "modelling",
+        "pipelines",
+        "warehousing"
+      ],
+      "fit_tip": "Highlight your direct experience with analytics, data in the top summary of your resume for 'Data Business Analyst'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "As a data-focused Business Analyst, you will help shape and deliver the bank's next generation Big Data/Data Analytics platforms. With a strong engineering background, you will be comfortable working alongside an agile team of engineers, data scientists, analysts, business, and…",
+      "description": "As a data-focused Business Analyst, you will help shape and deliver the bank's next generation Big Data/Data Analytics platforms. With a strong engineering background, you will be comfortable working alongside an agile team of engineers, data scientists, analysts, business, and technology stakeholders with a key focus on outlining the data road map that will support and service project stakeholders. What you will bring to the team: A strong technical background Data Engineering experience (warehousing, modelling and pipelines) Strong communication and stakeholder engagement skills Ability to work hands-on alongside a team of data professionals, vendors, and business stakeholders Proven experience gathering / eliciting / validating / documenting business requirements to design and deliver outcomes. As well as the use of new and emerging technologies, embarking on large-scale transformative projects, the bank pride themselves on their work environment - which includes a healthy work/life balance (with over 80% of employees able to work from home), an 'engineering first' culture which favours technologists and their ways of working as well as on site cafes with complementary food…"
+    },
+    {
       "id": "32472d45d524",
       "title": "Principal Data and Platform Engineer",
       "company": "Simple Machines",
@@ -3836,7 +4040,7 @@
       "url": "https://apply.workable.com/j/99881BABEC",
       "posted_at": "2026-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -3866,7 +4070,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006893201",
       "posted_at": "2026-09-22T21:53:35-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 26,
       "matches": [
         "ai",
@@ -3900,7 +4104,7 @@
       "url": "https://apply.workable.com/j/C892A6B841",
       "posted_at": "2026-08-07",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -3930,7 +4134,7 @@
       "url": "https://jobs.ashbyhq.com/openai/f4552c9d-e15f-4f2c-bf03-fd2cc1e11068",
       "posted_at": "2026-11-11T10:03:34.493+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -3967,7 +4171,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558969",
       "posted_at": "2026-11-09T01:14:43.266Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -3998,7 +4202,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558950",
       "posted_at": "2026-11-09T01:13:54.104Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4029,7 +4233,7 @@
       "url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
       "posted_at": "2026-09-30T02:23:54.420+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4065,7 +4269,7 @@
       "url": "https://jobs.ashbyhq.com/airwallex/242cd512-a29d-4684-96f0-1930bf068743",
       "posted_at": "2026-05-06T10:09:11.180+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4102,7 +4306,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008904201",
       "posted_at": "2026-11-15T20:06:29-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 21,
       "matches": [
         "ai",
@@ -4134,7 +4338,7 @@
       "url": "https://apply.workable.com/j/8D0081093E",
       "posted_at": "2026-09-01",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 20,
       "matches": [
         "ai"
@@ -4164,7 +4368,7 @@
       "url": "https://apply.workable.com/j/6862058B62",
       "posted_at": "2025-07-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 20,
       "matches": [
         "ai",
@@ -4195,7 +4399,7 @@
       "url": "https://apply.workable.com/j/7B9320E6A6",
       "posted_at": "2026-07-21",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4225,7 +4429,7 @@
       "url": "https://apply.workable.com/j/FF5C8357A0",
       "posted_at": "2025-09-29",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4257,7 +4461,7 @@
       "url": "https://jobs.ashbyhq.com/xero/476734a4-efd8-488c-ac6a-20c52bc07a5d",
       "posted_at": "2026-11-17T04:23:49.775+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 10,
       "matches": [
         "ai",
@@ -4293,7 +4497,7 @@
       "url": "https://apply.workable.com/j/4F8A50F116",
       "posted_at": "2024-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-20T15:56:35.266439+00:00",
       "score": 10,
       "matches": [
         "ai",
