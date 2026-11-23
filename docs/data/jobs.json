@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T15:05:59.473403+00:00",
-  "generated_at_aedt": "Mon 23 Nov 2026, 02:05 AM AEDT",
+  "generated_at": "2026-11-23T19:00:50.636965+00:00",
+  "generated_at_aedt": "Tue 24 Nov 2026, 06:00 AM AEDT",
   "profile_name": "Default Data & AI Profile",
   "profile_keywords": [
     "python",
@@ -42,9 +42,9 @@
     "git"
   ],
   "adzuna_enabled": false,
-  "total_jobs": 118,
+  "total_jobs": 121,
   "source_counts": {
-    "Quantium (Greenhouse)": 15,
+    "Quantium (Greenhouse)": 16,
     "Xero (Ashby)": 12,
     "Himalayas Australia - Power BI": 11,
     "Infosys Australia (Workable)": 8,
@@ -62,8 +62,10 @@
     "AirTrunk (Greenhouse)": 2,
     "Himalayas Australia - Reporting": 2,
     "Quality People (Workable)": 2,
+    "Remotive Business Intelligence JSON": 2,
     "Simple Machines (Workable)": 2,
     "Airwallex (Ashby)": 1,
+    "Arbeitnow Jobs JSON": 1,
     "BlueScope (SmartRecruiters)": 1,
     "Checkbox AI (Ashby)": 1,
     "Databricks (Greenhouse)": 1,
@@ -76,7 +78,6 @@
     "Nearmap (SmartRecruiters)": 1,
     "Practiv (Workable)": 1,
     "Relevance AI (Ashby)": 1,
-    "Remotive Business Intelligence JSON": 1,
     "Tracksuit (Ashby)": 1
   },
   "source_warnings": [
@@ -95,7 +96,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005542201",
       "posted_at": "2026-08-14T02:23:36-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 140,
       "matches": [
         "ai",
@@ -144,7 +145,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005991201",
       "posted_at": "2026-08-26T03:42:34-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 129,
       "matches": [
         "ai",
@@ -194,7 +195,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/senior-azure-data-platform-engineer-architect?utm_source=api",
       "posted_at": "2026-11-19T16:51:40+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 115,
       "matches": [
         "analytics",
@@ -243,7 +244,7 @@
       "url": "https://himalayas.app/companies/world-vision/jobs/enterprise-data-ai-integration-architect?utm_source=api",
       "posted_at": "2026-11-16T17:08:03+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 111,
       "matches": [
         "ai",
@@ -291,7 +292,7 @@
       "url": "https://himalayas.app/companies/the-hr-ally/jobs/technical-business-analyst-data?utm_source=api",
       "posted_at": "2026-11-19T16:58:18+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 103,
       "matches": [
         "analytics",
@@ -342,7 +343,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/80269fb2-9d00-493a-ab3a-e56722ba3cba",
       "posted_at": "2026-10-27T22:26:26.062+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 99,
       "matches": [
         "ai",
@@ -385,7 +386,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005586201",
       "posted_at": "2026-09-18T02:15:09-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 98,
       "matches": [
         "ai",
@@ -431,7 +432,7 @@
       "url": "https://jobs.ashbyhq.com/xero/4f9a785e-0cd4-4e96-ba9e-d0cccc2e29e5",
       "posted_at": "2026-11-03T01:17:14.999+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -480,7 +481,7 @@
       "url": "https://jobs.ashbyhq.com/xero/ce864d81-9870-412d-85da-c71538790961",
       "posted_at": "2026-11-03T01:14:00.229+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -529,7 +530,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/be98e986-1fef-4ea9-8921-442137354ed8",
       "posted_at": "2026-10-23T07:50:00.175+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -574,7 +575,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005587201",
       "posted_at": "2026-09-18T02:10:57-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -618,7 +619,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-data-analyst-artificial-intelligence-6230023159?utm_source=api",
       "posted_at": "2026-11-03T16:57:07+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -665,7 +666,7 @@
       "url": "https://jobs.ashbyhq.com/xero/61a20e41-cd05-4637-951d-34737c8e17eb",
       "posted_at": "2026-11-03T01:33:29.997+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -709,7 +710,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-financial-data-engineer?utm_source=api",
       "posted_at": "2026-11-18T17:14:43+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 84,
       "matches": [
         "ai",
@@ -754,7 +755,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005506201",
       "posted_at": "2026-08-26T22:49:15-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 84,
       "matches": [
         "ai",
@@ -794,7 +795,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
       "posted_at": "2026-09-29T20:36:30.301+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 81,
       "matches": [
         "ai",
@@ -840,7 +841,7 @@
       "url": "https://jobs.ashbyhq.com/xero/6c8a857d-0e7a-4d6e-a6de-3bff8193adab",
       "posted_at": "2026-11-20T08:46:36.082+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -886,7 +887,7 @@
       "url": "https://jobs.ashbyhq.com/xero/a7d02205-19ea-40ba-80e0-1c9a448998c3",
       "posted_at": "2026-11-20T08:46:26.354+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -932,7 +933,7 @@
       "url": "https://jobs.ashbyhq.com/xero/dbfc4c14-2b57-4542-b4bf-e9d54e2bb9fd",
       "posted_at": "2026-11-20T08:46:10.034+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -978,7 +979,7 @@
       "url": "https://jobs.ashbyhq.com/dataro/d6748d0d-a446-4946-b336-f08cd440ef83",
       "posted_at": "2026-11-18T17:19:59.475+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 79,
       "matches": [
         "ai",
@@ -1023,7 +1024,7 @@
       "url": "https://himalayas.app/companies/thehivecareers/jobs/head-of-data-analytics-insurance-investments-1414472727?utm_source=api",
       "posted_at": "2026-11-01T12:41:02+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 78,
       "matches": [
         "ai",
@@ -1067,7 +1068,7 @@
       "url": "https://himalayas.app/companies/siegen-hr-solutions-inc/jobs/virtual-employment-remote-data-analyst-2376601151?utm_source=api",
       "posted_at": "2026-11-01T12:27:46+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 74,
       "matches": [
         "bi",
@@ -1108,7 +1109,7 @@
       "url": "https://careers.hellofresh.com/global/en/job/8280296?gh_jid=8280296",
       "posted_at": "2026-10-14T19:21:31-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 74,
       "matches": [
         "data",
@@ -1147,7 +1148,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/power-bi-analyst-1214904843?utm_source=api",
       "posted_at": "2026-11-01T12:20:42+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 73,
       "matches": [
         "analytics",
@@ -1187,7 +1188,7 @@
       "url": "https://jobs.ashbyhq.com/Checkbox-AI/d07392b4-6c09-4ac3-bb1f-0d9a23e08e3d",
       "posted_at": "2026-09-10T06:31:35.877+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 73,
       "matches": [
         "ai",
@@ -1232,7 +1233,7 @@
       "url": "https://jobs.ashbyhq.com/Tracksuit/e06ce16e-d095-4e32-a368-b624f7ea50f0",
       "posted_at": "2026-10-19T05:00:39.567+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 69,
       "matches": [
         "ai",
@@ -1270,7 +1271,7 @@
       "url": "https://jobs.ashbyhq.com/xero/5a81fcc0-a3a5-410e-8f96-22afd2c09116",
       "posted_at": "2026-11-10T22:41:15.408+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 68,
       "matches": [
         "ai",
@@ -1313,7 +1314,7 @@
       "url": "https://himalayas.app/companies/lemon-io/jobs/senior-back-end-develope?utm_source=api",
       "posted_at": "2026-11-19T18:05:34+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 64,
       "matches": [
         "ai",
@@ -1354,7 +1355,7 @@
       "url": "https://himalayas.app/companies/dtex-systems/jobs/senior-i3-investigator-apac?utm_source=api",
       "posted_at": "2026-10-28T19:08:39+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 62,
       "matches": [
         "ai",
@@ -1397,7 +1398,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-de2ac2d0",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1439,7 +1440,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-6a6a22a1",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1481,7 +1482,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/tableau-powerbi-administration?utm_source=api",
       "posted_at": "2026-10-11T22:53:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 61,
       "matches": [
         "azure",
@@ -1521,7 +1522,7 @@
       "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4753857005",
       "posted_at": "2026-11-13T04:19:55-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 60,
       "matches": [
         "ai",
@@ -1562,7 +1563,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4009540201",
       "posted_at": "2026-11-16T19:23:48-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1586,6 +1587,47 @@
       "contract_type": "",
       "summary": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help…",
       "description": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help businesses unlock value from data and analytics. Quantium partners with the world's largest corporations to forge a better, more intelligent world. As a Principal AI Security Engineer, you will be the most senior technical authority on how Quantium builds, deploys and operates AI securely. This is a 6-month contract position at principal level, as an individual contributor role that is hands-on, architectural and advisory, with influence that reaches well beyond any single team. You will combine deep application security and AI expertise with security architecture craft, setting the direction for how our data science and engineering teams adopt foundation models, agentic systems and other fast-moving AI capabilities safely and at pace. You will work closely with data science, engineering, application security and security architecture teams, and advise senior leaders on the security implications of AI…"
+    },
+    {
+      "id": "c8cb67f6c47f",
+      "title": "Senior Back-end Developerusa",
+      "company": "Lemon.io",
+      "location": "Australia + 6 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Remotive Business Intelligence JSON",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developerusa-2091135",
+      "posted_at": "2026-10-27T12:56:13",
+      "first_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "score": 58,
+      "matches": [
+        "ai",
+        "data",
+        "learning",
+        "llm",
+        "machine",
+        "mlops",
+        "python"
+      ],
+      "title_matches": [],
+      "coverage_pct": 44,
+      "missing_skills": [
+        "analysis",
+        "java",
+        "javascript",
+        "kubernetes",
+        "linux",
+        "node"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, learning, llm, machine, mlops in the top summary of your resume for 'Senior Back-end Developerusa'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "full_time",
+      "contract_type": "",
+      "summary": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Currently, we have a few open positions…",
+      "description": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Currently, we have a few open positions from our client, an AI-native cloud company. AI teams use its platform to run inference on open-source models, fine-tune them and rent large GPU clusters. The fleet is set to grow about 10×; the team won't. That's where you come in. Who they’re looking for : Site Reliability Engineer, Senior Back-end Developer with Golang, Senior Back-end Developer with Python, AI Infrastructure Engineer, Distributed Storage Engineer, DevOps. Requirements for Senior Back-end Developers with Golang 5+ years of commercial experience with Golang 2+ years of commercial experience with Kubernetes 1+ year of experience in AI-assisted coding Experience with distributed systems Requirements for Senior Back-end Developers with Python 5+ years of commercial experience with Python 2+ years of commercial experience with Linux 2+ years of commercial experience with Kubernetes 1+ year of experience in AI-assisted coding Experience with…"
     },
     {
       "id": "a8f2bd22f72a",
@@ -1640,7 +1682,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002",
       "posted_at": "2026-09-29T02:31:41-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1681,7 +1723,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/power-platform-intern?utm_source=api",
       "posted_at": "2026-11-19T17:38:50+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 57,
       "matches": [
         "ai",
@@ -1722,7 +1764,7 @@
       "url": "https://4dayweek.io/job/lead-measurement-scientist-at-jellyfish-4603569e",
       "posted_at": "2026-11-07T01:10:05+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 57,
       "matches": [
         "analytics",
@@ -1764,7 +1806,7 @@
       "url": "https://apply.workable.com/j/967CC10C23",
       "posted_at": "2026-10-30",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 57,
       "matches": [
         "bi",
@@ -1798,7 +1840,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8305331",
       "posted_at": "2026-10-21T04:38:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 56,
       "matches": [
         "ai",
@@ -1842,7 +1884,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4003817201",
       "posted_at": "2026-08-05T22:20:00-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 56,
       "matches": [
         "ai",
@@ -1881,7 +1923,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/9da775b9-2bdf-4ef2-a59a-ffc49381459d",
       "posted_at": "2026-09-30T20:12:19.773+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 55,
       "matches": [
         "ai",
@@ -1925,7 +1967,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/digital-transformation-ai-intern?utm_source=api",
       "posted_at": "2026-11-19T16:59:37+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -1968,7 +2010,7 @@
       "url": "https://jobs.smartrecruiters.com/Nearmap/744000159969659",
       "posted_at": "2026-11-05T21:04:16.226Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2001,7 +2043,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472677008",
       "posted_at": "2026-11-04T06:36:20-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2038,7 +2080,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450798008",
       "posted_at": "2026-11-02T04:33:31-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2076,7 +2118,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006250201",
       "posted_at": "2026-09-03T20:53:34-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 51,
       "matches": [
         "ai",
@@ -2118,7 +2160,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineers?utm_source=api",
       "posted_at": "2026-11-04T09:35:37+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 50,
       "matches": [
         "analytics",
@@ -2155,7 +2197,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineer?utm_source=api",
       "posted_at": "2026-10-21T05:43:54+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 48,
       "matches": [
         "analytics",
@@ -2195,7 +2237,7 @@
       "url": "https://himalayas.app/companies/five-sigma/jobs/business-data-analyst-aus?utm_source=api",
       "posted_at": "2026-10-27T14:29:20+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 47,
       "matches": [
         "ai",
@@ -2232,7 +2274,7 @@
       "url": "https://himalayas.app/companies/telus-international-ai-inc/jobs/ai-speech-audio-specialist-asr-tts-voice-ai-audio-data-3330854756?utm_source=api",
       "posted_at": "2026-10-26T07:44:14+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 46,
       "matches": [
         "ai",
@@ -2268,7 +2310,7 @@
       "url": "https://himalayas.app/companies/futuregroup-com/jobs/data-governance-lead?utm_source=api",
       "posted_at": "2026-11-19T16:41:45+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 45,
       "matches": [
         "data",
@@ -2309,7 +2351,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/8006410003",
       "posted_at": "2026-09-28T19:03:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2350,7 +2392,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/7796557003",
       "posted_at": "2026-07-06T23:59:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2391,7 +2433,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001524977",
       "posted_at": "2026-10-27T04:30:15.614Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2423,7 +2465,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273490",
       "posted_at": "2026-07-30T23:25:47.308Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2455,7 +2497,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273466",
       "posted_at": "2026-07-30T23:25:14.683Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2487,7 +2529,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273443",
       "posted_at": "2026-07-30T23:24:44.269Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2519,7 +2561,7 @@
       "url": "https://apply.workable.com/j/A1BB25212D",
       "posted_at": "2026-01-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2551,7 +2593,7 @@
       "url": "https://apply.workable.com/j/646948EF11",
       "posted_at": "2023-01-16",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2583,7 +2625,7 @@
       "url": "https://jobicy.com/jobs/156131-lead-product-manager-genai",
       "posted_at": "2026-11-21T03:10:34+00:00",
       "first_seen_at": "2026-11-21T15:08:28.044060+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 41,
       "matches": [
         "ai",
@@ -2616,7 +2658,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008629201",
       "posted_at": "2026-10-28T00:12:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 41,
       "matches": [
         "ai",
@@ -2653,7 +2695,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-management-specialist?utm_source=api",
       "posted_at": "2026-10-16T01:20:21+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 41,
       "matches": [
         "bi",
@@ -2733,7 +2775,7 @@
       "url": "https://jobs.ashbyhq.com/openai/83730f3e-3a96-476e-afb0-15f1f045ab03",
       "posted_at": "2026-10-22T02:57:37.622+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 40,
       "matches": [
         "ai",
@@ -2773,7 +2815,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/tableau-developer-data-explorer-2972654603?utm_source=api",
       "posted_at": "2026-10-18T11:46:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 40,
       "matches": [
         "dashboard",
@@ -2810,7 +2852,7 @@
       "url": "https://himalayas.app/companies/get-my-course/jobs/qa-reports-data-analyst-compliance?utm_source=api",
       "posted_at": "2026-11-19T17:14:30+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 37,
       "matches": [
         "analytics",
@@ -2846,7 +2888,7 @@
       "url": "https://jobs.ashbyhq.com/xero/138b9018-6c2a-47cc-93f0-53545fa604a9",
       "posted_at": "2026-10-06T12:51:03.383+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 37,
       "matches": [
         "aws",
@@ -2879,9 +2921,9 @@
       "track": "AI & ML",
       "source": "Himalayas Australia - Business Intelligence",
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/zoho-agentic-ai-internship-program?utm_source=api",
-      "posted_at": "2026-11-19T17:59:23+00:00",
+      "posted_at": "2026-11-23T16:50:25+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2921,7 +2963,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007692201",
       "posted_at": "2026-10-28T00:20:01-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2956,7 +2998,7 @@
       "url": "https://4dayweek.io/job/regional-research-economist-economic-research-at-anthropic-ca739254",
       "posted_at": "2026-10-22T19:07:16+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -3030,7 +3072,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006772201",
       "posted_at": "2026-09-15T20:07:22-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -3064,7 +3106,7 @@
       "url": "https://himalayas.app/companies/fountain-forward/jobs/bi-analyst?utm_source=api",
       "posted_at": "2026-11-19T17:01:17+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 35,
       "matches": [
         "analytics",
@@ -3105,7 +3147,7 @@
       "url": "https://jobs.ashbyhq.com/xero/8fed11a8-5109-4787-8a2a-a75d860703e2",
       "posted_at": "2026-11-17T04:35:46.938+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 35,
       "matches": [
         "ai",
@@ -3140,7 +3182,7 @@
       "url": "https://jobs.ashbyhq.com/relevanceai/cfc7da1e-7e0a-488a-a39c-26536baeefba",
       "posted_at": "2026-10-09T04:28:57.656+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 35,
       "matches": [
         "ai",
@@ -3180,7 +3222,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162428309",
       "posted_at": "2026-11-19T02:32:20.332Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3210,7 +3252,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162426819",
       "posted_at": "2026-11-19T01:49:08.495Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3240,7 +3282,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162412019",
       "posted_at": "2026-11-19T00:50:03.143Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3270,7 +3312,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000161427359",
       "posted_at": "2026-11-13T05:25:40.054Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3300,7 +3342,7 @@
       "url": "https://apply.workable.com/j/A926443460",
       "posted_at": "2026-10-26",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3330,7 +3372,7 @@
       "url": "https://apply.workable.com/j/D861F2D2FD",
       "posted_at": "2026-03-03",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3360,7 +3402,7 @@
       "url": "https://apply.workable.com/j/289A2B9546",
       "posted_at": "2023-04-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3390,7 +3432,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007361201",
       "posted_at": "2026-10-05T18:57:14-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 31,
       "matches": [
         "analytics",
@@ -3452,6 +3494,43 @@
       "description": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help businesses unlock value from data and analytics. Quantium partners with the world's largest corporations to forge a better, more intelligent world. Quantium's Retail team partners with some of Australia's most iconic retailers, delivering high-impact analytics and AI transformation projects that are reshaping how the industry uses data. Through our long-standing partnership with Woolworths, we have built a world-class retail analytics capability, commercialised through a broad suite of B2B analytical products designed for retailers and their trade partners. This is a rare opportunity to own new revenue growth for that capability across the Australian retail sector, taking our market presence to the next level. How will you make an impact? New revenue ownership: Own and deliver against the Australian retail new revenue target, with full accountability across the sales cycle from prospecting through to…"
     },
     {
+      "id": "5277faca5d0a",
+      "title": "AI Platform Engineer (Global)",
+      "company": "Accelerant",
+      "location": "Australia + 254 countries (Remote)",
+      "state": "Remote",
+      "is_remote": true,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api",
+      "posted_at": "2026-11-23T16:50:06+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "score": 30,
+      "matches": [
+        "ai",
+        "data",
+        "llm",
+        "rag"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 57,
+      "missing_skills": [
+        "api",
+        "compliance",
+        "pipelines"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, llm, rag in the top summary of your resume for 'AI Platform Engineer (Global)'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of…",
+      "description": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of rebuilding the way risk is exchanged – so that it works better, for everyone. The Accelerant risk exchange does business across more than 20 different countries and 250 specialty products, and we are proud that our insurers have been awarded an AM Best A- (Excellent) rating. For more information, please visit . Role Summary The AI Platform Engineer is a senior, hands-on technical leader responsible for building production AI agents, reusable AI components, and cross-organizational AI implementations. This role works across squads, AI Guilds, and AI driven development initiatives to translate AI strategy into practical, scalable solutions. Core Responsibilities Build production AI agents and services Develop reusable AI components and workflows Prototype and productionize AI use cases Support development teams on AI implementations Collaborate with Compliance and ARX PS teams Co-own AI workflow environments (e.g…"
+    },
+    {
       "id": "45edebad073b",
       "title": "Applied AI Architect, Beneficial Deployment",
       "company": "Anthropic",
@@ -3463,7 +3542,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008",
       "posted_at": "2026-11-19T21:35:45-05:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3500,7 +3579,7 @@
       "url": "https://himalayas.app/companies/maxibook-ou/jobs/scientific-language-ai-adaptation-contributor-korean-japanese-arabic?utm_source=api",
       "posted_at": "2026-11-19T18:18:26+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3524,43 +3603,6 @@
       "description": "Remote | Micro-equity or volunteer basis | Early-stage AI/Education Startup Maxibook is an early-stage AI startup rethinking how scientific knowledge is delivered, organized, and personalized . We are building an Adaptive Knowledge System powered by dynamic knowledge maps and LLM-driven adaptive content , with an MVP expected by Q1 2026 . Our initial focus is on universities, research institutions, and publicly funded initiatives , with future expansion into the corporate HR sector (onboarding, continuous training, skill-gap reduction). We are entering the fundraising phase and looking for passionate contributors who want to help us build the foundations of a global platform . Tasks Scientific Language & AI Adaptation Contributor (Korean / Japanese / Arabic) We are looking for contributors who can help us adapt English scientific content to languages with fundamentally different writing systems, grammar, and conceptual structures , working in close collaboration with AI tools. This is not a translation role . At Maxibook, content is generated and adapted through AI. Our challenge is understanding how meaning, structure, tone, and scientific precision change when moving from…"
     },
     {
-      "id": "5277faca5d0a",
-      "title": "AI Platform Engineer (Global)",
-      "company": "Accelerant",
-      "location": "Australia + 254 countries (Remote)",
-      "state": "Remote",
-      "is_remote": true,
-      "track": "AI & ML",
-      "source": "Himalayas Australia - AI",
-      "url": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api",
-      "posted_at": "2026-11-19T17:59:23+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
-      "score": 30,
-      "matches": [
-        "ai",
-        "data",
-        "llm",
-        "rag"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 57,
-      "missing_skills": [
-        "api",
-        "compliance",
-        "pipelines"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, data, llm, rag in the top summary of your resume for 'AI Platform Engineer (Global)'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "Full Time",
-      "contract_type": "",
-      "summary": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of…",
-      "description": "About Accelerant Accelerant is a data-driven risk exchange connecting underwriters of specialty insurance risk with risk capital providers. Accelerant was founded in 2018 by a group of longtime insurance industry executives and technology experts who shared a vision of rebuilding the way risk is exchanged – so that it works better, for everyone. The Accelerant risk exchange does business across more than 20 different countries and 250 specialty products, and we are proud that our insurers have been awarded an AM Best A- (Excellent) rating. For more information, please visit . Role Summary The AI Platform Engineer is a senior, hands-on technical leader responsible for building production AI agents, reusable AI components, and cross-organizational AI implementations. This role works across squads, AI Guilds, and AI driven development initiatives to translate AI strategy into practical, scalable solutions. Core Responsibilities Build production AI agents and services Develop reusable AI components and workflows Prototype and productionize AI use cases Support development teams on AI implementations Collaborate with Compliance and ARX PS teams Co-own AI workflow environments (e.g…"
-    },
-    {
       "id": "32e1a0669324",
       "title": "Shape the Future of AI — Korean Talent Hub | 한국인 AI 데이터 라벨러모집",
       "company": "Welo Global",
@@ -3572,7 +3614,7 @@
       "url": "https://himalayas.app/companies/welo-global/jobs/shape-the-future-of-ai-korean-talent-hub-ai?utm_source=api",
       "posted_at": "2026-11-19T17:54:18+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3605,7 +3647,7 @@
       "url": "https://himalayas.app/companies/cresta/jobs/ai-deployment-manager-760068864?utm_source=api",
       "posted_at": "2026-11-19T17:03:51+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3641,7 +3683,7 @@
       "url": "https://jobs.ashbyhq.com/xero/3954a3b2-6f34-4b29-984c-77f5d5ca813e",
       "posted_at": "2026-11-18T22:14:09.243+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3683,7 +3725,7 @@
       "url": "https://himalayas.app/companies/nvidia/jobs/data-center-infrastructure-specialist?utm_source=api",
       "posted_at": "2026-10-30T16:48:11+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "analytics",
@@ -3718,7 +3760,7 @@
       "url": "https://jobs.ashbyhq.com/openai/b47aae11-78e1-4321-947a-94a2fa3e83b4",
       "posted_at": "2026-10-01T09:09:58.008+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3757,7 +3799,7 @@
       "url": "https://apply.workable.com/j/BB4F8459B7",
       "posted_at": "2025-05-06",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3789,7 +3831,7 @@
       "url": "https://jobs.smartrecruiters.com/BlueScope/744000162215229",
       "posted_at": "2026-11-18T02:56:14.312Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3819,7 +3861,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481672",
       "posted_at": "2026-10-13T01:23:09.837Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3849,7 +3891,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481617",
       "posted_at": "2026-10-13T01:15:15.764Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3879,7 +3921,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481588",
       "posted_at": "2026-10-13T01:13:47.865Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3909,7 +3951,7 @@
       "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001481227",
       "posted_at": "2026-10-13T00:48:53.179Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3939,7 +3981,7 @@
       "url": "https://apply.workable.com/j/2DCD78EB52",
       "posted_at": "2026-09-08",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3969,7 +4011,7 @@
       "url": "https://apply.workable.com/j/37B3073F41",
       "posted_at": "2026-08-19",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -3999,9 +4041,9 @@
       "track": "Data & Tech",
       "source": "Himalayas Australia - Power BI",
       "url": "https://himalayas.app/companies/alimentiv/jobs/erp-system-administrator-acumatica-9472081518?utm_source=api",
-      "posted_at": "2026-11-19T18:16:04+00:00",
+      "posted_at": "2026-11-23T16:52:35+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 26,
       "matches": [
         "bi",
@@ -4028,6 +4070,39 @@
       "description": "The ERP System Administrator is an individual contributor role within Alimentiv ’s Corporate Digital Enablement function, serving as the primary functional and technical owner of the Acumatica ERP platform that powers our Finance, Procurement, Logistics and Project accounting operations. This is a hands-on administration role — the successful candidate will configure, operate, and continuously improve Acumatica. Another significant focus of the role is supporting the buildout of Acumatica’s procurement functionality — supporting Corporate and Clinical operations as Alimentiv ’s procurement function matures. The role also owns the operational health of the SAP Concur–Acumatica integration via Celigo middleware and will play a central operational role in the planned annual Acumatica upgrades. Positions available : 1, cross-posted in multiple countries. Please only apply to one posting. About the Role Acumatica Administration & Finance Operations (~40%) • Serve as the primary Acumatica administrator across the Alimentiv instance: configuration, user access, security, workflows, and module settings. • Design and implement Finance solutions using native Acumatica functionality —…"
     },
     {
+      "id": "42a9bba2688a",
+      "title": "Senior Category Insights Consultant | FMCG",
+      "company": "Quantium",
+      "location": "Sydney",
+      "state": "NSW",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Quantium (Greenhouse)",
+      "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008590201",
+      "posted_at": "2026-11-05T23:53:08-05:00",
+      "first_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "score": 26,
+      "matches": [
+        "ai",
+        "analytics",
+        "data"
+      ],
+      "title_matches": [],
+      "coverage_pct": 60,
+      "missing_skills": [
+        "excel",
+        "insights"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, analytics, data in the top summary of your resume for 'Senior Category Insights Consultant | FMCG'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "",
+      "contract_type": "",
+      "summary": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help…",
+      "description": "Who is Quantium? Quantium is a world leader in data science and artificial intelligence. Established in Australia in 2002, Quantium is a global team of more than 1,200 people across 14 locations with a unique blend of capabilities across product and consulting services to help businesses unlock value from data and analytics. Quantium partners with the world's largest corporations to forge a better, more intelligent world. In Australia and New Zealand, our team operate within the Woolworths ecosystem and is known as 'wiqConsumer'. The name 'wiq' fosters collaboration within Woolworths (e.g. unlocking better ways of working with the WOW Commercial team). The wiqConsumer team uses their expertise alongside our products Q.Checkout and Q.Scan to facilitate the direct monetisation of retailer data with suppliers, helping drive better decision making for FMCG companies across ANZ. We're pioneering AI solutions with Woolworths and Australia's most trusted retail partners, leading innovation in FMCG analytics to shape the future of retail intelligence. As a Senior Consultant in our wiqConsumer team, you'll act as a trusted advisor to FMCG clients, combining strategic consulting with…"
+    },
+    {
       "id": "fa860868c544",
       "title": "Data Business Analyst",
       "company": "RemoteOnline",
@@ -4039,7 +4114,7 @@
       "url": "https://himalayas.app/companies/remoteonline/jobs/data-business-analyst?utm_source=api",
       "posted_at": "2026-10-29T16:51:31+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 26,
       "matches": [
         "analytics",
@@ -4074,7 +4149,7 @@
       "url": "https://apply.workable.com/j/99881BABEC",
       "posted_at": "2026-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -4104,7 +4179,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006893201",
       "posted_at": "2026-09-22T21:53:35-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 26,
       "matches": [
         "ai",
@@ -4138,7 +4213,7 @@
       "url": "https://apply.workable.com/j/C892A6B841",
       "posted_at": "2026-08-07",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -4168,7 +4243,7 @@
       "url": "https://jobs.ashbyhq.com/openai/f4552c9d-e15f-4f2c-bf03-fd2cc1e11068",
       "posted_at": "2026-11-11T10:03:34.493+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4205,7 +4280,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558969",
       "posted_at": "2026-11-09T01:14:43.266Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4236,7 +4311,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558950",
       "posted_at": "2026-11-09T01:13:54.104Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4267,7 +4342,7 @@
       "url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
       "posted_at": "2026-09-30T02:23:54.420+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4292,43 +4367,6 @@
       "description": "About the team The Applied AI Engineering team helps enterprises put Codex to work on their most important engineering workflows. We work alongside customer engineers to turn frontier AI capabilities into systems that improve how software is built, shipped, secured, and operated. Our work spans unfamiliar codebases, legacy systems, data pipelines, infrastructure, and enterprise integrations. We discover where AI can make a meaningful difference, build and prove solutions, and turn what we learn into reusable architectures, tools, and feedback that help shape Codex. About the Role We’re looking for an engineer who enjoys understanding complex systems, building alongside customers, and solving problems where the path forward isn’t obvious. You’ll work directly with technical leaders and engineers to identify valuable opportunities and take them from discovery through implementation and evaluation. You might build a Codex-assisted release review workflow, modernize a legacy data pipeline, accelerate a dependency migration, or connect an agent to the systems and context it needs to investigate production incidents. You’ll combine hands-on software engineering, architecture, and…"
     },
     {
-      "id": "7a94a6101d16",
-      "title": "Principal AI Engineer, Business Accounts",
-      "company": "Airwallex",
-      "location": "AU - Sydney",
-      "state": "NSW",
-      "is_remote": false,
-      "track": "AI & ML",
-      "source": "Airwallex (Ashby)",
-      "url": "https://jobs.ashbyhq.com/airwallex/242cd512-a29d-4684-96f0-1930bf068743",
-      "posted_at": "2026-05-06T10:09:11.180+00:00",
-      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
-      "score": 25,
-      "matches": [
-        "ai",
-        "python"
-      ],
-      "title_matches": [
-        "ai"
-      ],
-      "coverage_pct": 29,
-      "missing_skills": [
-        "accounts",
-        "financial",
-        "javascript",
-        "rest",
-        "typescript"
-      ],
-      "fit_tip": "Highlight your direct experience with ai, python in the top summary of your resume for 'Principal AI Engineer, Business Accounts'.",
-      "salary_min": null,
-      "salary_max": null,
-      "contract_time": "FullTime",
-      "contract_type": "",
-      "summary": "ABOUT AIRWALLEX Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or…",
-      "description": "ABOUT AIRWALLEX Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or build and monetize financial products of their own. We started in Melbourne in 2015 to build the infrastructure global commerce runs on. We're the regulated backbone behind global payments: not by accident, but by design. A decade plus, 85+ licenses, and a financial infrastructure spanning North America, Europe, the Middle East, and Asia-Pacific. We're co-headquartered in San Francisco and Singapore, with more than 2,700 people across 27 offices. We hire builders with founder-level energy, people who move fast with good judgment, dig in with real curiosity, and make calls from first principles rather than waiting to be told what to do. Read our operating principles https://www.airwallex.com/en-us/operating-principles to see it in full. HOW YOU'LL MAKE IMPACT Define the technical and strategic vision for AI solutions that improve internal efficiency and transform the customer experience. - Build intelligent…"
-    },
-    {
       "id": "c4b97a049d72",
       "title": "Category Insights Consultant | FMCG",
       "company": "Quantium",
@@ -4340,7 +4378,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008904201",
       "posted_at": "2026-11-15T20:06:29-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 21,
       "matches": [
         "ai",
@@ -4372,7 +4410,7 @@
       "url": "https://apply.workable.com/j/8D0081093E",
       "posted_at": "2026-09-01",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 20,
       "matches": [
         "ai"
@@ -4391,6 +4429,43 @@
       "description": "Lead Cloud and AI Architect Quality People Recruitment Team Canberra, Australian Capital Territory, Australia"
     },
     {
+      "id": "7a94a6101d16",
+      "title": "Staff AI Engineer, Business Accounts",
+      "company": "Airwallex",
+      "location": "AU - Sydney",
+      "state": "NSW",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Airwallex (Ashby)",
+      "url": "https://jobs.ashbyhq.com/airwallex/242cd512-a29d-4684-96f0-1930bf068743",
+      "posted_at": "2026-05-06T10:09:11.180+00:00",
+      "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "score": 20,
+      "matches": [
+        "ai",
+        "python"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 29,
+      "missing_skills": [
+        "accounts",
+        "financial",
+        "javascript",
+        "rest",
+        "typescript"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, python in the top summary of your resume for 'Staff AI Engineer, Business Accounts'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "FullTime",
+      "contract_type": "",
+      "summary": "ABOUT AIRWALLEX Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or…",
+      "description": "ABOUT AIRWALLEX Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or build and monetize financial products of their own. We started in Melbourne in 2015 to build the infrastructure global commerce runs on. We're the regulated backbone behind global payments: not by accident, but by design. A decade plus, 85+ licenses, and a financial infrastructure spanning North America, Europe, the Middle East, and Asia-Pacific. We're co-headquartered in San Francisco and Singapore, with more than 2,700 people across 27 offices. We hire builders with founder-level energy, people who move fast with good judgment, dig in with real curiosity, and make calls from first principles rather than waiting to be told what to do. Read our operating principles https://www.airwallex.com/en-us/operating-principles to see it in full. HOW YOU'LL MAKE IMPACT Define the technical and strategic vision for AI solutions that improve internal efficiency and transform the customer experience. - Build intelligent…"
+    },
+    {
       "id": "67f1896caaa4",
       "title": "AI Architect",
       "company": "Infosys Australia",
@@ -4402,7 +4477,7 @@
       "url": "https://apply.workable.com/j/6862058B62",
       "posted_at": "2025-07-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 20,
       "matches": [
         "ai",
@@ -4422,6 +4497,41 @@
       "description": "AI Architect AIX-AI & ML Sydney, New South Wales, Australia"
     },
     {
+      "id": "df17a2faece5",
+      "title": "Integration and Test Engineer (Software)",
+      "company": "Andurilindustries",
+      "location": "Sydney, Australia",
+      "state": "NSW",
+      "is_remote": false,
+      "track": "Data & Tech",
+      "source": "Arbeitnow Jobs JSON",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/andurilindustries/integration-and-test-engineer-software-sydney-australia-139346",
+      "posted_at": "2026-11-23T09:55:24+00:00",
+      "first_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
+      "score": 15,
+      "matches": [
+        "ai",
+        "data",
+        "reporting"
+      ],
+      "title_matches": [],
+      "coverage_pct": 43,
+      "missing_skills": [
+        "analysis",
+        "compliance",
+        "financial",
+        "linux"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, reporting in the top summary of your resume for 'Integration and Test Engineer (Software)'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "",
+      "contract_type": "",
+      "summary": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry…",
+      "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D command and control center. As the world enters an era of strategic competition, Anduril is committed to bringing cutting-edge autonomy, AI, computer vision, sensor fusion, and networking technology to the military in months, not years. At Anduril we are developing multi-domain unmanned systems that will leverage unsupervised autonomy for the delivery of integrated multi-mission capability to our customers. These projects require Integration and Test Engineers with hands-on experience to drive the delivery of hardware-focused capabilities to our customers. Anduril I&T Engineers rapidly develop expertise in new domains in order to architect, design, deliver, support, and evolve next generation…"
+    },
+    {
       "id": "3069b2cc8442",
       "title": "AI Engineering Consultant",
       "company": "Practiv",
@@ -4433,7 +4543,7 @@
       "url": "https://apply.workable.com/j/7B9320E6A6",
       "posted_at": "2026-07-21",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4463,7 +4573,7 @@
       "url": "https://apply.workable.com/j/FF5C8357A0",
       "posted_at": "2025-09-29",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4495,7 +4605,7 @@
       "url": "https://jobs.ashbyhq.com/xero/476734a4-efd8-488c-ac6a-20c52bc07a5d",
       "posted_at": "2026-11-17T04:23:49.775+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 10,
       "matches": [
         "ai",
@@ -4531,7 +4641,7 @@
       "url": "https://apply.workable.com/j/4F8A50F116",
       "posted_at": "2024-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-22T15:05:59.473403+00:00",
+      "last_seen_at": "2026-11-23T19:00:50.636965+00:00",
       "score": 10,
       "matches": [
         "ai",
