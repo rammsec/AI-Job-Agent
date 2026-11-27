@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T17:34:54.390407+00:00",
-  "generated_at_aedt": "Fri 27 Nov 2026, 04:34 AM AEDT",
+  "generated_at": "2026-11-27T17:17:10.592817+00:00",
+  "generated_at_aedt": "Sat 28 Nov 2026, 04:17 AM AEDT",
   "profile_name": "Default Data & AI Profile",
   "profile_keywords": [
     "python",
@@ -42,19 +42,19 @@
     "git"
   ],
   "adzuna_enabled": false,
-  "total_jobs": 123,
+  "total_jobs": 129,
   "source_counts": {
     "Quantium (Greenhouse)": 16,
     "Xero (Ashby)": 12,
     "Himalayas Australia - Power BI": 11,
+    "APM Group (SmartRecruiters)": 8,
+    "Himalayas Australia - AI": 8,
     "Infosys Australia (Workable)": 8,
-    "Himalayas Australia - AI": 7,
     "NCS Australia (SmartRecruiters)": 7,
     "Himalayas Australia - Data": 6,
+    "Himalayas Australia - Business Intelligence": 5,
     "4dayweek Australia - Data": 4,
-    "APM Group (SmartRecruiters)": 4,
     "Endeavour Group (SmartRecruiters)": 4,
-    "Himalayas Australia - Business Intelligence": 4,
     "OpenAI (Ashby)": 4,
     "Snowflake (Ashby)": 4,
     "Anthropic (Greenhouse)": 3,
@@ -96,7 +96,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005542201",
       "posted_at": "2026-08-14T02:23:36-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 140,
       "matches": [
         "ai",
@@ -195,7 +195,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/senior-azure-data-platform-engineer-architect?utm_source=api",
       "posted_at": "2026-11-19T16:51:40+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 115,
       "matches": [
         "analytics",
@@ -244,7 +244,7 @@
       "url": "https://himalayas.app/companies/world-vision/jobs/enterprise-data-ai-integration-architect?utm_source=api",
       "posted_at": "2026-11-16T17:08:03+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 111,
       "matches": [
         "ai",
@@ -343,7 +343,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/80269fb2-9d00-493a-ab3a-e56722ba3cba",
       "posted_at": "2026-10-27T22:26:26.062+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 99,
       "matches": [
         "ai",
@@ -386,7 +386,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005586201",
       "posted_at": "2026-09-18T02:15:09-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 98,
       "matches": [
         "ai",
@@ -432,7 +432,7 @@
       "url": "https://jobs.ashbyhq.com/xero/4f9a785e-0cd4-4e96-ba9e-d0cccc2e29e5",
       "posted_at": "2026-11-03T01:17:14.999+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -481,7 +481,7 @@
       "url": "https://jobs.ashbyhq.com/xero/ce864d81-9870-412d-85da-c71538790961",
       "posted_at": "2026-11-03T01:14:00.229+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 97,
       "matches": [
         "ai",
@@ -530,7 +530,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/be98e986-1fef-4ea9-8921-442137354ed8",
       "posted_at": "2026-10-23T07:50:00.175+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -575,7 +575,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4005587201",
       "posted_at": "2026-09-18T02:10:57-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 93,
       "matches": [
         "ai",
@@ -619,7 +619,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-data-analyst-artificial-intelligence-6230023159?utm_source=api",
       "posted_at": "2026-11-03T16:57:07+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -666,7 +666,7 @@
       "url": "https://jobs.ashbyhq.com/xero/61a20e41-cd05-4637-951d-34737c8e17eb",
       "posted_at": "2026-11-03T01:33:29.997+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 88,
       "matches": [
         "ai",
@@ -710,7 +710,7 @@
       "url": "https://himalayas.app/companies/binance/jobs/senior-financial-data-engineer?utm_source=api",
       "posted_at": "2026-11-18T17:14:43+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 84,
       "matches": [
         "ai",
@@ -795,7 +795,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
       "posted_at": "2026-09-29T20:36:30.301+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 81,
       "matches": [
         "ai",
@@ -841,7 +841,7 @@
       "url": "https://jobs.ashbyhq.com/xero/6c8a857d-0e7a-4d6e-a6de-3bff8193adab",
       "posted_at": "2026-11-20T08:46:36.082+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -887,7 +887,7 @@
       "url": "https://jobs.ashbyhq.com/xero/a7d02205-19ea-40ba-80e0-1c9a448998c3",
       "posted_at": "2026-11-20T08:46:26.354+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -933,7 +933,7 @@
       "url": "https://jobs.ashbyhq.com/xero/dbfc4c14-2b57-4542-b4bf-e9d54e2bb9fd",
       "posted_at": "2026-11-20T08:46:10.034+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 80,
       "matches": [
         "ai",
@@ -979,7 +979,7 @@
       "url": "https://jobs.ashbyhq.com/dataro/d6748d0d-a446-4946-b336-f08cd440ef83",
       "posted_at": "2026-11-18T17:19:59.475+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 79,
       "matches": [
         "ai",
@@ -1024,7 +1024,7 @@
       "url": "https://himalayas.app/companies/thehivecareers/jobs/head-of-data-analytics-insurance-investments-1414472727?utm_source=api",
       "posted_at": "2026-11-01T12:41:02+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 78,
       "matches": [
         "ai",
@@ -1068,7 +1068,7 @@
       "url": "https://himalayas.app/companies/siegen-hr-solutions-inc/jobs/virtual-employment-remote-data-analyst-2376601151?utm_source=api",
       "posted_at": "2026-11-01T12:27:46+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 74,
       "matches": [
         "bi",
@@ -1148,7 +1148,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/power-bi-analyst-1214904843?utm_source=api",
       "posted_at": "2026-11-01T12:20:42+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 73,
       "matches": [
         "analytics",
@@ -1188,7 +1188,7 @@
       "url": "https://jobs.ashbyhq.com/Checkbox-AI/d07392b4-6c09-4ac3-bb1f-0d9a23e08e3d",
       "posted_at": "2026-09-10T06:31:35.877+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 73,
       "matches": [
         "ai",
@@ -1233,7 +1233,7 @@
       "url": "https://jobs.ashbyhq.com/Tracksuit/e06ce16e-d095-4e32-a368-b624f7ea50f0",
       "posted_at": "2026-10-19T05:00:39.567+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 69,
       "matches": [
         "ai",
@@ -1271,7 +1271,7 @@
       "url": "https://jobs.ashbyhq.com/xero/5a81fcc0-a3a5-410e-8f96-22afd2c09116",
       "posted_at": "2026-11-10T22:41:15.408+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 68,
       "matches": [
         "ai",
@@ -1306,15 +1306,15 @@
       "id": "76686af40627",
       "title": "Senior Back-end Developer",
       "company": "lemon.io",
-      "location": "Australia + 34 countries (Remote)",
+      "location": "Australia + 35 countries (Remote)",
       "state": "Remote",
       "is_remote": true,
       "track": "AI & ML",
       "source": "Himalayas Australia - AI",
       "url": "https://himalayas.app/companies/lemon-io/jobs/senior-back-end-develope?utm_source=api",
-      "posted_at": "2026-11-19T18:05:34+00:00",
+      "posted_at": "2026-11-26T18:58:29+00:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 64,
       "matches": [
         "ai",
@@ -1398,7 +1398,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-de2ac2d0",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1440,7 +1440,7 @@
       "url": "https://4dayweek.io/job/analytics-consultant-at-experian-6a6a22a1",
       "posted_at": "2026-10-16T08:23:15+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 61,
       "matches": [
         "analytics",
@@ -1482,7 +1482,7 @@
       "url": "https://himalayas.app/companies/pyramid-global-technologies/jobs/tableau-powerbi-administration?utm_source=api",
       "posted_at": "2026-10-11T22:53:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 61,
       "matches": [
         "azure",
@@ -1522,7 +1522,7 @@
       "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4753857005",
       "posted_at": "2026-11-13T04:19:55-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 60,
       "matches": [
         "ai",
@@ -1563,7 +1563,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4009540201",
       "posted_at": "2026-11-16T19:23:48-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1600,7 +1600,7 @@
       "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developerusa-2091135",
       "posted_at": "2026-10-27T12:56:13",
       "first_seen_at": "2026-11-23T19:00:50.636965+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1682,7 +1682,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002",
       "posted_at": "2026-09-29T02:31:41-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 58,
       "matches": [
         "ai",
@@ -1723,7 +1723,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/power-platform-intern?utm_source=api",
       "posted_at": "2026-11-19T17:38:50+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 57,
       "matches": [
         "ai",
@@ -1764,7 +1764,7 @@
       "url": "https://4dayweek.io/job/lead-measurement-scientist-at-jellyfish-4603569e",
       "posted_at": "2026-11-07T01:10:05+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 57,
       "matches": [
         "analytics",
@@ -1806,7 +1806,7 @@
       "url": "https://apply.workable.com/j/967CC10C23",
       "posted_at": "2026-10-30",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 57,
       "matches": [
         "bi",
@@ -1840,7 +1840,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8305331",
       "posted_at": "2026-10-21T04:38:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 56,
       "matches": [
         "ai",
@@ -1923,7 +1923,7 @@
       "url": "https://jobs.ashbyhq.com/snowflake/9da775b9-2bdf-4ef2-a59a-ffc49381459d",
       "posted_at": "2026-09-30T20:12:19.773+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 55,
       "matches": [
         "ai",
@@ -1967,7 +1967,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/digital-transformation-ai-intern?utm_source=api",
       "posted_at": "2026-11-19T16:59:37+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2010,7 +2010,7 @@
       "url": "https://jobs.smartrecruiters.com/Nearmap/744000159969659",
       "posted_at": "2026-11-05T21:04:16.226Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2043,7 +2043,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472677008",
       "posted_at": "2026-11-04T06:36:20-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2080,7 +2080,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450798008",
       "posted_at": "2026-11-02T04:33:31-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 52,
       "matches": [
         "ai",
@@ -2118,7 +2118,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006250201",
       "posted_at": "2026-09-03T20:53:34-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 51,
       "matches": [
         "ai",
@@ -2160,7 +2160,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineers?utm_source=api",
       "posted_at": "2026-11-04T09:35:37+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 50,
       "matches": [
         "analytics",
@@ -2197,7 +2197,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-engineer?utm_source=api",
       "posted_at": "2026-10-21T05:43:54+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 48,
       "matches": [
         "analytics",
@@ -2237,7 +2237,7 @@
       "url": "https://himalayas.app/companies/five-sigma/jobs/business-data-analyst-aus?utm_source=api",
       "posted_at": "2026-10-27T14:29:20+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 47,
       "matches": [
         "ai",
@@ -2261,6 +2261,42 @@
       "contract_type": "",
       "summary": "Description Five Sigma is an AI-native InsurTech company transforming the insurance claims management industry. Our cloud-based Claims Management Platform enables insurance carriers and organizations to streamline operations, automate workflows, and make smarter, data-driven…",
       "description": "Description Five Sigma is an AI-native InsurTech company transforming the insurance claims management industry. Our cloud-based Claims Management Platform enables insurance carriers and organizations to streamline operations, automate workflows, and make smarter, data-driven decisions. We are looking for a highly analytical and detail-oriented Business & Data Analyst to join our Global Delivery team. You will work directly with US-based insurance customers to translate complex business requirements and data into functional solutions within Five Sigma 's Claims Management Platform. This is a hands-on, customer-facing role combining business analysis, data investigation, functional solution design, and validation throughout the implementation lifecycle. Key Responsibilities Business Analysis & Functional Design Lead discovery sessions with insurance customers to understand their claims operations, workflows, business rules, and challenges. Translate business needs into detailed functional requirements, solution designs, and acceptance criteria. Identify edge cases, business exceptions, and gaps in customer requirements. Map business requirements to Five Sigma 's platform…"
+    },
+    {
+      "id": "f048ff36e25f",
+      "title": "Principal Product Manager - AI Observability (Chronosphere)",
+      "company": "Palo Alto Networks",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - AI",
+      "url": "https://himalayas.app/companies/palo-alto-networks/jobs/principal-product-manager-ai-observability-chronosphere?utm_source=api",
+      "posted_at": "2026-11-17T17:32:24+00:00",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 46,
+      "matches": [
+        "ai",
+        "data",
+        "learning",
+        "machine",
+        "rag"
+      ],
+      "title_matches": [
+        "ai"
+      ],
+      "coverage_pct": 83,
+      "missing_skills": [
+        "insights"
+      ],
+      "fit_tip": "Highlight your direct experience with ai, data, learning, machine, rag in the top summary of your resume for 'Principal Product Manager - AI Observability (Chronosphere)'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full Time",
+      "contract_type": "",
+      "summary": "Our Mission At Palo Alto Networks ®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking. Here, everyone has a voice, and every…",
+      "description": "Our Mission At Palo Alto Networks ®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking. Here, everyone has a voice, and every idea counts. If you’re ready to do the most meaningful work of your career alongside people who are just as passionate as you are, you’re in the right place. Who We Are In order to be the cybersecurity partner of choice, we must trailblaze the path and shape the future of our industry. This is something our employees work at each day and is defined by our values: Disruption, Collaboration, Execution, Integrity, and Inclusion. We weave AI into the fabric of everything we do and use it to augment the impact every individual can have. If you are passionate about solving real-world problems and ideating beside the best and the brightest, we invite you to join us! This role is remote, but distance is no barrier to impact. Our hybrid teams collaborate across geographies to solve big problems, stay close to our customers, and grow together. You will be part of a culture that values trust, accountability, and shared…"
     },
     {
       "id": "6878bc376179",
@@ -2310,7 +2346,7 @@
       "url": "https://himalayas.app/companies/futuregroup-com/jobs/data-governance-lead?utm_source=api",
       "posted_at": "2026-11-19T16:41:45+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 45,
       "matches": [
         "data",
@@ -2351,7 +2387,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/8006410003",
       "posted_at": "2026-09-28T19:03:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2392,7 +2428,7 @@
       "url": "https://job-boards.greenhouse.io/airtrunk/jobs/7796557003",
       "posted_at": "2026-07-06T23:59:28-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 45,
       "matches": [
         "ai",
@@ -2433,7 +2469,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001524977",
       "posted_at": "2026-10-27T04:30:15.614Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2465,7 +2501,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273490",
       "posted_at": "2026-07-30T23:25:47.308Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2497,7 +2533,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273466",
       "posted_at": "2026-07-30T23:25:14.683Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2529,7 +2565,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001273443",
       "posted_at": "2026-07-30T23:24:44.269Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "data",
@@ -2561,7 +2597,7 @@
       "url": "https://apply.workable.com/j/A1BB25212D",
       "posted_at": "2026-01-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2593,7 +2629,7 @@
       "url": "https://apply.workable.com/j/646948EF11",
       "posted_at": "2023-01-16",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 42,
       "matches": [
         "ai",
@@ -2680,6 +2716,41 @@
       "description": "Help shape what creative work with AI looks like next. Generative AI is changing how creative work gets made. Not just the tools people use, but how they riff from an idea to something finished. At Envato, we’re building for that shift. We already help millions of creative professionals find the assets and tools they need to create. Now we’re bringing generative AI deeper into that experience, helping customers generate, edit and customise content as part of their everyday workflows. We’re looking for a Lead Product Manager, GenAI to help lead where that goes next. This is a role for someone who is genuinely into this space. You’re using the tools, trying new models, following what’s changing and forming opinions about what is genuinely useful versus what is mostly hype. And you want the opportunity to turn that curiosity into products used by creative professionals around the world. What you’ll do You’ll own the strategy for Envato’s customer facing GenAI experiences, identifying where AI can meaningfully improve creative workflows and taking opportunities from early signals through discovery, launch and iteration. You’ll spend time understanding how creative professionals…"
     },
     {
+      "id": "c2d34cd1c2fa",
+      "title": "Data Analytics Practitioner & Instructor",
+      "company": "peopleworth",
+      "location": "Australia",
+      "state": "AU",
+      "is_remote": false,
+      "track": "AI & ML",
+      "source": "Himalayas Australia - Business Intelligence",
+      "url": "https://himalayas.app/companies/peopleworth/jobs/data-analytics-practitioner-instructor?utm_source=api",
+      "posted_at": "2026-11-19T17:13:58+00:00",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 41,
+      "matches": [
+        "analytics",
+        "data",
+        "learning"
+      ],
+      "title_matches": [
+        "analytics",
+        "data"
+      ],
+      "coverage_pct": 75,
+      "missing_skills": [
+        "analysis"
+      ],
+      "fit_tip": "Highlight your direct experience with analytics, data, learning in the top summary of your resume for 'Data Analytics Practitioner & Instructor'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Contractor",
+      "contract_type": "",
+      "summary": "At peopleworth , we support work where people and performance thrive. As part of our Employer Group, we work with a variety of forward-thinking partners and are excited to share this opportunity that sits within our growing group. Role Overview We are looking for an experienced…",
+      "description": "At peopleworth , we support work where people and performance thrive. As part of our Employer Group, we work with a variety of forward-thinking partners and are excited to share this opportunity that sits within our growing group. Role Overview We are looking for an experienced Data Analytics Instructor & Facilitator who combines practical data analytics experience with a strong ability to teach, explain, and support the development of others. This remote, fixed-term, part-time opportunity is particularly suited to someone who has worked professionally with data and has also delivered teaching, technical training, workshops, tutoring, or structured learner support. You will help learners build confidence and capability by connecting data analytics concepts with practical examples, providing constructive feedback, facilitating live online sessions, and supporting individuals through challenges. The role is expected to require approximately 4 to 6 hours per week on average, with additional time potentially required during assignment grading periods. Requirements Demonstrated professional experience working in data analytics, business intelligence, data analysis, or a closely…"
+    },
+    {
       "id": "e8a11723bf51",
       "title": "Lead Consultant, AI Solutions",
       "company": "Quantium",
@@ -2691,7 +2762,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008629201",
       "posted_at": "2026-10-28T00:12:30-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 41,
       "matches": [
         "ai",
@@ -2728,7 +2799,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/data-management-specialist?utm_source=api",
       "posted_at": "2026-10-16T01:20:21+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 41,
       "matches": [
         "bi",
@@ -2808,7 +2879,7 @@
       "url": "https://jobs.ashbyhq.com/openai/83730f3e-3a96-476e-afb0-15f1f045ab03",
       "posted_at": "2026-10-22T02:57:37.622+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 40,
       "matches": [
         "ai",
@@ -2848,7 +2919,7 @@
       "url": "https://himalayas.app/companies/softtest-pays-pty-ltd/jobs/tableau-developer-data-explorer-2972654603?utm_source=api",
       "posted_at": "2026-10-18T11:46:55+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 40,
       "matches": [
         "dashboard",
@@ -2885,7 +2956,7 @@
       "url": "https://himalayas.app/companies/get-my-course/jobs/qa-reports-data-analyst-compliance?utm_source=api",
       "posted_at": "2026-11-19T17:14:30+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 37,
       "matches": [
         "analytics",
@@ -2921,7 +2992,7 @@
       "url": "https://jobs.ashbyhq.com/xero/138b9018-6c2a-47cc-93f0-53545fa604a9",
       "posted_at": "2026-10-06T12:51:03.383+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 37,
       "matches": [
         "aws",
@@ -2956,7 +3027,7 @@
       "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/zoho-agentic-ai-internship-program?utm_source=api",
       "posted_at": "2026-11-23T16:50:25+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -2996,7 +3067,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007692201",
       "posted_at": "2026-10-28T00:20:01-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -3031,7 +3102,7 @@
       "url": "https://4dayweek.io/job/regional-research-economist-economic-research-at-anthropic-ca739254",
       "posted_at": "2026-10-22T19:07:16+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -3105,7 +3176,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4006772201",
       "posted_at": "2026-09-15T20:07:22-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 36,
       "matches": [
         "ai",
@@ -3139,7 +3210,7 @@
       "url": "https://himalayas.app/companies/fountain-forward/jobs/bi-analyst?utm_source=api",
       "posted_at": "2026-11-19T17:01:17+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 35,
       "matches": [
         "analytics",
@@ -3180,7 +3251,7 @@
       "url": "https://jobs.ashbyhq.com/xero/8fed11a8-5109-4787-8a2a-a75d860703e2",
       "posted_at": "2026-11-17T04:35:46.938+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 35,
       "matches": [
         "ai",
@@ -3215,7 +3286,7 @@
       "url": "https://jobs.ashbyhq.com/relevanceai/cfc7da1e-7e0a-488a-a39c-26536baeefba",
       "posted_at": "2026-10-09T04:28:57.656+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 35,
       "matches": [
         "ai",
@@ -3255,7 +3326,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162428309",
       "posted_at": "2026-11-19T02:32:20.332Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3285,7 +3356,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162426819",
       "posted_at": "2026-11-19T01:49:08.495Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3315,7 +3386,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000162412019",
       "posted_at": "2026-11-19T00:50:03.143Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3345,7 +3416,7 @@
       "url": "https://jobs.smartrecruiters.com/EndeavourGroupCareers/744000161427359",
       "posted_at": "2026-11-13T05:25:40.054Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3375,7 +3446,7 @@
       "url": "https://apply.workable.com/j/A926443460",
       "posted_at": "2026-10-26",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3405,7 +3476,7 @@
       "url": "https://apply.workable.com/j/D861F2D2FD",
       "posted_at": "2026-03-03",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3435,7 +3506,7 @@
       "url": "https://apply.workable.com/j/289A2B9546",
       "posted_at": "2023-04-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 32,
       "matches": [
         "data"
@@ -3465,7 +3536,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4007361201",
       "posted_at": "2026-10-05T18:57:14-04:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 31,
       "matches": [
         "analytics",
@@ -3538,7 +3609,7 @@
       "url": "https://himalayas.app/companies/accelerant/jobs/ai-platform-engineer-global?utm_source=api",
       "posted_at": "2026-11-23T16:50:06+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3575,7 +3646,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008",
       "posted_at": "2026-11-19T21:35:45-05:00",
       "first_seen_at": "2026-11-20T15:56:35.266439+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3647,7 +3718,7 @@
       "url": "https://himalayas.app/companies/welo-global/jobs/shape-the-future-of-ai-korean-talent-hub-ai?utm_source=api",
       "posted_at": "2026-11-19T17:54:18+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3680,7 +3751,7 @@
       "url": "https://himalayas.app/companies/cresta/jobs/ai-deployment-manager-760068864?utm_source=api",
       "posted_at": "2026-11-19T17:03:51+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3716,7 +3787,7 @@
       "url": "https://jobs.ashbyhq.com/xero/3954a3b2-6f34-4b29-984c-77f5d5ca813e",
       "posted_at": "2026-11-18T22:14:09.243+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3758,7 +3829,7 @@
       "url": "https://himalayas.app/companies/nvidia/jobs/data-center-infrastructure-specialist?utm_source=api",
       "posted_at": "2026-10-30T16:48:11+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "analytics",
@@ -3793,7 +3864,7 @@
       "url": "https://jobs.ashbyhq.com/openai/b47aae11-78e1-4321-947a-94a2fa3e83b4",
       "posted_at": "2026-10-01T09:09:58.008+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3832,7 +3903,7 @@
       "url": "https://apply.workable.com/j/BB4F8459B7",
       "posted_at": "2025-05-06",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 30,
       "matches": [
         "ai",
@@ -3851,6 +3922,126 @@
       "contract_type": "",
       "summary": "AI ML Engineer AIX-AI & ML Melbourne, Victoria, Australia",
       "description": "AI ML Engineer AIX-AI & ML Melbourne, Victoria, Australia"
+    },
+    {
+      "id": "72f9590bffe1",
+      "title": "Data Engineer",
+      "company": "APM Group",
+      "location": "Brisbane, QLD, AU",
+      "state": "QLD",
+      "is_remote": false,
+      "track": "Data Engineering",
+      "source": "APM Group (SmartRecruiters)",
+      "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001611735",
+      "posted_at": "2026-11-27T02:06:14.521Z",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 27,
+      "matches": [
+        "data"
+      ],
+      "title_matches": [
+        "data"
+      ],
+      "coverage_pct": 100,
+      "missing_skills": [],
+      "fit_tip": "Highlight your direct experience with data in the top summary of your resume for 'Data Engineer'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full-time",
+      "contract_type": "",
+      "summary": "Information Technology",
+      "description": "Information Technology"
+    },
+    {
+      "id": "5607cbc899b5",
+      "title": "Data Engineer",
+      "company": "APM Group",
+      "location": "Melbourne, VIC, AU",
+      "state": "VIC",
+      "is_remote": false,
+      "track": "Data Engineering",
+      "source": "APM Group (SmartRecruiters)",
+      "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001611710",
+      "posted_at": "2026-11-27T02:00:52.824Z",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 27,
+      "matches": [
+        "data"
+      ],
+      "title_matches": [
+        "data"
+      ],
+      "coverage_pct": 100,
+      "missing_skills": [],
+      "fit_tip": "Highlight your direct experience with data in the top summary of your resume for 'Data Engineer'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full-time",
+      "contract_type": "",
+      "summary": "Information Technology",
+      "description": "Information Technology"
+    },
+    {
+      "id": "48df6b18ff3b",
+      "title": "Data Engineer",
+      "company": "APM Group",
+      "location": "Perth, WA, AU",
+      "state": "WA",
+      "is_remote": false,
+      "track": "Data Engineering",
+      "source": "APM Group (SmartRecruiters)",
+      "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001611637",
+      "posted_at": "2026-11-27T01:48:43.652Z",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 27,
+      "matches": [
+        "data"
+      ],
+      "title_matches": [
+        "data"
+      ],
+      "coverage_pct": 100,
+      "missing_skills": [],
+      "fit_tip": "Highlight your direct experience with data in the top summary of your resume for 'Data Engineer'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full-time",
+      "contract_type": "",
+      "summary": "Information Technology",
+      "description": "Information Technology"
+    },
+    {
+      "id": "c556e4217c6e",
+      "title": "Data Engineer",
+      "company": "APM Group",
+      "location": "North Sydney, NSW, AU",
+      "state": "NSW",
+      "is_remote": false,
+      "track": "Data Engineering",
+      "source": "APM Group (SmartRecruiters)",
+      "url": "https://jobs.smartrecruiters.com/APMGroup/6000000001611600",
+      "posted_at": "2026-11-27T01:39:25.082Z",
+      "first_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
+      "score": 27,
+      "matches": [
+        "data"
+      ],
+      "title_matches": [
+        "data"
+      ],
+      "coverage_pct": 100,
+      "missing_skills": [],
+      "fit_tip": "Highlight your direct experience with data in the top summary of your resume for 'Data Engineer'.",
+      "salary_min": null,
+      "salary_max": null,
+      "contract_time": "Full-time",
+      "contract_type": "",
+      "summary": "Information Technology",
+      "description": "Information Technology"
     },
     {
       "id": "95ca9df07b6a",
@@ -4014,7 +4205,7 @@
       "url": "https://apply.workable.com/j/2DCD78EB52",
       "posted_at": "2026-09-08",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -4044,7 +4235,7 @@
       "url": "https://apply.workable.com/j/37B3073F41",
       "posted_at": "2026-08-19",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 27,
       "matches": [
         "data"
@@ -4076,7 +4267,7 @@
       "url": "https://himalayas.app/companies/alimentiv/jobs/erp-system-administrator-acumatica-9472081518?utm_source=api",
       "posted_at": "2026-11-23T16:52:35+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 26,
       "matches": [
         "bi",
@@ -4114,7 +4305,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008590201",
       "posted_at": "2026-11-05T23:53:08-05:00",
       "first_seen_at": "2026-11-23T19:00:50.636965+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 26,
       "matches": [
         "ai",
@@ -4147,7 +4338,7 @@
       "url": "https://himalayas.app/companies/remoteonline/jobs/data-business-analyst?utm_source=api",
       "posted_at": "2026-10-29T16:51:31+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 26,
       "matches": [
         "analytics",
@@ -4182,7 +4373,7 @@
       "url": "https://apply.workable.com/j/99881BABEC",
       "posted_at": "2026-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -4246,7 +4437,7 @@
       "url": "https://apply.workable.com/j/C892A6B841",
       "posted_at": "2026-08-07",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 26,
       "matches": [
         "data"
@@ -4276,7 +4467,7 @@
       "url": "https://jobs.ashbyhq.com/openai/f4552c9d-e15f-4f2c-bf03-fd2cc1e11068",
       "posted_at": "2026-11-11T10:03:34.493+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4313,7 +4504,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558969",
       "posted_at": "2026-11-09T01:14:43.266Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4344,7 +4535,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001558950",
       "posted_at": "2026-11-09T01:13:54.104Z",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4375,7 +4566,7 @@
       "url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
       "posted_at": "2026-09-30T02:23:54.420+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 25,
       "matches": [
         "ai",
@@ -4411,7 +4602,7 @@
       "url": "https://job-boards.anz.greenhouse.io/quantium/jobs/4008904201",
       "posted_at": "2026-11-15T20:06:29-05:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 21,
       "matches": [
         "ai",
@@ -4443,7 +4634,7 @@
       "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001600080",
       "posted_at": "2026-11-23T22:08:02.963Z",
       "first_seen_at": "2026-11-24T18:41:58.522458+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 20,
       "matches": [
         "ai"
@@ -4473,7 +4664,7 @@
       "url": "https://apply.workable.com/j/8D0081093E",
       "posted_at": "2026-09-01",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 20,
       "matches": [
         "ai"
@@ -4503,7 +4694,7 @@
       "url": "https://jobs.ashbyhq.com/airwallex/242cd512-a29d-4684-96f0-1930bf068743",
       "posted_at": "2026-05-06T10:09:11.180+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 20,
       "matches": [
         "ai",
@@ -4540,7 +4731,7 @@
       "url": "https://apply.workable.com/j/6862058B62",
       "posted_at": "2025-07-11",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 20,
       "matches": [
         "ai",
@@ -4606,7 +4797,7 @@
       "url": "https://apply.workable.com/j/7B9320E6A6",
       "posted_at": "2026-07-21",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4636,7 +4827,7 @@
       "url": "https://apply.workable.com/j/FF5C8357A0",
       "posted_at": "2025-09-29",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 15,
       "matches": [
         "ai"
@@ -4668,7 +4859,7 @@
       "url": "https://jobs.ashbyhq.com/xero/476734a4-efd8-488c-ac6a-20c52bc07a5d",
       "posted_at": "2026-11-17T04:23:49.775+00:00",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 10,
       "matches": [
         "ai",
@@ -4704,7 +4895,7 @@
       "url": "https://apply.workable.com/j/4F8A50F116",
       "posted_at": "2024-10-02",
       "first_seen_at": "2026-11-19T15:14:27.764672+00:00",
-      "last_seen_at": "2026-11-26T17:34:54.390407+00:00",
+      "last_seen_at": "2026-11-27T17:17:10.592817+00:00",
       "score": 10,
       "matches": [
         "ai",
